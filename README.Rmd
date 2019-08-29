@@ -48,7 +48,7 @@ display_pal <- function(pkg, palette, n, pal_function) {
   f <- if (pal_function == "paletteer_d") {
     c("scale_colour_paletteer_d", "scale_color_paletteer_d", "scale_fill_paletteer_d")
   } else {
-    c("scale_colour_paletteer_c", "scale_color_paletteer_c", "scale_paletteer_c")
+    c("scale_colour_paletteer_c", "scale_color_paletteer_c", "scale_fill_paletteer_c")
   }
   
   print(glue("paletteer::{f}({pkg}, {palette})"))
