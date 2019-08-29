@@ -1,0 +1,82 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  warning = FALSE,
+  message = FALSE,
+  echo = FALSE,
+  dpi = 300,
+  dev = "png",
+  fig.height = 1,
+  fig.width = 2,
+  # fig.show='hold',
+  fig.align = "center"
+)
+
+library(tidyverse)
+library(paletteer)
+library(glue)
+```
+
+# The *paletteer* gallery
+
+- [Discrete palettes](#discrete-palettes)
+- [Continuous palettes](#continuous-palettes)
+
+```{r}
+display_pal <- function(pkg, palette, n, pal_function) {
+  
+  n <- ifelse(is.na(n), 100, n)
+  
+  # pal_function <- match.fun(list(pal_function))
+  # cat(pkg, palette, n, pal_function)
+  par(mar = c(0, 0, 2, 0))
+  image(
+    1:n,
+    1,
+    as.matrix(1:n),
+    col = do.call(pal_function, list(package = pkg, palette = palette, n = n)),
+    main = glue("{palette} {{{pkg}}}"),
+    xlab = NA,
+    ylab = "",
+    xaxt = "n",
+    yaxt = "n",
+    bty = "n",
+    cex.lab = 0.80,
+    cex.main = 0.5
+  )
+}
+```
+
+```{r}
+df <- list(palettes_d_names, palettes_c_names) %>% 
+  set_names(c("paletteer_d", "paletteer_c")) %>% 
+  bind_rows(.id = "pal_function") %>% 
+  as_tibble() %>% 
+  select(2:5, 1) %>% 
+  filter(package %in% installed.packages())
+```
+
+## Discrete palettes
+
+```{r}
+df %>% 
+  filter(str_ends(pal_function, "_d")) %>%
+  pwalk(~ display_pal(..1, ..2, ..3, ..5))
+```
+
+## Continuous palettes
+
+```{r}
+df %>% 
+  filter(str_ends(pal_function, "_c")) %>%
+  pwalk(~ display_pal(..1, ..2, ..3, ..5))
+```
+
+
