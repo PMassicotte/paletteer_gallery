@@ -7,12 +7,12 @@ output: github_document
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>",
+  comment = NA,
   warning = FALSE,
   message = FALSE,
   echo = FALSE,
   dpi = 300,
-  dev = "svglite",
+  dev = "png",
   fig.height = 1,
   fig.width = 2,
   # fig.show='hold',
@@ -27,12 +27,9 @@ loadfonts()
 ```
 ```{r}
 display_pal <- function(pkg, palette, n, pal_function) {
-  
   n <- ifelse(is.na(n), 100, n)
-  
-  # pal_function <- match.fun(list(pal_function))
-  # cat(pkg, palette, n, pal_function)
-  par(mar = c(0, 0, 2, 0), family = "Exo")
+
+  par(mar = c(0.5, 0, 2, 0), family = "Exo")
   image(
     1:n,
     1,
@@ -44,38 +41,44 @@ display_pal <- function(pkg, palette, n, pal_function) {
     xaxt = "n",
     yaxt = "n",
     bty = "n",
-    cex.lab = 0.80,
-    cex.main = 0.5
-    )
+    cex.main = 0.75
+  )
+
+  f <- ifelse(pal_function == "paletteer_d", "scale_colour_paletteer_d", "scale_colour_paletteer_c")
+  cat(glue("paletteer::{f}({pkg}, {palette})"))
 }
 ```
 
 ```{r}
-df <- list(palettes_d_names, palettes_c_names) %>% 
-  set_names(c("paletteer_d", "paletteer_c")) %>% 
-  bind_rows(.id = "pal_function") %>% 
-  as_tibble() %>% 
+df <- list(palettes_d_names, palettes_c_names) %>%
+  set_names(c("paletteer_d", "paletteer_c")) %>%
+  bind_rows(.id = "pal_function") %>%
+  as_tibble() %>%
   select(2:5, 1)
 ```
 
 ```{r, eval=FALSE}
-pkg <- df %>% 
-  distinct(package) %>% 
+pkg <- df %>%
+  distinct(package) %>%
   pull()
 
 pacman::p_install(package = pkg, character.only = TRUE, force = FALSE)
 ```
 
 ```{r}
-df <- df %>% 
+df <- df %>%
   filter(package %in% installed.packages())
+# %>%
+#   slice(1:100)
 ```
 
 # The *paletteer* gallery
 
+The new R package [paletteer](https://github.com/EmilHvitfeldt/paletteer) from Emil Hvitfeldt is a collection of various color palettes found in different R packages.
+
 > The goal of paletteer is to be a comprehensive collection of color palettes in R using a common interface. Think of it as the “caret of palettes".
 
-The are a total of `r nrow(df)` palettes (available from CRAN packages) divided into `discrete` and `continuous` scales. The titles of the following graphs present the `palette {package}`.
+This page is a simple gallery of these palettes. The are a total of `r nrow(df)` palettes (available from CRAN packages) divided into `discrete` and `continuous` scales. The titles of the following graphs present the `palette {package}`. There is also copy/pastable R code to use with ggplot2.
 
 # Table of contents
 
@@ -92,7 +95,7 @@ The are a total of `r nrow(df)` palettes (available from CRAN packages) divided 
 ### Diverging
 
 ```{r}
-df %>% 
+df %>%
   filter(str_ends(pal_function, "_d") & type == "diverging") %>%
   pwalk(~ display_pal(..1, ..2, ..3, ..5))
 ```
@@ -100,7 +103,7 @@ df %>%
 ### Qualitative
 
 ```{r}
-df %>% 
+df %>%
   filter(str_ends(pal_function, "_d") & type == "qualitative") %>%
   pwalk(~ display_pal(..1, ..2, ..3, ..5))
 ```
@@ -108,7 +111,7 @@ df %>%
 ### Sequential
 
 ```{r}
-df %>% 
+df %>%
   filter(str_ends(pal_function, "_d") & type == "sequential") %>%
   pwalk(~ display_pal(..1, ..2, ..3, ..5))
 ```
@@ -118,7 +121,7 @@ df %>%
 ## Diverging
 
 ```{r}
-df %>% 
+df %>%
   filter(str_ends(pal_function, "_c") & type == "diverging") %>%
   pwalk(~ display_pal(..1, ..2, ..3, ..5))
 ```
@@ -126,7 +129,7 @@ df %>%
 ## Sequential
 
 ```{r}
-df %>% 
+df %>%
   filter(str_ends(pal_function, "_c") & type == "sequential") %>%
   pwalk(~ display_pal(..1, ..2, ..3, ..5))
 ```
