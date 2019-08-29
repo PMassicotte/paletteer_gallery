@@ -67,7 +67,8 @@ pacman::p_install(package = pkg, character.only = TRUE, force = FALSE)
 
 ```{r}
 df <- df %>%
-  filter(package %in% installed.packages())
+  filter(package %in% installed.packages()) %>% 
+  arrange(type, length)
 # %>%
 #   slice(1:100)
 ```
