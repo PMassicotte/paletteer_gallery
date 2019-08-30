@@ -44,7 +44,7 @@ display_pal <- function(pkg, palette, n, pal_function) {
     cex.main = 0.75
   )
 
-  # The color scale
+  # The color and fill scales
   f <- if (pal_function == "paletteer_d") {
     c("scale_colour_paletteer_d", "scale_color_paletteer_d", "scale_fill_paletteer_d")
   } else {
@@ -52,7 +52,10 @@ display_pal <- function(pkg, palette, n, pal_function) {
   }
   
   print(glue("paletteer::{f}({pkg}, {palette})"))
-
+  
+  # The color palettes
+  cat("\n")
+  print(glue("paletteer::{pal_function}({pkg}, {palette})"))
 }
 ```
 
