@@ -1,5 +1,7 @@
 ---
 output: github_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -34,7 +36,7 @@ display_pal <- function(pkg, palette, n, pal_function) {
     1:n,
     1,
     as.matrix(1:n),
-    col = do.call(pal_function, list(package = pkg, palette = palette, n = n)),
+    col = do.call(pal_function, list(palette = glue("{pkg}::{palette}"), n = n)),
     main = glue("{palette} {{{pkg}}}"),
     xlab = NA,
     ylab = "",
@@ -51,11 +53,12 @@ display_pal <- function(pkg, palette, n, pal_function) {
     c("scale_colour_paletteer_c", "scale_color_paletteer_c", "scale_fill_paletteer_c")
   }
   
-  print(glue("paletteer::{f}({pkg}, {palette})"))
+  print(glue('paletteer::{f}("{pkg}::{palette}")'))
   
   # The color palettes
   cat("\n")
-  print(glue("paletteer::{pal_function}({pkg}, {palette})"))
+  print(glue('paletteer::{pal_function}("{pkg}::{palette}")'))
+  # print(paletteer::paletteer_d(glue("{pkg}::{palette}")))
 }
 ```
 
@@ -78,8 +81,9 @@ pacman::p_install(package = pkg, character.only = TRUE, force = FALSE)
 ```{r}
 df <- df %>%
   filter(package %in% installed.packages()) %>% 
-  arrange(type, length) 
-#   slice(1:100)
+  arrange(type, length)
+# %>% 
+  # slice(1)
 ```
 
 # The *paletteer* gallery
