@@ -23,11 +23,11 @@ ggplot2.
   - [Discrete palettes](#discrete-palettes)
       - [Diverging](#diverging)
       - [Qualitative](#qualitative)
-      - [Sequencial](#sequencial)
+      - [Sequential](#sequential)
   - [Continuous
 palettes](#continuous-palettes)
       - [Diverging](#diverging-1)
-      - [Sequencial](#sequencial-2)
+      - [Sequential](#sequential-1)
 
 ## Discrete palettes
 
