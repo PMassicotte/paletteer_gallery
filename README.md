@@ -12,7 +12,7 @@ packages.
 > palettes in R using a common interface. Think of it as the “caret of
 > palettes”.
 
-This page is a simple gallery of these palettes. The are a total of 1281
+This page is a simple gallery of these palettes. The are a total of 1461
 palettes (available from CRAN packages) divided into `discrete` and
 `continuous` scales. The titles of the following graphs present the
 `palette {package}`. There is also copy/pastable R code to use with
@@ -24,8 +24,7 @@ ggplot2.
       - [Diverging](#diverging)
       - [Qualitative](#qualitative)
       - [Sequential](#sequential)
-  - [Continuous
-palettes](#continuous-palettes)
+  - [Continuous palettes](#continuous-palettes)
       - [Diverging](#diverging-1)
       - [Sequential](#sequential-1)
 
@@ -4927,13 +4926,21 @@ palettes](#continuous-palettes)
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-6.png" style="display: block; margin: auto;" />
 
+    paletteer::scale_colour_paletteer_d("vapoRwave::crystalPepsi")
+    paletteer::scale_color_paletteer_d("vapoRwave::crystalPepsi")
+    paletteer::scale_fill_paletteer_d("vapoRwave::crystalPepsi")
+    
+    paletteer::paletteer_d("vapoRwave::crystalPepsi")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-7.png" style="display: block; margin: auto;" />
+
     paletteer::scale_colour_paletteer_d("fishualize::Acanthurus_leucosternon")
     paletteer::scale_color_paletteer_d("fishualize::Acanthurus_leucosternon")
     paletteer::scale_fill_paletteer_d("fishualize::Acanthurus_leucosternon")
     
     paletteer::paletteer_d("fishualize::Acanthurus_leucosternon")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-7.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-8.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Acanthurus_olivaceus")
     paletteer::scale_color_paletteer_d("fishualize::Acanthurus_olivaceus")
@@ -4941,7 +4948,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Acanthurus_olivaceus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-8.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-9.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Acanthurus_sohal")
     paletteer::scale_color_paletteer_d("fishualize::Acanthurus_sohal")
@@ -4949,7 +4956,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Acanthurus_sohal")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-9.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-10.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Acanthurus_triostegus")
     paletteer::scale_color_paletteer_d("fishualize::Acanthurus_triostegus")
@@ -4957,7 +4964,15 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Acanthurus_triostegus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-10.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-11.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("fishualize::Antennarius_commerson")
+    paletteer::scale_color_paletteer_d("fishualize::Antennarius_commerson")
+    paletteer::scale_fill_paletteer_d("fishualize::Antennarius_commerson")
+    
+    paletteer::paletteer_d("fishualize::Antennarius_commerson")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-12.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Antennarius_multiocellatus")
     paletteer::scale_color_paletteer_d("fishualize::Antennarius_multiocellatus")
@@ -4965,7 +4980,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Antennarius_multiocellatus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-11.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-13.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Aulostomus_chinensis")
     paletteer::scale_color_paletteer_d("fishualize::Aulostomus_chinensis")
@@ -4973,7 +4988,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Aulostomus_chinensis")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-12.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-14.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Balistapus_undulatus")
     paletteer::scale_color_paletteer_d("fishualize::Balistapus_undulatus")
@@ -4981,7 +4996,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Balistapus_undulatus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-13.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-15.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Balistoides_conspicillum")
     paletteer::scale_color_paletteer_d("fishualize::Balistoides_conspicillum")
@@ -4989,7 +5004,15 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Balistoides_conspicillum")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-14.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-16.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("fishualize::Bodianus_pulchellus")
+    paletteer::scale_color_paletteer_d("fishualize::Bodianus_pulchellus")
+    paletteer::scale_fill_paletteer_d("fishualize::Bodianus_pulchellus")
+    
+    paletteer::paletteer_d("fishualize::Bodianus_pulchellus")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-17.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Bodianus_rufus")
     paletteer::scale_color_paletteer_d("fishualize::Bodianus_rufus")
@@ -4997,7 +5020,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Bodianus_rufus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-15.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-18.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Bryaninops_natans")
     paletteer::scale_color_paletteer_d("fishualize::Bryaninops_natans")
@@ -5005,7 +5028,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Bryaninops_natans")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-16.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-19.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Callanthias_australis")
     paletteer::scale_color_paletteer_d("fishualize::Callanthias_australis")
@@ -5013,7 +5036,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Callanthias_australis")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-17.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-20.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Centropyge_loricula")
     paletteer::scale_color_paletteer_d("fishualize::Centropyge_loricula")
@@ -5021,7 +5044,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Centropyge_loricula")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-18.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-21.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Cephalopholis_argus")
     paletteer::scale_color_paletteer_d("fishualize::Cephalopholis_argus")
@@ -5029,7 +5052,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Cephalopholis_argus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-19.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-22.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Chaetodon_ephippium")
     paletteer::scale_color_paletteer_d("fishualize::Chaetodon_ephippium")
@@ -5037,7 +5060,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Chaetodon_ephippium")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-20.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-23.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Chaetodon_larvatus")
     paletteer::scale_color_paletteer_d("fishualize::Chaetodon_larvatus")
@@ -5045,7 +5068,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Chaetodon_larvatus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-21.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-24.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Chaetodon_pelewensis")
     paletteer::scale_color_paletteer_d("fishualize::Chaetodon_pelewensis")
@@ -5053,7 +5076,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Chaetodon_pelewensis")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-22.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-25.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Chaetodontoplus_conspicillatus")
     paletteer::scale_color_paletteer_d("fishualize::Chaetodontoplus_conspicillatus")
@@ -5061,7 +5084,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Chaetodontoplus_conspicillatus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-23.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-26.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Chlorurus_microrhinos")
     paletteer::scale_color_paletteer_d("fishualize::Chlorurus_microrhinos")
@@ -5069,7 +5092,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Chlorurus_microrhinos")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-24.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-27.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Chromis_vanderbilti")
     paletteer::scale_color_paletteer_d("fishualize::Chromis_vanderbilti")
@@ -5077,7 +5100,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Chromis_vanderbilti")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-25.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-28.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Cirrhilabrus_solorensis")
     paletteer::scale_color_paletteer_d("fishualize::Cirrhilabrus_solorensis")
@@ -5085,7 +5108,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Cirrhilabrus_solorensis")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-26.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-29.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Cirrhilabrus_tonozukai")
     paletteer::scale_color_paletteer_d("fishualize::Cirrhilabrus_tonozukai")
@@ -5093,7 +5116,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Cirrhilabrus_tonozukai")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-27.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-30.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Clepticus_parrae")
     paletteer::scale_color_paletteer_d("fishualize::Clepticus_parrae")
@@ -5101,7 +5124,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Clepticus_parrae")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-28.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-31.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Coris_gaimard")
     paletteer::scale_color_paletteer_d("fishualize::Coris_gaimard")
@@ -5109,7 +5132,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Coris_gaimard")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-29.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-32.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Coryphaena_hippurus")
     paletteer::scale_color_paletteer_d("fishualize::Coryphaena_hippurus")
@@ -5117,7 +5140,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Coryphaena_hippurus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-30.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-33.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Elagatis_bipinnulata")
     paletteer::scale_color_paletteer_d("fishualize::Elagatis_bipinnulata")
@@ -5125,7 +5148,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Elagatis_bipinnulata")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-31.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-34.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Epibulus_insidiator")
     paletteer::scale_color_paletteer_d("fishualize::Epibulus_insidiator")
@@ -5133,7 +5156,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Epibulus_insidiator")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-32.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-35.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Epinephelus_fasciatus")
     paletteer::scale_color_paletteer_d("fishualize::Epinephelus_fasciatus")
@@ -5141,7 +5164,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Epinephelus_fasciatus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-33.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-36.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Epinephelus_striatus")
     paletteer::scale_color_paletteer_d("fishualize::Epinephelus_striatus")
@@ -5149,7 +5172,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Epinephelus_striatus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-34.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-37.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Etheostoma_barrenense")
     paletteer::scale_color_paletteer_d("fishualize::Etheostoma_barrenense")
@@ -5157,7 +5180,15 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Etheostoma_barrenense")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-35.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-38.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("fishualize::Etheostoma_spectabile")
+    paletteer::scale_color_paletteer_d("fishualize::Etheostoma_spectabile")
+    paletteer::scale_fill_paletteer_d("fishualize::Etheostoma_spectabile")
+    
+    paletteer::paletteer_d("fishualize::Etheostoma_spectabile")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-39.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Exallias_brevis")
     paletteer::scale_color_paletteer_d("fishualize::Exallias_brevis")
@@ -5165,7 +5196,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Exallias_brevis")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-36.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-40.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Gomphosus_varius")
     paletteer::scale_color_paletteer_d("fishualize::Gomphosus_varius")
@@ -5173,7 +5204,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Gomphosus_varius")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-37.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-41.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Gramma_loreto")
     paletteer::scale_color_paletteer_d("fishualize::Gramma_loreto")
@@ -5181,7 +5212,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Gramma_loreto")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-38.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-42.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Halichoeres_bivittatus")
     paletteer::scale_color_paletteer_d("fishualize::Halichoeres_bivittatus")
@@ -5189,7 +5220,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Halichoeres_bivittatus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-39.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-43.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Halichoeres_garnoti")
     paletteer::scale_color_paletteer_d("fishualize::Halichoeres_garnoti")
@@ -5197,7 +5228,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Halichoeres_garnoti")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-40.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-44.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Halichoeres_radiatus")
     paletteer::scale_color_paletteer_d("fishualize::Halichoeres_radiatus")
@@ -5205,7 +5236,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Halichoeres_radiatus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-41.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-45.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Hemitaurichthys_polylepis")
     paletteer::scale_color_paletteer_d("fishualize::Hemitaurichthys_polylepis")
@@ -5213,7 +5244,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Hemitaurichthys_polylepis")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-42.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-46.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Hexagrammos_lagocephalus")
     paletteer::scale_color_paletteer_d("fishualize::Hexagrammos_lagocephalus")
@@ -5221,7 +5252,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Hexagrammos_lagocephalus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-43.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-47.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Histiophryne_psychedelica")
     paletteer::scale_color_paletteer_d("fishualize::Histiophryne_psychedelica")
@@ -5229,7 +5260,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Histiophryne_psychedelica")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-44.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-48.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Holacanthus_ciliaris")
     paletteer::scale_color_paletteer_d("fishualize::Holacanthus_ciliaris")
@@ -5237,7 +5268,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Holacanthus_ciliaris")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-45.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-49.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Hypoplectrus_puella")
     paletteer::scale_color_paletteer_d("fishualize::Hypoplectrus_puella")
@@ -5245,7 +5276,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Hypoplectrus_puella")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-46.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-50.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Hypsoblennius_invemar")
     paletteer::scale_color_paletteer_d("fishualize::Hypsoblennius_invemar")
@@ -5253,7 +5284,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Hypsoblennius_invemar")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-47.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-51.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Hypsypops_rubicundus")
     paletteer::scale_color_paletteer_d("fishualize::Hypsypops_rubicundus")
@@ -5261,7 +5292,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Hypsypops_rubicundus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-48.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-52.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Lampris_guttatus")
     paletteer::scale_color_paletteer_d("fishualize::Lampris_guttatus")
@@ -5269,7 +5300,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Lampris_guttatus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-49.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-53.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Lepomis_megalotis")
     paletteer::scale_color_paletteer_d("fishualize::Lepomis_megalotis")
@@ -5277,7 +5308,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Lepomis_megalotis")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-50.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-54.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Lutjanus_sebae")
     paletteer::scale_color_paletteer_d("fishualize::Lutjanus_sebae")
@@ -5285,7 +5316,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Lutjanus_sebae")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-51.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-55.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Melichthys_vidua")
     paletteer::scale_color_paletteer_d("fishualize::Melichthys_vidua")
@@ -5293,7 +5324,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Melichthys_vidua")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-52.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-56.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Naso_lituratus")
     paletteer::scale_color_paletteer_d("fishualize::Naso_lituratus")
@@ -5301,7 +5332,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Naso_lituratus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-53.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-57.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Nemateleotris_magnifica")
     paletteer::scale_color_paletteer_d("fishualize::Nemateleotris_magnifica")
@@ -5309,7 +5340,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Nemateleotris_magnifica")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-54.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-58.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Odonus_niger")
     paletteer::scale_color_paletteer_d("fishualize::Odonus_niger")
@@ -5317,7 +5348,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Odonus_niger")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-55.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-59.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Oncorhynchus_gorbuscha")
     paletteer::scale_color_paletteer_d("fishualize::Oncorhynchus_gorbuscha")
@@ -5325,7 +5356,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Oncorhynchus_gorbuscha")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-56.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-60.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Oncorhynchus_keta")
     paletteer::scale_color_paletteer_d("fishualize::Oncorhynchus_keta")
@@ -5333,7 +5364,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Oncorhynchus_keta")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-57.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-61.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Oncorhynchus_kisutch")
     paletteer::scale_color_paletteer_d("fishualize::Oncorhynchus_kisutch")
@@ -5341,7 +5372,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Oncorhynchus_kisutch")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-58.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-62.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Oncorhynchus_mykiss")
     paletteer::scale_color_paletteer_d("fishualize::Oncorhynchus_mykiss")
@@ -5349,7 +5380,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Oncorhynchus_mykiss")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-59.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-63.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Oncorhynchus_nerka")
     paletteer::scale_color_paletteer_d("fishualize::Oncorhynchus_nerka")
@@ -5357,7 +5388,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Oncorhynchus_nerka")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-60.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-64.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Oncorhynchus_tshawytscha")
     paletteer::scale_color_paletteer_d("fishualize::Oncorhynchus_tshawytscha")
@@ -5365,7 +5396,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Oncorhynchus_tshawytscha")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-61.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-65.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Ostorhinchus_angustatus")
     paletteer::scale_color_paletteer_d("fishualize::Ostorhinchus_angustatus")
@@ -5373,7 +5404,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Ostorhinchus_angustatus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-62.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-66.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Ostracion_cubicus")
     paletteer::scale_color_paletteer_d("fishualize::Ostracion_cubicus")
@@ -5381,7 +5412,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Ostracion_cubicus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-63.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-67.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Ostracion_whitleyi")
     paletteer::scale_color_paletteer_d("fishualize::Ostracion_whitleyi")
@@ -5389,7 +5420,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Ostracion_whitleyi")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-64.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-68.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Oxymonacanthus_longirostris")
     paletteer::scale_color_paletteer_d("fishualize::Oxymonacanthus_longirostris")
@@ -5397,7 +5428,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Oxymonacanthus_longirostris")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-65.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-69.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Paracanthurus_hepatus")
     paletteer::scale_color_paletteer_d("fishualize::Paracanthurus_hepatus")
@@ -5405,7 +5436,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Paracanthurus_hepatus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-66.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-70.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Parupeneus_insularis")
     paletteer::scale_color_paletteer_d("fishualize::Parupeneus_insularis")
@@ -5413,7 +5444,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Parupeneus_insularis")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-67.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-71.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Pomacanthus_imperator")
     paletteer::scale_color_paletteer_d("fishualize::Pomacanthus_imperator")
@@ -5421,7 +5452,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Pomacanthus_imperator")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-68.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-72.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Pomacanthus_xanthometopon")
     paletteer::scale_color_paletteer_d("fishualize::Pomacanthus_xanthometopon")
@@ -5429,7 +5460,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Pomacanthus_xanthometopon")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-69.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-73.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Prionace_glauca")
     paletteer::scale_color_paletteer_d("fishualize::Prionace_glauca")
@@ -5437,7 +5468,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Prionace_glauca")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-70.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-74.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Pseudocheilinus_tetrataenia")
     paletteer::scale_color_paletteer_d("fishualize::Pseudocheilinus_tetrataenia")
@@ -5445,7 +5476,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Pseudocheilinus_tetrataenia")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-71.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-75.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Pseudochromis_aldabraensis")
     paletteer::scale_color_paletteer_d("fishualize::Pseudochromis_aldabraensis")
@@ -5453,7 +5484,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Pseudochromis_aldabraensis")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-72.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-76.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Pterois_volitans")
     paletteer::scale_color_paletteer_d("fishualize::Pterois_volitans")
@@ -5461,7 +5492,15 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Pterois_volitans")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-73.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-77.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("fishualize::Rhinecanthus_assasi")
+    paletteer::scale_color_paletteer_d("fishualize::Rhinecanthus_assasi")
+    paletteer::scale_fill_paletteer_d("fishualize::Rhinecanthus_assasi")
+    
+    paletteer::paletteer_d("fishualize::Rhinecanthus_assasi")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-78.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Salmo_salar")
     paletteer::scale_color_paletteer_d("fishualize::Salmo_salar")
@@ -5469,7 +5508,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Salmo_salar")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-74.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-79.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Salmo_trutta")
     paletteer::scale_color_paletteer_d("fishualize::Salmo_trutta")
@@ -5477,7 +5516,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Salmo_trutta")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-75.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-80.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Salvelinus_fontinalis")
     paletteer::scale_color_paletteer_d("fishualize::Salvelinus_fontinalis")
@@ -5485,7 +5524,15 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Salvelinus_fontinalis")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-76.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-81.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("fishualize::Scarus_ghobban")
+    paletteer::scale_color_paletteer_d("fishualize::Scarus_ghobban")
+    paletteer::scale_fill_paletteer_d("fishualize::Scarus_ghobban")
+    
+    paletteer::paletteer_d("fishualize::Scarus_ghobban")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-82.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Scarus_globiceps")
     paletteer::scale_color_paletteer_d("fishualize::Scarus_globiceps")
@@ -5493,7 +5540,15 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Scarus_globiceps")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-77.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-83.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("fishualize::Scarus_hoefleri")
+    paletteer::scale_color_paletteer_d("fishualize::Scarus_hoefleri")
+    paletteer::scale_fill_paletteer_d("fishualize::Scarus_hoefleri")
+    
+    paletteer::paletteer_d("fishualize::Scarus_hoefleri")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-84.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Scarus_quoyi")
     paletteer::scale_color_paletteer_d("fishualize::Scarus_quoyi")
@@ -5501,7 +5556,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Scarus_quoyi")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-78.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-85.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Sparisoma_viride")
     paletteer::scale_color_paletteer_d("fishualize::Sparisoma_viride")
@@ -5509,7 +5564,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Sparisoma_viride")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-79.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-86.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Stegastes_nigricans")
     paletteer::scale_color_paletteer_d("fishualize::Stegastes_nigricans")
@@ -5517,7 +5572,15 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Stegastes_nigricans")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-80.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-87.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("fishualize::Stethojulis_bandanensis")
+    paletteer::scale_color_paletteer_d("fishualize::Stethojulis_bandanensis")
+    paletteer::scale_fill_paletteer_d("fishualize::Stethojulis_bandanensis")
+    
+    paletteer::paletteer_d("fishualize::Stethojulis_bandanensis")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-88.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Synchiropus_splendidus")
     paletteer::scale_color_paletteer_d("fishualize::Synchiropus_splendidus")
@@ -5525,7 +5588,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Synchiropus_splendidus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-81.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-89.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Taeniura_lymma")
     paletteer::scale_color_paletteer_d("fishualize::Taeniura_lymma")
@@ -5533,7 +5596,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Taeniura_lymma")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-82.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-90.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Thalassoma_bifasciatum")
     paletteer::scale_color_paletteer_d("fishualize::Thalassoma_bifasciatum")
@@ -5541,7 +5604,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Thalassoma_bifasciatum")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-83.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-91.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Thalassoma_hardwicke")
     paletteer::scale_color_paletteer_d("fishualize::Thalassoma_hardwicke")
@@ -5549,7 +5612,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Thalassoma_hardwicke")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-84.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-92.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Thalassoma_pavo")
     paletteer::scale_color_paletteer_d("fishualize::Thalassoma_pavo")
@@ -5557,7 +5620,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Thalassoma_pavo")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-85.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-93.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Trimma_lantana")
     paletteer::scale_color_paletteer_d("fishualize::Trimma_lantana")
@@ -5565,7 +5628,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Trimma_lantana")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-86.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-94.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Valenciennea_strigata")
     paletteer::scale_color_paletteer_d("fishualize::Valenciennea_strigata")
@@ -5573,7 +5636,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Valenciennea_strigata")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-87.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-95.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Variola_louti")
     paletteer::scale_color_paletteer_d("fishualize::Variola_louti")
@@ -5581,7 +5644,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Variola_louti")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-88.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-96.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Zanclus_cornutus")
     paletteer::scale_color_paletteer_d("fishualize::Zanclus_cornutus")
@@ -5589,7 +5652,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Zanclus_cornutus")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-89.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-97.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Zebrasoma_velifer")
     paletteer::scale_color_paletteer_d("fishualize::Zebrasoma_velifer")
@@ -5597,7 +5660,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("fishualize::Zebrasoma_velifer")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-90.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-98.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Seattle Grays")
     paletteer::scale_color_paletteer_d("ggthemes::Seattle Grays")
@@ -5605,7 +5668,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Seattle Grays")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-91.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-99.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic Gray 5")
     paletteer::scale_color_paletteer_d("ggthemes::Classic Gray 5")
@@ -5613,7 +5676,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Classic Gray 5")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-92.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-100.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::hc_bg")
     paletteer::scale_color_paletteer_d("ggthemes::hc_bg")
@@ -5621,7 +5684,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::hc_bg")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-93.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-101.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::JosefAlbers")
     paletteer::scale_color_paletteer_d("lisa::JosefAlbers")
@@ -5629,7 +5692,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::JosefAlbers")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-94.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-102.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::JosefAlbers_1")
     paletteer::scale_color_paletteer_d("lisa::JosefAlbers_1")
@@ -5637,7 +5700,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::JosefAlbers_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-95.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-103.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::GretchenAlbrecht")
     paletteer::scale_color_paletteer_d("lisa::GretchenAlbrecht")
@@ -5645,7 +5708,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::GretchenAlbrecht")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-96.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-104.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::BillyApple")
     paletteer::scale_color_paletteer_d("lisa::BillyApple")
@@ -5653,7 +5716,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::BillyApple")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-97.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-105.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::PerArnoldi")
     paletteer::scale_color_paletteer_d("lisa::PerArnoldi")
@@ -5661,7 +5724,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::PerArnoldi")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-98.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-106.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::MiltonAvery")
     paletteer::scale_color_paletteer_d("lisa::MiltonAvery")
@@ -5669,7 +5732,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::MiltonAvery")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-99.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-107.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::MiltonAvery_1")
     paletteer::scale_color_paletteer_d("lisa::MiltonAvery_1")
@@ -5677,7 +5740,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::MiltonAvery_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-100.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-108.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::HilmaafKlint")
     paletteer::scale_color_paletteer_d("lisa::HilmaafKlint")
@@ -5685,7 +5748,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::HilmaafKlint")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-101.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-109.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::Jean-MichelBasquiat")
     paletteer::scale_color_paletteer_d("lisa::Jean-MichelBasquiat")
@@ -5693,7 +5756,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::Jean-MichelBasquiat")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-102.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-110.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::Jean-MichelBasquiat_1")
     paletteer::scale_color_paletteer_d("lisa::Jean-MichelBasquiat_1")
@@ -5701,7 +5764,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::Jean-MichelBasquiat_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-103.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-111.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::MaxBeckmann")
     paletteer::scale_color_paletteer_d("lisa::MaxBeckmann")
@@ -5709,7 +5772,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::MaxBeckmann")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-104.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-112.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::FernandoBotero")
     paletteer::scale_color_paletteer_d("lisa::FernandoBotero")
@@ -5717,7 +5780,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::FernandoBotero")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-105.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-113.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::SandroBotticelli")
     paletteer::scale_color_paletteer_d("lisa::SandroBotticelli")
@@ -5725,7 +5788,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::SandroBotticelli")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-106.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-114.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::SandroBotticelli_1")
     paletteer::scale_color_paletteer_d("lisa::SandroBotticelli_1")
@@ -5733,7 +5796,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::SandroBotticelli_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-107.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-115.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::PieterBruegel")
     paletteer::scale_color_paletteer_d("lisa::PieterBruegel")
@@ -5741,7 +5804,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::PieterBruegel")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-108.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-116.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::JackBush")
     paletteer::scale_color_paletteer_d("lisa::JackBush")
@@ -5749,7 +5812,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::JackBush")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-109.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-117.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::JackBush_1")
     paletteer::scale_color_paletteer_d("lisa::JackBush_1")
@@ -5757,7 +5820,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::JackBush_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-110.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-118.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::MaryCassatt")
     paletteer::scale_color_paletteer_d("lisa::MaryCassatt")
@@ -5765,7 +5828,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::MaryCassatt")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-111.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-119.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::PaulCézanne")
     paletteer::scale_color_paletteer_d("lisa::PaulCézanne")
@@ -5773,7 +5836,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::PaulCézanne")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-112.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-120.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::MarcChagall")
     paletteer::scale_color_paletteer_d("lisa::MarcChagall")
@@ -5781,7 +5844,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::MarcChagall")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-113.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-121.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::C.M.Coolidge")
     paletteer::scale_color_paletteer_d("lisa::C.M.Coolidge")
@@ -5789,7 +5852,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::C.M.Coolidge")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-114.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-122.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::SalvadorDali")
     paletteer::scale_color_paletteer_d("lisa::SalvadorDali")
@@ -5797,7 +5860,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::SalvadorDali")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-115.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-123.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::SalvadorDali_1")
     paletteer::scale_color_paletteer_d("lisa::SalvadorDali_1")
@@ -5805,7 +5868,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::SalvadorDali_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-116.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-124.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::LeonardodaVinci")
     paletteer::scale_color_paletteer_d("lisa::LeonardodaVinci")
@@ -5813,7 +5876,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::LeonardodaVinci")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-117.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-125.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::GeneDavis")
     paletteer::scale_color_paletteer_d("lisa::GeneDavis")
@@ -5821,7 +5884,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::GeneDavis")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-118.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-126.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::GiorgiodeChirico")
     paletteer::scale_color_paletteer_d("lisa::GiorgiodeChirico")
@@ -5829,7 +5892,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::GiorgiodeChirico")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-119.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-127.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::GiorgiodeChirico_1")
     paletteer::scale_color_paletteer_d("lisa::GiorgiodeChirico_1")
@@ -5837,7 +5900,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::GiorgiodeChirico_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-120.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-128.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::EdgarDegas")
     paletteer::scale_color_paletteer_d("lisa::EdgarDegas")
@@ -5845,7 +5908,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::EdgarDegas")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-121.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-129.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::RobertDelaunay")
     paletteer::scale_color_paletteer_d("lisa::RobertDelaunay")
@@ -5853,7 +5916,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::RobertDelaunay")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-122.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-130.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::RobertDelaunay_1")
     paletteer::scale_color_paletteer_d("lisa::RobertDelaunay_1")
@@ -5861,7 +5924,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::RobertDelaunay_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-123.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-131.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::CharlesDemuth")
     paletteer::scale_color_paletteer_d("lisa::CharlesDemuth")
@@ -5869,7 +5932,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::CharlesDemuth")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-124.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-132.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::RichardDiebenkorn")
     paletteer::scale_color_paletteer_d("lisa::RichardDiebenkorn")
@@ -5877,7 +5940,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::RichardDiebenkorn")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-125.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-133.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::OttoDix")
     paletteer::scale_color_paletteer_d("lisa::OttoDix")
@@ -5885,7 +5948,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::OttoDix")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-126.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-134.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::OttoDix_1")
     paletteer::scale_color_paletteer_d("lisa::OttoDix_1")
@@ -5893,7 +5956,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::OttoDix_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-127.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-135.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::MarcelDuchamp")
     paletteer::scale_color_paletteer_d("lisa::MarcelDuchamp")
@@ -5901,7 +5964,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::MarcelDuchamp")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-128.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-136.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::AlbrechtDürer")
     paletteer::scale_color_paletteer_d("lisa::AlbrechtDürer")
@@ -5909,7 +5972,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::AlbrechtDürer")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-129.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-137.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::MaxErnst")
     paletteer::scale_color_paletteer_d("lisa::MaxErnst")
@@ -5917,7 +5980,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::MaxErnst")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-130.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-138.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::M.C.Escher")
     paletteer::scale_color_paletteer_d("lisa::M.C.Escher")
@@ -5925,7 +5988,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::M.C.Escher")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-131.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-139.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::PaulFeeley")
     paletteer::scale_color_paletteer_d("lisa::PaulFeeley")
@@ -5933,7 +5996,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::PaulFeeley")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-132.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-140.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::LorserFeitelson")
     paletteer::scale_color_paletteer_d("lisa::LorserFeitelson")
@@ -5941,7 +6004,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::LorserFeitelson")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-133.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-141.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::HelenFrankenthaler")
     paletteer::scale_color_paletteer_d("lisa::HelenFrankenthaler")
@@ -5949,7 +6012,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::HelenFrankenthaler")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-134.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-142.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::LucianFreud")
     paletteer::scale_color_paletteer_d("lisa::LucianFreud")
@@ -5957,7 +6020,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::LucianFreud")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-135.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-143.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::TerryFrost")
     paletteer::scale_color_paletteer_d("lisa::TerryFrost")
@@ -5965,7 +6028,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::TerryFrost")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-136.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-144.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::PaulGauguin")
     paletteer::scale_color_paletteer_d("lisa::PaulGauguin")
@@ -5973,7 +6036,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::PaulGauguin")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-137.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-145.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::RupprechtGeiger")
     paletteer::scale_color_paletteer_d("lisa::RupprechtGeiger")
@@ -5981,7 +6044,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::RupprechtGeiger")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-138.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-146.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::HansHofmann")
     paletteer::scale_color_paletteer_d("lisa::HansHofmann")
@@ -5989,7 +6052,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::HansHofmann")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-139.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-147.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::KatsushikaHokusai")
     paletteer::scale_color_paletteer_d("lisa::KatsushikaHokusai")
@@ -5997,7 +6060,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::KatsushikaHokusai")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-140.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-148.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::WinslowHomer")
     paletteer::scale_color_paletteer_d("lisa::WinslowHomer")
@@ -6005,7 +6068,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::WinslowHomer")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-141.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-149.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::EdwardHopper")
     paletteer::scale_color_paletteer_d("lisa::EdwardHopper")
@@ -6013,7 +6076,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::EdwardHopper")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-142.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-150.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::RobertIndiana")
     paletteer::scale_color_paletteer_d("lisa::RobertIndiana")
@@ -6021,7 +6084,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::RobertIndiana")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-143.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-151.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::JamesJean")
     paletteer::scale_color_paletteer_d("lisa::JamesJean")
@@ -6029,7 +6092,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::JamesJean")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-144.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-152.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::JasperJohns")
     paletteer::scale_color_paletteer_d("lisa::JasperJohns")
@@ -6037,7 +6100,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::JasperJohns")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-145.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-153.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::FridaKahlo")
     paletteer::scale_color_paletteer_d("lisa::FridaKahlo")
@@ -6045,7 +6108,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::FridaKahlo")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-146.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-154.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::WassilyKandinsky")
     paletteer::scale_color_paletteer_d("lisa::WassilyKandinsky")
@@ -6053,7 +6116,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::WassilyKandinsky")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-147.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-155.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::WassilyKandinsky_1")
     paletteer::scale_color_paletteer_d("lisa::WassilyKandinsky_1")
@@ -6061,7 +6124,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::WassilyKandinsky_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-148.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-156.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::WassilyKandinsky_2")
     paletteer::scale_color_paletteer_d("lisa::WassilyKandinsky_2")
@@ -6069,7 +6132,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::WassilyKandinsky_2")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-149.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-157.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::PaulKlee")
     paletteer::scale_color_paletteer_d("lisa::PaulKlee")
@@ -6077,7 +6140,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::PaulKlee")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-150.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-158.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::PaulKlee_1")
     paletteer::scale_color_paletteer_d("lisa::PaulKlee_1")
@@ -6085,7 +6148,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::PaulKlee_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-151.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-159.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::YvesKlein")
     paletteer::scale_color_paletteer_d("lisa::YvesKlein")
@@ -6093,7 +6156,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::YvesKlein")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-152.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-160.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::GustavKlimt")
     paletteer::scale_color_paletteer_d("lisa::GustavKlimt")
@@ -6101,7 +6164,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::GustavKlimt")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-153.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-161.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::JeffKoons")
     paletteer::scale_color_paletteer_d("lisa::JeffKoons")
@@ -6109,7 +6172,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::JeffKoons")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-154.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-162.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::LeeKrasner")
     paletteer::scale_color_paletteer_d("lisa::LeeKrasner")
@@ -6117,7 +6180,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::LeeKrasner")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-155.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-163.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::JacobLawrence")
     paletteer::scale_color_paletteer_d("lisa::JacobLawrence")
@@ -6125,7 +6188,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::JacobLawrence")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-156.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-164.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::JacobLawrence_1")
     paletteer::scale_color_paletteer_d("lisa::JacobLawrence_1")
@@ -6133,7 +6196,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::JacobLawrence_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-157.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-165.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::SolLeWitt")
     paletteer::scale_color_paletteer_d("lisa::SolLeWitt")
@@ -6141,7 +6204,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::SolLeWitt")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-158.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-166.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::RoyLichtenstein")
     paletteer::scale_color_paletteer_d("lisa::RoyLichtenstein")
@@ -6149,7 +6212,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::RoyLichtenstein")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-159.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-167.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::RoyLichtenstein_1")
     paletteer::scale_color_paletteer_d("lisa::RoyLichtenstein_1")
@@ -6157,7 +6220,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::RoyLichtenstein_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-160.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-168.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::RoyLichtenstein_2")
     paletteer::scale_color_paletteer_d("lisa::RoyLichtenstein_2")
@@ -6165,7 +6228,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::RoyLichtenstein_2")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-161.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-169.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::KazimirMalevich")
     paletteer::scale_color_paletteer_d("lisa::KazimirMalevich")
@@ -6173,7 +6236,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::KazimirMalevich")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-162.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-170.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::ÉdouardManet")
     paletteer::scale_color_paletteer_d("lisa::ÉdouardManet")
@@ -6181,7 +6244,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::ÉdouardManet")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-163.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-171.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::ReneMagritte")
     paletteer::scale_color_paletteer_d("lisa::ReneMagritte")
@@ -6189,7 +6252,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::ReneMagritte")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-164.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-172.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::ReneMagritte_1")
     paletteer::scale_color_paletteer_d("lisa::ReneMagritte_1")
@@ -6197,7 +6260,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::ReneMagritte_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-165.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-173.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::Masaccio")
     paletteer::scale_color_paletteer_d("lisa::Masaccio")
@@ -6205,7 +6268,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::Masaccio")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-166.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-174.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::Michelangelo")
     paletteer::scale_color_paletteer_d("lisa::Michelangelo")
@@ -6213,7 +6276,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::Michelangelo")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-167.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-175.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::JoanMiró")
     paletteer::scale_color_paletteer_d("lisa::JoanMiró")
@@ -6221,7 +6284,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::JoanMiró")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-168.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-176.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::AmedeoModigliani")
     paletteer::scale_color_paletteer_d("lisa::AmedeoModigliani")
@@ -6229,7 +6292,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::AmedeoModigliani")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-169.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-177.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::PietMondrian")
     paletteer::scale_color_paletteer_d("lisa::PietMondrian")
@@ -6237,7 +6300,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::PietMondrian")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-170.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-178.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::ClaudeMonet")
     paletteer::scale_color_paletteer_d("lisa::ClaudeMonet")
@@ -6245,7 +6308,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::ClaudeMonet")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-171.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-179.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::ClaudeMonet_1")
     paletteer::scale_color_paletteer_d("lisa::ClaudeMonet_1")
@@ -6253,7 +6316,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::ClaudeMonet_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-172.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-180.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::ClaudeMonet_2")
     paletteer::scale_color_paletteer_d("lisa::ClaudeMonet_2")
@@ -6261,7 +6324,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::ClaudeMonet_2")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-173.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-181.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::EdvardMunch")
     paletteer::scale_color_paletteer_d("lisa::EdvardMunch")
@@ -6269,7 +6332,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::EdvardMunch")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-174.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-182.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::EdvardMunch_1")
     paletteer::scale_color_paletteer_d("lisa::EdvardMunch_1")
@@ -6277,7 +6340,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::EdvardMunch_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-175.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-183.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::BarnettNewman")
     paletteer::scale_color_paletteer_d("lisa::BarnettNewman")
@@ -6285,7 +6348,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::BarnettNewman")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-176.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-184.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::KennethNoland")
     paletteer::scale_color_paletteer_d("lisa::KennethNoland")
@@ -6293,7 +6356,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::KennethNoland")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-177.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-185.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::GeorgiaO'Keeffe")
     paletteer::scale_color_paletteer_d("lisa::GeorgiaO'Keeffe")
@@ -6301,7 +6364,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::GeorgiaO'Keeffe")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-178.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-186.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::ClaesOldenburg")
     paletteer::scale_color_paletteer_d("lisa::ClaesOldenburg")
@@ -6309,7 +6372,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::ClaesOldenburg")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-179.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-187.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::PabloPicasso")
     paletteer::scale_color_paletteer_d("lisa::PabloPicasso")
@@ -6317,7 +6380,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::PabloPicasso")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-180.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-188.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::PabloPicasso_1")
     paletteer::scale_color_paletteer_d("lisa::PabloPicasso_1")
@@ -6325,7 +6388,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::PabloPicasso_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-181.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-189.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::JacksonPollock")
     paletteer::scale_color_paletteer_d("lisa::JacksonPollock")
@@ -6333,7 +6396,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::JacksonPollock")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-182.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-190.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::Prince")
     paletteer::scale_color_paletteer_d("lisa::Prince")
@@ -6341,7 +6404,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::Prince")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-183.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-191.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::JohnQuidor")
     paletteer::scale_color_paletteer_d("lisa::JohnQuidor")
@@ -6349,7 +6412,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::JohnQuidor")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-184.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-192.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::MelRamos")
     paletteer::scale_color_paletteer_d("lisa::MelRamos")
@@ -6357,7 +6420,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::MelRamos")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-185.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-193.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::OdilonRedon")
     paletteer::scale_color_paletteer_d("lisa::OdilonRedon")
@@ -6365,7 +6428,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::OdilonRedon")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-186.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-194.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::Rembrandt")
     paletteer::scale_color_paletteer_d("lisa::Rembrandt")
@@ -6373,7 +6436,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::Rembrandt")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-187.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-195.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::Pierre-AugusteRenoir")
     paletteer::scale_color_paletteer_d("lisa::Pierre-AugusteRenoir")
@@ -6381,7 +6444,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::Pierre-AugusteRenoir")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-188.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-196.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::Pierre-AugusteRenoir_1")
     paletteer::scale_color_paletteer_d("lisa::Pierre-AugusteRenoir_1")
@@ -6389,7 +6452,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::Pierre-AugusteRenoir_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-189.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-197.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::BridgetRiley")
     paletteer::scale_color_paletteer_d("lisa::BridgetRiley")
@@ -6397,7 +6460,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::BridgetRiley")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-190.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-198.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::JamesRosenquist")
     paletteer::scale_color_paletteer_d("lisa::JamesRosenquist")
@@ -6405,7 +6468,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::JamesRosenquist")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-191.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-199.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::MarkRothko")
     paletteer::scale_color_paletteer_d("lisa::MarkRothko")
@@ -6413,7 +6476,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::MarkRothko")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-192.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-200.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::MarkRothko_1")
     paletteer::scale_color_paletteer_d("lisa::MarkRothko_1")
@@ -6421,7 +6484,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::MarkRothko_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-193.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-201.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::JohnSingerSargent")
     paletteer::scale_color_paletteer_d("lisa::JohnSingerSargent")
@@ -6429,7 +6492,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::JohnSingerSargent")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-194.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-202.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::JohnSingerSargent_1")
     paletteer::scale_color_paletteer_d("lisa::JohnSingerSargent_1")
@@ -6437,7 +6500,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::JohnSingerSargent_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-195.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-203.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::JohnSingerSargent_2")
     paletteer::scale_color_paletteer_d("lisa::JohnSingerSargent_2")
@@ -6445,7 +6508,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::JohnSingerSargent_2")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-196.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-204.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::OskarSchlemmer")
     paletteer::scale_color_paletteer_d("lisa::OskarSchlemmer")
@@ -6453,7 +6516,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::OskarSchlemmer")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-197.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-205.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::GeorgesSeurat")
     paletteer::scale_color_paletteer_d("lisa::GeorgesSeurat")
@@ -6461,7 +6524,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::GeorgesSeurat")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-198.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-206.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::SandySkoglund")
     paletteer::scale_color_paletteer_d("lisa::SandySkoglund")
@@ -6469,7 +6532,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::SandySkoglund")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-199.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-207.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::PavelTchelitchew")
     paletteer::scale_color_paletteer_d("lisa::PavelTchelitchew")
@@ -6477,7 +6540,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::PavelTchelitchew")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-200.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-208.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::J.M.W.Turner")
     paletteer::scale_color_paletteer_d("lisa::J.M.W.Turner")
@@ -6485,7 +6548,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::J.M.W.Turner")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-201.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-209.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::CyTwombly")
     paletteer::scale_color_paletteer_d("lisa::CyTwombly")
@@ -6493,7 +6556,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::CyTwombly")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-202.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-210.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::JohannJacobUlrich")
     paletteer::scale_color_paletteer_d("lisa::JohannJacobUlrich")
@@ -6501,7 +6564,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::JohannJacobUlrich")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-203.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-211.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::TheovanDoesburg")
     paletteer::scale_color_paletteer_d("lisa::TheovanDoesburg")
@@ -6509,7 +6572,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::TheovanDoesburg")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-204.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-212.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::TheovanDoesburg_1")
     paletteer::scale_color_paletteer_d("lisa::TheovanDoesburg_1")
@@ -6517,7 +6580,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::TheovanDoesburg_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-205.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-213.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::JanvanEyck")
     paletteer::scale_color_paletteer_d("lisa::JanvanEyck")
@@ -6525,7 +6588,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::JanvanEyck")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-206.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-214.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::VincentvanGogh")
     paletteer::scale_color_paletteer_d("lisa::VincentvanGogh")
@@ -6533,7 +6596,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::VincentvanGogh")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-207.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-215.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::VincentvanGogh_1")
     paletteer::scale_color_paletteer_d("lisa::VincentvanGogh_1")
@@ -6541,7 +6604,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::VincentvanGogh_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-208.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-216.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::VincentvanGogh_2")
     paletteer::scale_color_paletteer_d("lisa::VincentvanGogh_2")
@@ -6549,7 +6612,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::VincentvanGogh_2")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-209.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-217.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::RemediosVaro")
     paletteer::scale_color_paletteer_d("lisa::RemediosVaro")
@@ -6557,7 +6620,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::RemediosVaro")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-210.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-218.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::DiegoVelázquez")
     paletteer::scale_color_paletteer_d("lisa::DiegoVelázquez")
@@ -6565,7 +6628,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::DiegoVelázquez")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-211.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-219.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::JohannesVermeer")
     paletteer::scale_color_paletteer_d("lisa::JohannesVermeer")
@@ -6573,7 +6636,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::JohannesVermeer")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-212.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-220.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::JohannesVermeer_1")
     paletteer::scale_color_paletteer_d("lisa::JohannesVermeer_1")
@@ -6581,7 +6644,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::JohannesVermeer_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-213.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-221.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::AndyWarhol")
     paletteer::scale_color_paletteer_d("lisa::AndyWarhol")
@@ -6589,7 +6652,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::AndyWarhol")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-214.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-222.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::AndyWarhol_1")
     paletteer::scale_color_paletteer_d("lisa::AndyWarhol_1")
@@ -6597,7 +6660,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::AndyWarhol_1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-215.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-223.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::AndyWarhol_2")
     paletteer::scale_color_paletteer_d("lisa::AndyWarhol_2")
@@ -6605,7 +6668,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::AndyWarhol_2")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-216.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-224.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::AndyWarhol_3")
     paletteer::scale_color_paletteer_d("lisa::AndyWarhol_3")
@@ -6613,7 +6676,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::AndyWarhol_3")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-217.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-225.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::GrantWood")
     paletteer::scale_color_paletteer_d("lisa::GrantWood")
@@ -6621,7 +6684,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::GrantWood")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-218.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-226.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::FrancescoXanto")
     paletteer::scale_color_paletteer_d("lisa::FrancescoXanto")
@@ -6629,7 +6692,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::FrancescoXanto")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-219.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-227.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::JackYoungerman")
     paletteer::scale_color_paletteer_d("lisa::JackYoungerman")
@@ -6637,7 +6700,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::JackYoungerman")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-220.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-228.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("lisa::KarlZerbe")
     paletteer::scale_color_paletteer_d("lisa::KarlZerbe")
@@ -6645,7 +6708,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("lisa::KarlZerbe")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-221.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-229.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::black_alert")
     paletteer::scale_color_paletteer_d("trekcolors::black_alert")
@@ -6653,7 +6716,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::black_alert")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-222.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-230.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::Targaryen")
     paletteer::scale_color_paletteer_d("tvthemes::Targaryen")
@@ -6661,7 +6724,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::Targaryen")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-223.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-231.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("unikn::pal_seeblau")
     paletteer::scale_color_paletteer_d("unikn::pal_seeblau")
@@ -6669,7 +6732,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("unikn::pal_seeblau")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-224.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-232.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("unikn::pal_peach")
     paletteer::scale_color_paletteer_d("unikn::pal_peach")
@@ -6677,7 +6740,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("unikn::pal_peach")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-225.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-233.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("unikn::pal_grau")
     paletteer::scale_color_paletteer_d("unikn::pal_grau")
@@ -6685,7 +6748,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("unikn::pal_grau")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-226.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-234.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("unikn::pal_petrol")
     paletteer::scale_color_paletteer_d("unikn::pal_petrol")
@@ -6693,7 +6756,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("unikn::pal_petrol")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-227.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-235.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("unikn::pal_seegruen")
     paletteer::scale_color_paletteer_d("unikn::pal_seegruen")
@@ -6701,7 +6764,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("unikn::pal_seegruen")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-228.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-236.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("unikn::pal_karpfenblau")
     paletteer::scale_color_paletteer_d("unikn::pal_karpfenblau")
@@ -6709,7 +6772,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("unikn::pal_karpfenblau")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-229.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-237.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("unikn::pal_pinky")
     paletteer::scale_color_paletteer_d("unikn::pal_pinky")
@@ -6717,7 +6780,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("unikn::pal_pinky")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-230.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-238.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("unikn::pal_bordeaux")
     paletteer::scale_color_paletteer_d("unikn::pal_bordeaux")
@@ -6725,7 +6788,55 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("unikn::pal_bordeaux")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-231.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-239.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::avanti")
+    paletteer::scale_color_paletteer_d("vapoRwave::avanti")
+    paletteer::scale_fill_paletteer_d("vapoRwave::avanti")
+    
+    paletteer::paletteer_d("vapoRwave::avanti")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-240.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::cool")
+    paletteer::scale_color_paletteer_d("vapoRwave::cool")
+    paletteer::scale_fill_paletteer_d("vapoRwave::cool")
+    
+    paletteer::paletteer_d("vapoRwave::cool")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-241.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::jazzCup")
+    paletteer::scale_color_paletteer_d("vapoRwave::jazzCup")
+    paletteer::scale_fill_paletteer_d("vapoRwave::jazzCup")
+    
+    paletteer::paletteer_d("vapoRwave::jazzCup")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-242.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::seaPunk")
+    paletteer::scale_color_paletteer_d("vapoRwave::seaPunk")
+    paletteer::scale_fill_paletteer_d("vapoRwave::seaPunk")
+    
+    paletteer::paletteer_d("vapoRwave::seaPunk")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-243.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::sunSet")
+    paletteer::scale_color_paletteer_d("vapoRwave::sunSet")
+    paletteer::scale_fill_paletteer_d("vapoRwave::sunSet")
+    
+    paletteer::paletteer_d("vapoRwave::sunSet")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-244.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("fishualize::Scarus_tricolor")
+    paletteer::scale_color_paletteer_d("fishualize::Scarus_tricolor")
+    paletteer::scale_fill_paletteer_d("fishualize::Scarus_tricolor")
+    
+    paletteer::paletteer_d("fishualize::Scarus_tricolor")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-245.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::signature_substitutions_cosmic")
     paletteer::scale_color_paletteer_d("ggsci::signature_substitutions_cosmic")
@@ -6733,7 +6844,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::signature_substitutions_cosmic")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-232.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-246.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic Purple-Gray 6")
     paletteer::scale_color_paletteer_d("ggthemes::Classic Purple-Gray 6")
@@ -6741,7 +6852,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Classic Purple-Gray 6")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-233.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-247.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic Green-Orange 6")
     paletteer::scale_color_paletteer_d("ggthemes::Classic Green-Orange 6")
@@ -6749,7 +6860,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Classic Green-Orange 6")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-234.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-248.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic Blue-Red 6")
     paletteer::scale_color_paletteer_d("ggthemes::Classic Blue-Red 6")
@@ -6757,7 +6868,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Classic Blue-Red 6")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-235.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-249.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Atlas")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Atlas")
@@ -6765,7 +6876,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Atlas")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-236.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-250.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Badge")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Badge")
@@ -6773,7 +6884,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Badge")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-237.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-251.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Berlin")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Berlin")
@@ -6781,7 +6892,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Berlin")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-238.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-252.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Celestial")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Celestial")
@@ -6789,7 +6900,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Celestial")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-239.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-253.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Crop")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Crop")
@@ -6797,7 +6908,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Crop")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-240.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-254.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Depth")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Depth")
@@ -6805,7 +6916,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Depth")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-241.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-255.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Droplet")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Droplet")
@@ -6813,7 +6924,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Droplet")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-242.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-256.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Facet")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Facet")
@@ -6821,7 +6932,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Facet")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-243.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-257.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Feathered")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Feathered")
@@ -6829,7 +6940,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Feathered")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-244.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-258.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Gallery")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Gallery")
@@ -6837,7 +6948,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Gallery")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-245.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-259.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Headlines")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Headlines")
@@ -6845,7 +6956,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Headlines")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-246.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-260.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Integral")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Integral")
@@ -6853,7 +6964,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Integral")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-247.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-261.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Ion_Boardroom")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Ion_Boardroom")
@@ -6861,7 +6972,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Ion_Boardroom")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-248.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-262.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Ion")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Ion")
@@ -6869,7 +6980,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Ion")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-249.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-263.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Madison")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Madison")
@@ -6877,7 +6988,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Madison")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-250.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-264.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Main_Event")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Main_Event")
@@ -6885,7 +6996,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Main_Event")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-251.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-265.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Mesh")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Mesh")
@@ -6893,7 +7004,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Mesh")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-252.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-266.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Office_Theme")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Office_Theme")
@@ -6901,7 +7012,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Office_Theme")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-253.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-267.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Organic")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Organic")
@@ -6909,7 +7020,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Organic")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-254.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-268.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Parallax")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Parallax")
@@ -6917,7 +7028,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Parallax")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-255.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-269.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Parcel")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Parcel")
@@ -6925,7 +7036,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Parcel")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-256.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-270.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Retrospect")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Retrospect")
@@ -6933,7 +7044,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Retrospect")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-257.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-271.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Savon")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Savon")
@@ -6941,7 +7052,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Savon")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-258.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-272.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Slice")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Slice")
@@ -6949,7 +7060,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Slice")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-259.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-273.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Vapor_Trail")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Vapor_Trail")
@@ -6957,7 +7068,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Vapor_Trail")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-260.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-274.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_View")
     paletteer::scale_color_paletteer_d("ggthemes::excel_View")
@@ -6965,7 +7076,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_View")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-261.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-275.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Wisp")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Wisp")
@@ -6973,7 +7084,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Wisp")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-262.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-276.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Wood_Type")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Wood_Type")
@@ -6981,7 +7092,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Wood_Type")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-263.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-277.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Aspect")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Aspect")
@@ -6989,7 +7100,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Aspect")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-264.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-278.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Blue_Green")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Blue_Green")
@@ -6997,7 +7108,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Blue_Green")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-265.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-279.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Blue_II")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Blue_II")
@@ -7005,7 +7116,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Blue_II")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-266.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-280.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Blue_Warm")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Blue_Warm")
@@ -7013,7 +7124,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Blue_Warm")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-267.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-281.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Blue")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Blue")
@@ -7021,7 +7132,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Blue")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-268.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-282.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Grayscale")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Grayscale")
@@ -7029,7 +7140,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Grayscale")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-269.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-283.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Green_Yellow")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Green_Yellow")
@@ -7037,7 +7148,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Green_Yellow")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-270.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-284.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Green")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Green")
@@ -7045,7 +7156,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Green")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-271.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-285.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Marquee")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Marquee")
@@ -7053,7 +7164,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Marquee")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-272.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-286.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Median")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Median")
@@ -7061,7 +7172,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Median")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-273.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-287.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Office_2007-2010")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Office_2007-2010")
@@ -7069,7 +7180,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Office_2007-2010")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-274.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-288.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Orange_Red")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Orange_Red")
@@ -7077,7 +7188,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Orange_Red")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-275.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-289.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Orange")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Orange")
@@ -7085,7 +7196,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Orange")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-276.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-290.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Paper")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Paper")
@@ -7093,7 +7204,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Paper")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-277.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-291.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Red_Orange")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Red_Orange")
@@ -7101,7 +7212,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Red_Orange")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-278.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-292.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Red_Violet")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Red_Violet")
@@ -7109,7 +7220,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Red_Violet")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-279.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-293.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Red")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Red")
@@ -7117,7 +7228,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Red")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-280.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-294.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Slipstream")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Slipstream")
@@ -7125,7 +7236,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Slipstream")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-281.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-295.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Violet_II")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Violet_II")
@@ -7133,7 +7244,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Violet_II")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-282.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-296.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Violet")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Violet")
@@ -7141,7 +7252,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Violet")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-283.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-297.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Yellow_Orange")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Yellow_Orange")
@@ -7149,7 +7260,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Yellow_Orange")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-284.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-298.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Yellow")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Yellow")
@@ -7157,7 +7268,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::excel_Yellow")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-285.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-299.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("nord::halifax_harbor")
     paletteer::scale_color_paletteer_d("nord::halifax_harbor")
@@ -7165,7 +7276,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("nord::halifax_harbor")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-286.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-300.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::bajoran")
     paletteer::scale_color_paletteer_d("trekcolors::bajoran")
@@ -7173,7 +7284,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::bajoran")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-287.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-301.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_nx01")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_nx01")
@@ -7181,7 +7292,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::lcars_nx01")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-288.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-302.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::starfleet2")
     paletteer::scale_color_paletteer_d("trekcolors::starfleet2")
@@ -7189,7 +7300,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::starfleet2")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-289.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-303.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::red_alert")
     paletteer::scale_color_paletteer_d("trekcolors::red_alert")
@@ -7197,7 +7308,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::red_alert")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-290.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-304.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::yellow_alert")
     paletteer::scale_color_paletteer_d("trekcolors::yellow_alert")
@@ -7205,7 +7316,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::yellow_alert")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-291.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-305.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::Lannister")
     paletteer::scale_color_paletteer_d("tvthemes::Lannister")
@@ -7213,7 +7324,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::Lannister")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-292.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-306.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::Tully")
     paletteer::scale_color_paletteer_d("tvthemes::Tully")
@@ -7221,7 +7332,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::Tully")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-293.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-307.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::Greyjoy")
     paletteer::scale_color_paletteer_d("tvthemes::Greyjoy")
@@ -7229,7 +7340,23 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::Greyjoy")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-294.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-308.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::macPlus")
+    paletteer::scale_color_paletteer_d("vapoRwave::macPlus")
+    paletteer::scale_fill_paletteer_d("vapoRwave::macPlus")
+    
+    paletteer::paletteer_d("vapoRwave::macPlus")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-309.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::mallSoft")
+    paletteer::scale_color_paletteer_d("vapoRwave::mallSoft")
+    paletteer::scale_fill_paletteer_d("vapoRwave::mallSoft")
+    
+    paletteer::paletteer_d("vapoRwave::mallSoft")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-310.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("basetheme::royal")
     paletteer::scale_color_paletteer_d("basetheme::royal")
@@ -7237,7 +7364,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("basetheme::royal")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-295.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-311.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("dichromat::LightBluetoDarkBlue.7")
     paletteer::scale_color_paletteer_d("dichromat::LightBluetoDarkBlue.7")
@@ -7245,7 +7372,15 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("dichromat::LightBluetoDarkBlue.7")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-296.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-312.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Warm")
+    paletteer::scale_color_paletteer_d("palettesForR::Warm")
+    paletteer::scale_fill_paletteer_d("palettesForR::Warm")
+    
+    paletteer::paletteer_d("palettesForR::Warm")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-313.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rcartocolor::ag_Sunset")
     paletteer::scale_color_paletteer_d("rcartocolor::ag_Sunset")
@@ -7253,7 +7388,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("rcartocolor::ag_Sunset")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-297.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-314.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rcartocolor::ag_GrnYl")
     paletteer::scale_color_paletteer_d("rcartocolor::ag_GrnYl")
@@ -7261,7 +7396,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("rcartocolor::ag_GrnYl")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-298.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-315.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rcartocolor::TealGrn")
     paletteer::scale_color_paletteer_d("rcartocolor::TealGrn")
@@ -7269,7 +7404,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("rcartocolor::TealGrn")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-299.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-316.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rcartocolor::Teal")
     paletteer::scale_color_paletteer_d("rcartocolor::Teal")
@@ -7277,7 +7412,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("rcartocolor::Teal")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-300.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-317.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rcartocolor::SunsetDark")
     paletteer::scale_color_paletteer_d("rcartocolor::SunsetDark")
@@ -7285,7 +7420,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("rcartocolor::SunsetDark")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-301.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-318.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rcartocolor::Sunset")
     paletteer::scale_color_paletteer_d("rcartocolor::Sunset")
@@ -7293,7 +7428,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("rcartocolor::Sunset")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-302.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-319.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rcartocolor::RedOr")
     paletteer::scale_color_paletteer_d("rcartocolor::RedOr")
@@ -7301,7 +7436,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("rcartocolor::RedOr")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-303.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-320.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rcartocolor::PurpOr")
     paletteer::scale_color_paletteer_d("rcartocolor::PurpOr")
@@ -7309,7 +7444,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("rcartocolor::PurpOr")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-304.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-321.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rcartocolor::Purp")
     paletteer::scale_color_paletteer_d("rcartocolor::Purp")
@@ -7317,7 +7452,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("rcartocolor::Purp")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-305.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-322.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rcartocolor::PinkYl")
     paletteer::scale_color_paletteer_d("rcartocolor::PinkYl")
@@ -7325,7 +7460,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("rcartocolor::PinkYl")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-306.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-323.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rcartocolor::Peach")
     paletteer::scale_color_paletteer_d("rcartocolor::Peach")
@@ -7333,7 +7468,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("rcartocolor::Peach")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-307.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-324.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rcartocolor::OrYel")
     paletteer::scale_color_paletteer_d("rcartocolor::OrYel")
@@ -7341,7 +7476,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("rcartocolor::OrYel")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-308.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-325.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rcartocolor::Mint")
     paletteer::scale_color_paletteer_d("rcartocolor::Mint")
@@ -7349,7 +7484,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("rcartocolor::Mint")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-309.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-326.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rcartocolor::Magenta")
     paletteer::scale_color_paletteer_d("rcartocolor::Magenta")
@@ -7357,7 +7492,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("rcartocolor::Magenta")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-310.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-327.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rcartocolor::Emrld")
     paletteer::scale_color_paletteer_d("rcartocolor::Emrld")
@@ -7365,7 +7500,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("rcartocolor::Emrld")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-311.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-328.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rcartocolor::DarkMint")
     paletteer::scale_color_paletteer_d("rcartocolor::DarkMint")
@@ -7373,7 +7508,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("rcartocolor::DarkMint")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-312.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-329.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rcartocolor::BurgYl")
     paletteer::scale_color_paletteer_d("rcartocolor::BurgYl")
@@ -7381,7 +7516,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("rcartocolor::BurgYl")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-313.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-330.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rcartocolor::Burg")
     paletteer::scale_color_paletteer_d("rcartocolor::Burg")
@@ -7389,7 +7524,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("rcartocolor::Burg")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-314.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-331.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rcartocolor::BrwnYl")
     paletteer::scale_color_paletteer_d("rcartocolor::BrwnYl")
@@ -7397,7 +7532,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("rcartocolor::BrwnYl")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-315.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-332.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rcartocolor::BluYl")
     paletteer::scale_color_paletteer_d("rcartocolor::BluYl")
@@ -7405,7 +7540,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("rcartocolor::BluYl")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-316.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-333.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rcartocolor::BluGrn")
     paletteer::scale_color_paletteer_d("rcartocolor::BluGrn")
@@ -7413,7 +7548,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("rcartocolor::BluGrn")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-317.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-334.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::dominion")
     paletteer::scale_color_paletteer_d("trekcolors::dominion")
@@ -7421,7 +7556,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::dominion")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-318.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-335.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_23c")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_23c")
@@ -7429,7 +7564,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::lcars_23c")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-319.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-336.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::AirNomads")
     paletteer::scale_color_paletteer_d("tvthemes::AirNomads")
@@ -7437,7 +7572,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::AirNomads")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-320.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-337.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::Stannis")
     paletteer::scale_color_paletteer_d("tvthemes::Stannis")
@@ -7445,7 +7580,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::Stannis")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-321.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-338.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::Manderly")
     paletteer::scale_color_paletteer_d("tvthemes::Manderly")
@@ -7453,7 +7588,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::Manderly")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-322.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-339.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::Arryn")
     paletteer::scale_color_paletteer_d("tvthemes::Arryn")
@@ -7461,7 +7596,15 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::Arryn")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-323.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-340.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::hyperBubble")
+    paletteer::scale_color_paletteer_d("vapoRwave::hyperBubble")
+    paletteer::scale_fill_paletteer_d("vapoRwave::hyperBubble")
+    
+    paletteer::paletteer_d("vapoRwave::hyperBubble")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-341.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Summer")
     paletteer::scale_color_paletteer_d("ggthemes::Summer")
@@ -7469,7 +7612,15 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Summer")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-324.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-342.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Cool")
+    paletteer::scale_color_paletteer_d("palettesForR::Cool")
+    paletteer::scale_fill_paletteer_d("palettesForR::Cool")
+    
+    paletteer::paletteer_d("palettesForR::Cool")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-343.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::breen")
     paletteer::scale_color_paletteer_d("trekcolors::breen")
@@ -7477,7 +7628,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::breen")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-325.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-344.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_2369")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_2369")
@@ -7485,7 +7636,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::lcars_2369")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-326.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-345.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_2375")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_2375")
@@ -7493,7 +7644,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::lcars_2375")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-327.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-346.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_2379")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_2379")
@@ -7501,7 +7652,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::lcars_2379")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-328.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-347.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_first_contact")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_first_contact")
@@ -7509,7 +7660,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::lcars_first_contact")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-329.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-348.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_29c")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_29c")
@@ -7517,7 +7668,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::lcars_29c")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-330.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-349.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_red_alert")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_red_alert")
@@ -7525,7 +7676,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::lcars_red_alert")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-331.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-350.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::attackOnTitan")
     paletteer::scale_color_paletteer_d("tvthemes::attackOnTitan")
@@ -7533,7 +7684,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::attackOnTitan")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-332.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-351.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::FireNation")
     paletteer::scale_color_paletteer_d("tvthemes::FireNation")
@@ -7541,7 +7692,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::FireNation")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-333.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-352.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::WaterTribe")
     paletteer::scale_color_paletteer_d("tvthemes::WaterTribe")
@@ -7549,7 +7700,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::WaterTribe")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-334.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-353.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::bigHero6")
     paletteer::scale_color_paletteer_d("tvthemes::bigHero6")
@@ -7557,7 +7708,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::bigHero6")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-335.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-354.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::Day")
     paletteer::scale_color_paletteer_d("tvthemes::Day")
@@ -7565,7 +7716,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::Day")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-336.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-355.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::Dusk")
     paletteer::scale_color_paletteer_d("tvthemes::Dusk")
@@ -7573,7 +7724,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::Dusk")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-337.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-356.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::Night")
     paletteer::scale_color_paletteer_d("tvthemes::Night")
@@ -7581,7 +7732,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::Night")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-338.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-357.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::Martell")
     paletteer::scale_color_paletteer_d("tvthemes::Martell")
@@ -7589,7 +7740,31 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::Martell")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-339.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-358.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::floralShoppe")
+    paletteer::scale_color_paletteer_d("vapoRwave::floralShoppe")
+    paletteer::scale_fill_paletteer_d("vapoRwave::floralShoppe")
+    
+    paletteer::paletteer_d("vapoRwave::floralShoppe")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-359.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::hotlineBling")
+    paletteer::scale_color_paletteer_d("vapoRwave::hotlineBling")
+    paletteer::scale_fill_paletteer_d("vapoRwave::hotlineBling")
+    
+    paletteer::paletteer_d("vapoRwave::hotlineBling")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-360.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::jwz")
+    paletteer::scale_color_paletteer_d("vapoRwave::jwz")
+    paletteer::scale_fill_paletteer_d("vapoRwave::jwz")
+    
+    paletteer::paletteer_d("vapoRwave::jwz")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-361.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Traffic")
     paletteer::scale_color_paletteer_d("ggthemes::Traffic")
@@ -7597,7 +7772,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Traffic")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-340.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-362.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Nuriel Stone")
     paletteer::scale_color_paletteer_d("ggthemes::Nuriel Stone")
@@ -7605,7 +7780,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Nuriel Stone")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-341.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-363.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Jewel Bright")
     paletteer::scale_color_paletteer_d("ggthemes::Jewel Bright")
@@ -7613,7 +7788,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Jewel Bright")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-342.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-364.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic Traffic Light")
     paletteer::scale_color_paletteer_d("ggthemes::Classic Traffic Light")
@@ -7621,7 +7796,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Classic Traffic Light")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-343.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-365.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::few_Light")
     paletteer::scale_color_paletteer_d("ggthemes::few_Light")
@@ -7629,7 +7804,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::few_Light")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-344.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-366.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::few_Medium")
     paletteer::scale_color_paletteer_d("ggthemes::few_Medium")
@@ -7637,7 +7812,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::few_Medium")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-345.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-367.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::few_Dark")
     paletteer::scale_color_paletteer_d("ggthemes::few_Dark")
@@ -7645,7 +7820,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::few_Dark")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-346.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-368.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("grDevices::blues9")
     paletteer::scale_color_paletteer_d("grDevices::blues9")
@@ -7653,7 +7828,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("grDevices::blues9")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-347.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-369.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::Blues")
     paletteer::scale_color_paletteer_d("RColorBrewer::Blues")
@@ -7661,7 +7836,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("RColorBrewer::Blues")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-348.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-370.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::BuGn")
     paletteer::scale_color_paletteer_d("RColorBrewer::BuGn")
@@ -7669,7 +7844,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("RColorBrewer::BuGn")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-349.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-371.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::BuPu")
     paletteer::scale_color_paletteer_d("RColorBrewer::BuPu")
@@ -7677,7 +7852,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("RColorBrewer::BuPu")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-350.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-372.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::GnBu")
     paletteer::scale_color_paletteer_d("RColorBrewer::GnBu")
@@ -7685,7 +7860,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("RColorBrewer::GnBu")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-351.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-373.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::Greens")
     paletteer::scale_color_paletteer_d("RColorBrewer::Greens")
@@ -7693,7 +7868,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("RColorBrewer::Greens")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-352.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-374.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::Greys")
     paletteer::scale_color_paletteer_d("RColorBrewer::Greys")
@@ -7701,7 +7876,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("RColorBrewer::Greys")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-353.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-375.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::Oranges")
     paletteer::scale_color_paletteer_d("RColorBrewer::Oranges")
@@ -7709,7 +7884,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("RColorBrewer::Oranges")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-354.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-376.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::OrRd")
     paletteer::scale_color_paletteer_d("RColorBrewer::OrRd")
@@ -7717,7 +7892,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("RColorBrewer::OrRd")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-355.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-377.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::PuBu")
     paletteer::scale_color_paletteer_d("RColorBrewer::PuBu")
@@ -7725,7 +7900,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("RColorBrewer::PuBu")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-356.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-378.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::PuBuGn")
     paletteer::scale_color_paletteer_d("RColorBrewer::PuBuGn")
@@ -7733,7 +7908,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("RColorBrewer::PuBuGn")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-357.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-379.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::PuRd")
     paletteer::scale_color_paletteer_d("RColorBrewer::PuRd")
@@ -7741,7 +7916,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("RColorBrewer::PuRd")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-358.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-380.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::Purples")
     paletteer::scale_color_paletteer_d("RColorBrewer::Purples")
@@ -7749,7 +7924,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("RColorBrewer::Purples")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-359.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-381.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::RdPu")
     paletteer::scale_color_paletteer_d("RColorBrewer::RdPu")
@@ -7757,7 +7932,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("RColorBrewer::RdPu")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-360.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-382.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::Reds")
     paletteer::scale_color_paletteer_d("RColorBrewer::Reds")
@@ -7765,7 +7940,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("RColorBrewer::Reds")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-361.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-383.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::YlGn")
     paletteer::scale_color_paletteer_d("RColorBrewer::YlGn")
@@ -7773,7 +7948,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("RColorBrewer::YlGn")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-362.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-384.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::YlGnBu")
     paletteer::scale_color_paletteer_d("RColorBrewer::YlGnBu")
@@ -7781,7 +7956,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("RColorBrewer::YlGnBu")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-363.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-385.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::YlOrBr")
     paletteer::scale_color_paletteer_d("RColorBrewer::YlOrBr")
@@ -7789,7 +7964,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("RColorBrewer::YlOrBr")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-364.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-386.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::YlOrRd")
     paletteer::scale_color_paletteer_d("RColorBrewer::YlOrRd")
@@ -7797,7 +7972,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("RColorBrewer::YlOrRd")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-365.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-387.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("Redmonder::sPBIGn")
     paletteer::scale_color_paletteer_d("Redmonder::sPBIGn")
@@ -7805,7 +7980,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("Redmonder::sPBIGn")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-366.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-388.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("Redmonder::sPBIGy1")
     paletteer::scale_color_paletteer_d("Redmonder::sPBIGy1")
@@ -7813,7 +7988,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("Redmonder::sPBIGy1")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-367.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-389.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("Redmonder::sPBIRd")
     paletteer::scale_color_paletteer_d("Redmonder::sPBIRd")
@@ -7821,7 +7996,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("Redmonder::sPBIRd")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-368.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-390.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("Redmonder::sPBIYl")
     paletteer::scale_color_paletteer_d("Redmonder::sPBIYl")
@@ -7829,7 +8004,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("Redmonder::sPBIYl")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-369.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-391.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("Redmonder::sPBIGy2")
     paletteer::scale_color_paletteer_d("Redmonder::sPBIGy2")
@@ -7837,7 +8012,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("Redmonder::sPBIGy2")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-370.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-392.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("Redmonder::sPBIBu")
     paletteer::scale_color_paletteer_d("Redmonder::sPBIBu")
@@ -7845,7 +8020,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("Redmonder::sPBIBu")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-371.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-393.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("Redmonder::sPBIOr")
     paletteer::scale_color_paletteer_d("Redmonder::sPBIOr")
@@ -7853,7 +8028,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("Redmonder::sPBIOr")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-372.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-394.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("Redmonder::sPBIPu")
     paletteer::scale_color_paletteer_d("Redmonder::sPBIPu")
@@ -7861,7 +8036,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("Redmonder::sPBIPu")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-373.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-395.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("Redmonder::sPBIYlGn")
     paletteer::scale_color_paletteer_d("Redmonder::sPBIYlGn")
@@ -7869,7 +8044,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("Redmonder::sPBIYlGn")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-374.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-396.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("Redmonder::sPBIRdPu")
     paletteer::scale_color_paletteer_d("Redmonder::sPBIRdPu")
@@ -7877,7 +8052,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("Redmonder::sPBIRdPu")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-375.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-397.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::andorian")
     paletteer::scale_color_paletteer_d("trekcolors::andorian")
@@ -7885,7 +8060,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::andorian")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-376.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-398.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::borg")
     paletteer::scale_color_paletteer_d("trekcolors::borg")
@@ -7893,7 +8068,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::borg")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-377.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-399.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::breen2")
     paletteer::scale_color_paletteer_d("trekcolors::breen2")
@@ -7901,7 +8076,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::breen2")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-378.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-400.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::enara")
     paletteer::scale_color_paletteer_d("trekcolors::enara")
@@ -7909,7 +8084,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::enara")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-379.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-401.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::ferengi")
     paletteer::scale_color_paletteer_d("trekcolors::ferengi")
@@ -7917,7 +8092,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::ferengi")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-380.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-402.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::gorn")
     paletteer::scale_color_paletteer_d("trekcolors::gorn")
@@ -7925,7 +8100,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::gorn")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-381.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-403.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::iconian")
     paletteer::scale_color_paletteer_d("trekcolors::iconian")
@@ -7933,7 +8108,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::iconian")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-382.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-404.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::klingon")
     paletteer::scale_color_paletteer_d("trekcolors::klingon")
@@ -7941,7 +8116,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::klingon")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-383.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-405.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_2357")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_2357")
@@ -7949,7 +8124,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::lcars_2357")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-384.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-406.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::romulan")
     paletteer::scale_color_paletteer_d("trekcolors::romulan")
@@ -7957,7 +8132,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::romulan")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-385.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-407.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::romulan2")
     paletteer::scale_color_paletteer_d("trekcolors::romulan2")
@@ -7965,7 +8140,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::romulan2")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-386.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-408.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::tholian")
     paletteer::scale_color_paletteer_d("trekcolors::tholian")
@@ -7973,7 +8148,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::tholian")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-387.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-409.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::terran")
     paletteer::scale_color_paletteer_d("trekcolors::terran")
@@ -7981,7 +8156,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::terran")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-388.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-410.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::ufp")
     paletteer::scale_color_paletteer_d("trekcolors::ufp")
@@ -7989,7 +8164,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::ufp")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-389.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-411.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::EarthKingdom")
     paletteer::scale_color_paletteer_d("tvthemes::EarthKingdom")
@@ -7997,7 +8172,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::EarthKingdom")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-390.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-412.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::Dark")
     paletteer::scale_color_paletteer_d("tvthemes::Dark")
@@ -8005,7 +8180,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::Dark")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-391.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-413.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::rickAndMorty")
     paletteer::scale_color_paletteer_d("tvthemes::rickAndMorty")
@@ -8013,7 +8188,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::rickAndMorty")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-392.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-414.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::spongeBob")
     paletteer::scale_color_paletteer_d("tvthemes::spongeBob")
@@ -8021,7 +8196,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::spongeBob")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-393.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-415.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::Stark")
     paletteer::scale_color_paletteer_d("tvthemes::Stark")
@@ -8029,7 +8204,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::Stark")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-394.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-416.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::Tyrell")
     paletteer::scale_color_paletteer_d("tvthemes::Tyrell")
@@ -8037,7 +8212,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::Tyrell")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-395.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-417.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("unikn::pal_unikn_pref")
     paletteer::scale_color_paletteer_d("unikn::pal_unikn_pref")
@@ -8045,7 +8220,15 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("unikn::pal_unikn_pref")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-396.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-418.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::newRetro")
+    paletteer::scale_color_paletteer_d("vapoRwave::newRetro")
+    paletteer::scale_fill_paletteer_d("vapoRwave::newRetro")
+    
+    paletteer::paletteer_d("vapoRwave::newRetro")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-419.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("basetheme::brutal")
     paletteer::scale_color_paletteer_d("basetheme::brutal")
@@ -8053,7 +8236,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("basetheme::brutal")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-397.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-420.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("basetheme::clean")
     paletteer::scale_color_paletteer_d("basetheme::clean")
@@ -8061,7 +8244,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("basetheme::clean")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-398.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-421.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("basetheme::dark")
     paletteer::scale_color_paletteer_d("basetheme::dark")
@@ -8069,7 +8252,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("basetheme::dark")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-399.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-422.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("basetheme::deepblue")
     paletteer::scale_color_paletteer_d("basetheme::deepblue")
@@ -8077,7 +8260,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("basetheme::deepblue")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-400.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-423.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("basetheme::ink")
     paletteer::scale_color_paletteer_d("basetheme::ink")
@@ -8085,7 +8268,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("basetheme::ink")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-401.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-424.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("basetheme::minimal")
     paletteer::scale_color_paletteer_d("basetheme::minimal")
@@ -8093,7 +8276,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("basetheme::minimal")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-402.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-425.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("basetheme::void")
     paletteer::scale_color_paletteer_d("basetheme::void")
@@ -8101,7 +8284,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("basetheme::void")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-403.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-426.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("dichromat::LightBluetoDarkBlue.10")
     paletteer::scale_color_paletteer_d("dichromat::LightBluetoDarkBlue.10")
@@ -8109,7 +8292,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("dichromat::LightBluetoDarkBlue.10")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-404.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-427.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::hallmarks_dark_cosmic")
     paletteer::scale_color_paletteer_d("ggsci::hallmarks_dark_cosmic")
@@ -8117,7 +8300,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::hallmarks_dark_cosmic")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-405.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-428.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::hallmarks_light_cosmic")
     paletteer::scale_color_paletteer_d("ggsci::hallmarks_light_cosmic")
@@ -8125,7 +8308,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::hallmarks_light_cosmic")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-406.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-429.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::red_material")
     paletteer::scale_color_paletteer_d("ggsci::red_material")
@@ -8133,7 +8316,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::red_material")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-407.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-430.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::pink_material")
     paletteer::scale_color_paletteer_d("ggsci::pink_material")
@@ -8141,7 +8324,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::pink_material")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-408.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-431.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::purple_material")
     paletteer::scale_color_paletteer_d("ggsci::purple_material")
@@ -8149,7 +8332,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::purple_material")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-409.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-432.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::deep-purple_material")
     paletteer::scale_color_paletteer_d("ggsci::deep-purple_material")
@@ -8157,7 +8340,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::deep-purple_material")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-410.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-433.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::indigo_material")
     paletteer::scale_color_paletteer_d("ggsci::indigo_material")
@@ -8165,7 +8348,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::indigo_material")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-411.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-434.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::blue_material")
     paletteer::scale_color_paletteer_d("ggsci::blue_material")
@@ -8173,7 +8356,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::blue_material")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-412.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-435.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::light-blue_material")
     paletteer::scale_color_paletteer_d("ggsci::light-blue_material")
@@ -8181,7 +8364,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::light-blue_material")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-413.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-436.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::cyan_material")
     paletteer::scale_color_paletteer_d("ggsci::cyan_material")
@@ -8189,7 +8372,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::cyan_material")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-414.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-437.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::teal_material")
     paletteer::scale_color_paletteer_d("ggsci::teal_material")
@@ -8197,7 +8380,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::teal_material")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-415.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-438.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::green_material")
     paletteer::scale_color_paletteer_d("ggsci::green_material")
@@ -8205,7 +8388,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::green_material")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-416.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-439.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::light-green_material")
     paletteer::scale_color_paletteer_d("ggsci::light-green_material")
@@ -8213,7 +8396,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::light-green_material")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-417.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-440.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::lime_material")
     paletteer::scale_color_paletteer_d("ggsci::lime_material")
@@ -8221,7 +8404,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::lime_material")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-418.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-441.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::yellow_material")
     paletteer::scale_color_paletteer_d("ggsci::yellow_material")
@@ -8229,7 +8412,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::yellow_material")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-419.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-442.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::amber_material")
     paletteer::scale_color_paletteer_d("ggsci::amber_material")
@@ -8237,7 +8420,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::amber_material")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-420.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-443.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::orange_material")
     paletteer::scale_color_paletteer_d("ggsci::orange_material")
@@ -8245,7 +8428,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::orange_material")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-421.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-444.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::deep-orange_material")
     paletteer::scale_color_paletteer_d("ggsci::deep-orange_material")
@@ -8253,7 +8436,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::deep-orange_material")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-422.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-445.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::brown_material")
     paletteer::scale_color_paletteer_d("ggsci::brown_material")
@@ -8261,7 +8444,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::brown_material")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-423.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-446.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::grey_material")
     paletteer::scale_color_paletteer_d("ggsci::grey_material")
@@ -8269,7 +8452,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::grey_material")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-424.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-447.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggsci::blue-grey_material")
     paletteer::scale_color_paletteer_d("ggsci::blue-grey_material")
@@ -8277,7 +8460,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggsci::blue-grey_material")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-425.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-448.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::gdoc")
     paletteer::scale_color_paletteer_d("ggthemes::gdoc")
@@ -8285,7 +8468,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::gdoc")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-426.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-449.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Tableau 10")
     paletteer::scale_color_paletteer_d("ggthemes::Tableau 10")
@@ -8293,7 +8476,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Tableau 10")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-427.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-450.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Color Blind")
     paletteer::scale_color_paletteer_d("ggthemes::Color Blind")
@@ -8301,7 +8484,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Color Blind")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-428.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-451.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Superfishel Stone")
     paletteer::scale_color_paletteer_d("ggthemes::Superfishel Stone")
@@ -8309,7 +8492,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Superfishel Stone")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-429.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-452.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Winter")
     paletteer::scale_color_paletteer_d("ggthemes::Winter")
@@ -8317,7 +8500,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Winter")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-430.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-453.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic 10")
     paletteer::scale_color_paletteer_d("ggthemes::Classic 10")
@@ -8325,7 +8508,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Classic 10")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-431.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-454.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic 10 Medium")
     paletteer::scale_color_paletteer_d("ggthemes::Classic 10 Medium")
@@ -8333,7 +8516,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Classic 10 Medium")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-432.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-455.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic 10 Light")
     paletteer::scale_color_paletteer_d("ggthemes::Classic 10 Light")
@@ -8341,7 +8524,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Classic 10 Light")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-433.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-456.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic Color Blind")
     paletteer::scale_color_paletteer_d("ggthemes::Classic Color Blind")
@@ -8349,7 +8532,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Classic Color Blind")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-434.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-457.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("jcolors::pal10")
     paletteer::scale_color_paletteer_d("jcolors::pal10")
@@ -8357,7 +8540,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("jcolors::pal10")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-435.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-458.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_nemesis")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_nemesis")
@@ -8365,7 +8548,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::lcars_nemesis")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-436.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-459.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::Regular")
     paletteer::scale_color_paletteer_d("tvthemes::Regular")
@@ -8373,7 +8556,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::Regular")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-437.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-460.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::parksAndRec")
     paletteer::scale_color_paletteer_d("tvthemes::parksAndRec")
@@ -8381,7 +8564,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::parksAndRec")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-438.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-461.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::simpsons")
     paletteer::scale_color_paletteer_d("tvthemes::simpsons")
@@ -8389,7 +8572,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::simpsons")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-439.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-462.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("unikn::pal_unikn_web")
     paletteer::scale_color_paletteer_d("unikn::pal_unikn_web")
@@ -8397,7 +8580,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("unikn::pal_unikn_web")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-440.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-463.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("unikn::pal_unikn_ppt")
     paletteer::scale_color_paletteer_d("unikn::pal_unikn_ppt")
@@ -8405,7 +8588,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("unikn::pal_unikn_ppt")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-441.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-464.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("unikn::pal_unikn_light")
     paletteer::scale_color_paletteer_d("unikn::pal_unikn_light")
@@ -8413,7 +8596,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("unikn::pal_unikn_light")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-442.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-465.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("unikn::pal_unikn_dark")
     paletteer::scale_color_paletteer_d("unikn::pal_unikn_dark")
@@ -8421,7 +8604,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("unikn::pal_unikn_dark")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-443.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-466.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Miller Stone")
     paletteer::scale_color_paletteer_d("ggthemes::Miller Stone")
@@ -8429,7 +8612,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Miller Stone")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-444.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-467.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("unikn::pal_unikn")
     paletteer::scale_color_paletteer_d("unikn::pal_unikn")
@@ -8437,7 +8620,15 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("unikn::pal_unikn")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-445.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-468.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::vapoRwave")
+    paletteer::scale_color_paletteer_d("vapoRwave::vapoRwave")
+    paletteer::scale_fill_paletteer_d("vapoRwave::vapoRwave")
+    
+    paletteer::paletteer_d("vapoRwave::vapoRwave")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-469.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Green-Orange-Teal")
     paletteer::scale_color_paletteer_d("ggthemes::Green-Orange-Teal")
@@ -8445,7 +8636,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Green-Orange-Teal")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-446.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-470.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Red-Blue-Brown")
     paletteer::scale_color_paletteer_d("ggthemes::Red-Blue-Brown")
@@ -8453,7 +8644,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Red-Blue-Brown")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-447.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-471.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Purple-Pink-Gray")
     paletteer::scale_color_paletteer_d("ggthemes::Purple-Pink-Gray")
@@ -8461,7 +8652,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Purple-Pink-Gray")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-448.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-472.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic Purple-Gray 12")
     paletteer::scale_color_paletteer_d("ggthemes::Classic Purple-Gray 12")
@@ -8469,7 +8660,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Classic Purple-Gray 12")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-449.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-473.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic Green-Orange 12")
     paletteer::scale_color_paletteer_d("ggthemes::Classic Green-Orange 12")
@@ -8477,7 +8668,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Classic Green-Orange 12")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-450.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-474.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic Blue-Red 12")
     paletteer::scale_color_paletteer_d("ggthemes::Classic Blue-Red 12")
@@ -8485,7 +8676,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Classic Blue-Red 12")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-451.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-475.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::hc_fg")
     paletteer::scale_color_paletteer_d("ggthemes::hc_fg")
@@ -8493,7 +8684,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::hc_fg")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-452.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-476.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("jcolors::pal11")
     paletteer::scale_color_paletteer_d("jcolors::pal11")
@@ -8501,7 +8692,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("jcolors::pal11")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-453.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-477.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::kimPossible")
     paletteer::scale_color_paletteer_d("tvthemes::kimPossible")
@@ -8509,7 +8700,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::kimPossible")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-454.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-478.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic Cyclic")
     paletteer::scale_color_paletteer_d("ggthemes::Classic Cyclic")
@@ -8517,7 +8708,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Classic Cyclic")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-455.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-479.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("jcolors::pal12")
     paletteer::scale_color_paletteer_d("jcolors::pal12")
@@ -8525,7 +8716,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("jcolors::pal12")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-456.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-480.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("tvthemes::gravityFalls")
     paletteer::scale_color_paletteer_d("tvthemes::gravityFalls")
@@ -8533,7 +8724,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("tvthemes::gravityFalls")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-457.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-481.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::stata_s2color")
     paletteer::scale_color_paletteer_d("ggthemes::stata_s2color")
@@ -8541,7 +8732,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::stata_s2color")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-458.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-482.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::stata_s1rcolor")
     paletteer::scale_color_paletteer_d("ggthemes::stata_s1rcolor")
@@ -8549,7 +8740,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::stata_s1rcolor")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-459.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-483.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::stata_s1color")
     paletteer::scale_color_paletteer_d("ggthemes::stata_s1color")
@@ -8557,7 +8748,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::stata_s1color")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-460.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-484.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::stata_mono")
     paletteer::scale_color_paletteer_d("ggthemes::stata_mono")
@@ -8565,7 +8756,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::stata_mono")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-461.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-485.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::stata_economist")
     paletteer::scale_color_paletteer_d("ggthemes::stata_economist")
@@ -8573,7 +8764,23 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::stata_economist")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-462.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-486.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Android")
+    paletteer::scale_color_paletteer_d("palettesForR::Android")
+    paletteer::scale_fill_paletteer_d("palettesForR::Android")
+    
+    paletteer::paletteer_d("palettesForR::Android")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-487.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Paintjet")
+    paletteer::scale_color_paletteer_d("palettesForR::Paintjet")
+    paletteer::scale_fill_paletteer_d("palettesForR::Paintjet")
+    
+    paletteer::paletteer_d("palettesForR::Paintjet")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-488.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("unikn::pal_unikn_pair")
     paletteer::scale_color_paletteer_d("unikn::pal_unikn_pair")
@@ -8581,7 +8788,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("unikn::pal_unikn_pair")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-463.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-489.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_alt")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_alt")
@@ -8589,7 +8796,15 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::lcars_alt")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-464.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-490.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Pastels")
+    paletteer::scale_color_paletteer_d("palettesForR::Pastels")
+    paletteer::scale_fill_paletteer_d("palettesForR::Pastels")
+    
+    paletteer::paletteer_d("palettesForR::Pastels")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-491.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::manyeys")
     paletteer::scale_color_paletteer_d("ggthemes::manyeys")
@@ -8597,7 +8812,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::manyeys")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-465.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-492.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Hue Circle")
     paletteer::scale_color_paletteer_d("ggthemes::Hue Circle")
@@ -8605,7 +8820,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Hue Circle")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-466.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-493.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Tableau 20")
     paletteer::scale_color_paletteer_d("ggthemes::Tableau 20")
@@ -8613,7 +8828,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Tableau 20")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-467.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-494.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic 20")
     paletteer::scale_color_paletteer_d("ggthemes::Classic 20")
@@ -8621,7 +8836,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("ggthemes::Classic 20")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-468.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-495.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_cardassian")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_cardassian")
@@ -8629,7 +8844,31 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("trekcolors::lcars_cardassian")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-469.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-496.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Browns")
+    paletteer::scale_color_paletteer_d("palettesForR::Browns")
+    paletteer::scale_fill_paletteer_d("palettesForR::Browns")
+    
+    paletteer::paletteer_d("palettesForR::Browns")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-497.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::WebSafe22")
+    paletteer::scale_color_paletteer_d("palettesForR::WebSafe22")
+    paletteer::scale_fill_paletteer_d("palettesForR::WebSafe22")
+    
+    paletteer::paletteer_d("palettesForR::WebSafe22")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-498.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Default")
+    paletteer::scale_color_paletteer_d("palettesForR::Default")
+    paletteer::scale_fill_paletteer_d("palettesForR::Default")
+    
+    paletteer::paletteer_d("palettesForR::Default")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-499.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("dichromat::SteppedSequential.5")
     paletteer::scale_color_paletteer_d("dichromat::SteppedSequential.5")
@@ -8637,13 +8876,333 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_d("dichromat::SteppedSequential.5")
 
-<img src="README_files/figure-gfm/unnamed-chunk-8-470.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-8-500.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Lights")
+    paletteer::scale_color_paletteer_d("palettesForR::Lights")
+    paletteer::scale_fill_paletteer_d("palettesForR::Lights")
+    
+    paletteer::paletteer_d("palettesForR::Lights")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-501.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Echo")
+    paletteer::scale_color_paletteer_d("palettesForR::Echo")
+    paletteer::scale_fill_paletteer_d("palettesForR::Echo")
+    
+    paletteer::paletteer_d("palettesForR::Echo")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-502.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Tango")
+    paletteer::scale_color_paletteer_d("palettesForR::Tango")
+    paletteer::scale_fill_paletteer_d("palettesForR::Tango")
+    
+    paletteer::paletteer_d("palettesForR::Tango")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-503.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Grays")
+    paletteer::scale_color_paletteer_d("palettesForR::Grays")
+    paletteer::scale_fill_paletteer_d("palettesForR::Grays")
+    
+    paletteer::paletteer_d("palettesForR::Grays")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-504.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Windows")
+    paletteer::scale_color_paletteer_d("palettesForR::Windows")
+    paletteer::scale_fill_paletteer_d("palettesForR::Windows")
+    
+    paletteer::paletteer_d("palettesForR::Windows")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-505.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_series")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_series")
     paletteer::scale_fill_paletteer_d("trekcolors::lcars_series")
     
     paletteer::paletteer_d("trekcolors::lcars_series")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-506.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::MATLAB")
+    paletteer::scale_color_paletteer_d("palettesForR::MATLAB")
+    paletteer::scale_fill_paletteer_d("palettesForR::MATLAB")
+    
+    paletteer::paletteer_d("palettesForR::MATLAB")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-507.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Muted")
+    paletteer::scale_color_paletteer_d("palettesForR::Muted")
+    paletteer::scale_fill_paletteer_d("palettesForR::Muted")
+    
+    paletteer::paletteer_d("palettesForR::Muted")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-508.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Gold")
+    paletteer::scale_color_paletteer_d("palettesForR::Gold")
+    paletteer::scale_fill_paletteer_d("palettesForR::Gold")
+    
+    paletteer::paletteer_d("palettesForR::Gold")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-509.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::LaTeX")
+    paletteer::scale_color_paletteer_d("palettesForR::LaTeX")
+    paletteer::scale_fill_paletteer_d("palettesForR::LaTeX")
+    
+    paletteer::paletteer_d("palettesForR::LaTeX")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-510.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::SVG")
+    paletteer::scale_color_paletteer_d("palettesForR::SVG")
+    paletteer::scale_fill_paletteer_d("palettesForR::SVG")
+    
+    paletteer::paletteer_d("palettesForR::SVG")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-511.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Khaki")
+    paletteer::scale_color_paletteer_d("palettesForR::Khaki")
+    paletteer::scale_fill_paletteer_d("palettesForR::Khaki")
+    
+    paletteer::paletteer_d("palettesForR::Khaki")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-512.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Hilite")
+    paletteer::scale_color_paletteer_d("palettesForR::Hilite")
+    paletteer::scale_fill_paletteer_d("palettesForR::Hilite")
+    
+    paletteer::paletteer_d("palettesForR::Hilite")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-513.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Reds")
+    paletteer::scale_color_paletteer_d("palettesForR::Reds")
+    paletteer::scale_fill_paletteer_d("palettesForR::Reds")
+    
+    paletteer::paletteer_d("palettesForR::Reds")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-514.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Topographic")
+    paletteer::scale_color_paletteer_d("palettesForR::Topographic")
+    paletteer::scale_fill_paletteer_d("palettesForR::Topographic")
+    
+    paletteer::paletteer_d("palettesForR::Topographic")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-515.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Web")
+    paletteer::scale_color_paletteer_d("palettesForR::Web")
+    paletteer::scale_fill_paletteer_d("palettesForR::Web")
+    
+    paletteer::paletteer_d("palettesForR::Web")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-516.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::WebHex")
+    paletteer::scale_color_paletteer_d("palettesForR::WebHex")
+    paletteer::scale_fill_paletteer_d("palettesForR::WebHex")
+    
+    paletteer::paletteer_d("palettesForR::WebHex")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-517.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Royal")
+    paletteer::scale_color_paletteer_d("palettesForR::Royal")
+    paletteer::scale_fill_paletteer_d("palettesForR::Royal")
+    
+    paletteer::paletteer_d("palettesForR::Royal")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-518.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Ega")
+    paletteer::scale_color_paletteer_d("palettesForR::Ega")
+    paletteer::scale_fill_paletteer_d("palettesForR::Ega")
+    
+    paletteer::paletteer_d("palettesForR::Ega")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-519.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Bears")
+    paletteer::scale_color_paletteer_d("palettesForR::Bears")
+    paletteer::scale_fill_paletteer_d("palettesForR::Bears")
+    
+    paletteer::paletteer_d("palettesForR::Bears")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-520.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Bgold")
+    paletteer::scale_color_paletteer_d("palettesForR::Bgold")
+    paletteer::scale_fill_paletteer_d("palettesForR::Bgold")
+    
+    paletteer::paletteer_d("palettesForR::Bgold")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-521.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Blues")
+    paletteer::scale_color_paletteer_d("palettesForR::Blues")
+    paletteer::scale_fill_paletteer_d("palettesForR::Blues")
+    
+    paletteer::paletteer_d("palettesForR::Blues")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-522.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Borders")
+    paletteer::scale_color_paletteer_d("palettesForR::Borders")
+    paletteer::scale_fill_paletteer_d("palettesForR::Borders")
+    
+    paletteer::paletteer_d("palettesForR::Borders")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-523.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Caramel")
+    paletteer::scale_color_paletteer_d("palettesForR::Caramel")
+    paletteer::scale_fill_paletteer_d("palettesForR::Caramel")
+    
+    paletteer::paletteer_d("palettesForR::Caramel")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-524.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Cascade")
+    paletteer::scale_color_paletteer_d("palettesForR::Cascade")
+    paletteer::scale_fill_paletteer_d("palettesForR::Cascade")
+    
+    paletteer::paletteer_d("palettesForR::Cascade")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-525.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::China")
+    paletteer::scale_color_paletteer_d("palettesForR::China")
+    paletteer::scale_fill_paletteer_d("palettesForR::China")
+    
+    paletteer::paletteer_d("palettesForR::China")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-526.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Coldfire")
+    paletteer::scale_color_paletteer_d("palettesForR::Coldfire")
+    paletteer::scale_fill_paletteer_d("palettesForR::Coldfire")
+    
+    paletteer::paletteer_d("palettesForR::Coldfire")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-527.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Cranes")
+    paletteer::scale_color_paletteer_d("palettesForR::Cranes")
+    paletteer::scale_fill_paletteer_d("palettesForR::Cranes")
+    
+    paletteer::paletteer_d("palettesForR::Cranes")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-528.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Dark")
+    paletteer::scale_color_paletteer_d("palettesForR::Dark")
+    paletteer::scale_fill_paletteer_d("palettesForR::Dark")
+    
+    paletteer::paletteer_d("palettesForR::Dark")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-529.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Firecode")
+    paletteer::scale_color_paletteer_d("palettesForR::Firecode")
+    paletteer::scale_fill_paletteer_d("palettesForR::Firecode")
+    
+    paletteer::paletteer_d("palettesForR::Firecode")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-530.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Gray")
+    paletteer::scale_color_paletteer_d("palettesForR::Gray")
+    paletteer::scale_fill_paletteer_d("palettesForR::Gray")
+    
+    paletteer::paletteer_d("palettesForR::Gray")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-531.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Grayblue")
+    paletteer::scale_color_paletteer_d("palettesForR::Grayblue")
+    paletteer::scale_fill_paletteer_d("palettesForR::Grayblue")
+    
+    paletteer::paletteer_d("palettesForR::Grayblue")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-532.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::GrayViolet")
+    paletteer::scale_color_paletteer_d("palettesForR::GrayViolet")
+    paletteer::scale_fill_paletteer_d("palettesForR::GrayViolet")
+    
+    paletteer::paletteer_d("palettesForR::GrayViolet")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-533.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Greens")
+    paletteer::scale_color_paletteer_d("palettesForR::Greens")
+    paletteer::scale_fill_paletteer_d("palettesForR::Greens")
+    
+    paletteer::paletteer_d("palettesForR::Greens")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-534.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::News3")
+    paletteer::scale_color_paletteer_d("palettesForR::News3")
+    paletteer::scale_fill_paletteer_d("palettesForR::News3")
+    
+    paletteer::paletteer_d("palettesForR::News3")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-535.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Op2")
+    paletteer::scale_color_paletteer_d("palettesForR::Op2")
+    paletteer::scale_fill_paletteer_d("palettesForR::Op2")
+    
+    paletteer::paletteer_d("palettesForR::Op2")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-536.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Plasma")
+    paletteer::scale_color_paletteer_d("palettesForR::Plasma")
+    paletteer::scale_fill_paletteer_d("palettesForR::Plasma")
+    
+    paletteer::paletteer_d("palettesForR::Plasma")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-537.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Volcano")
+    paletteer::scale_color_paletteer_d("palettesForR::Volcano")
+    paletteer::scale_fill_paletteer_d("palettesForR::Volcano")
+    
+    paletteer::paletteer_d("palettesForR::Volcano")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-538.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Visibone")
+    paletteer::scale_color_paletteer_d("palettesForR::Visibone")
+    paletteer::scale_fill_paletteer_d("palettesForR::Visibone")
+    
+    paletteer::paletteer_d("palettesForR::Visibone")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-539.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Inkscape")
+    paletteer::scale_color_paletteer_d("palettesForR::Inkscape")
+    paletteer::scale_fill_paletteer_d("palettesForR::Inkscape")
+    
+    paletteer::paletteer_d("palettesForR::Inkscape")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-540.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Named")
+    paletteer::scale_color_paletteer_d("palettesForR::Named")
+    paletteer::scale_fill_paletteer_d("palettesForR::Named")
+    
+    paletteer::paletteer_d("palettesForR::Named")
 
 ## Continuous palettes
 
@@ -8883,13 +9442,293 @@ palettes](#continuous-palettes)
 
 <img src="README_files/figure-gfm/unnamed-chunk-9-30.png" style="display: block; margin: auto;" />
 
+    paletteer::scale_colour_paletteer_c("grDevices::Blue-Red")
+    paletteer::scale_color_paletteer_c("grDevices::Blue-Red")
+    paletteer::scale_fill_paletteer_c("grDevices::Blue-Red")
+    
+    paletteer::paletteer_c("grDevices::Blue-Red")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-31.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Blue-Red 2")
+    paletteer::scale_color_paletteer_c("grDevices::Blue-Red 2")
+    paletteer::scale_fill_paletteer_c("grDevices::Blue-Red 2")
+    
+    paletteer::paletteer_c("grDevices::Blue-Red 2")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-32.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Blue-Red 3")
+    paletteer::scale_color_paletteer_c("grDevices::Blue-Red 3")
+    paletteer::scale_fill_paletteer_c("grDevices::Blue-Red 3")
+    
+    paletteer::paletteer_c("grDevices::Blue-Red 3")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-33.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Red-Green")
+    paletteer::scale_color_paletteer_c("grDevices::Red-Green")
+    paletteer::scale_fill_paletteer_c("grDevices::Red-Green")
+    
+    paletteer::paletteer_c("grDevices::Red-Green")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-34.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Purple-Green")
+    paletteer::scale_color_paletteer_c("grDevices::Purple-Green")
+    paletteer::scale_fill_paletteer_c("grDevices::Purple-Green")
+    
+    paletteer::paletteer_c("grDevices::Purple-Green")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-35.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Purple-Brown")
+    paletteer::scale_color_paletteer_c("grDevices::Purple-Brown")
+    paletteer::scale_fill_paletteer_c("grDevices::Purple-Brown")
+    
+    paletteer::paletteer_c("grDevices::Purple-Brown")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-36.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Green-Brown")
+    paletteer::scale_color_paletteer_c("grDevices::Green-Brown")
+    paletteer::scale_fill_paletteer_c("grDevices::Green-Brown")
+    
+    paletteer::paletteer_c("grDevices::Green-Brown")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-37.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Blue-Yellow 2")
+    paletteer::scale_color_paletteer_c("grDevices::Blue-Yellow 2")
+    paletteer::scale_fill_paletteer_c("grDevices::Blue-Yellow 2")
+    
+    paletteer::paletteer_c("grDevices::Blue-Yellow 2")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-38.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Blue-Yellow 3")
+    paletteer::scale_color_paletteer_c("grDevices::Blue-Yellow 3")
+    paletteer::scale_fill_paletteer_c("grDevices::Blue-Yellow 3")
+    
+    paletteer::paletteer_c("grDevices::Blue-Yellow 3")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-39.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Green-Orange")
+    paletteer::scale_color_paletteer_c("grDevices::Green-Orange")
+    paletteer::scale_fill_paletteer_c("grDevices::Green-Orange")
+    
+    paletteer::paletteer_c("grDevices::Green-Orange")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-40.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Cyan-Magenta")
+    paletteer::scale_color_paletteer_c("grDevices::Cyan-Magenta")
+    paletteer::scale_fill_paletteer_c("grDevices::Cyan-Magenta")
+    
+    paletteer::paletteer_c("grDevices::Cyan-Magenta")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-41.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Tropic")
+    paletteer::scale_color_paletteer_c("grDevices::Tropic")
+    paletteer::scale_fill_paletteer_c("grDevices::Tropic")
+    
+    paletteer::paletteer_c("grDevices::Tropic")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-42.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Broc")
+    paletteer::scale_color_paletteer_c("grDevices::Broc")
+    paletteer::scale_fill_paletteer_c("grDevices::Broc")
+    
+    paletteer::paletteer_c("grDevices::Broc")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-43.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Cork")
+    paletteer::scale_color_paletteer_c("grDevices::Cork")
+    paletteer::scale_fill_paletteer_c("grDevices::Cork")
+    
+    paletteer::paletteer_c("grDevices::Cork")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-44.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Vik")
+    paletteer::scale_color_paletteer_c("grDevices::Vik")
+    paletteer::scale_fill_paletteer_c("grDevices::Vik")
+    
+    paletteer::paletteer_c("grDevices::Vik")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-45.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Berlin")
+    paletteer::scale_color_paletteer_c("grDevices::Berlin")
+    paletteer::scale_fill_paletteer_c("grDevices::Berlin")
+    
+    paletteer::paletteer_c("grDevices::Berlin")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-46.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Lisbon")
+    paletteer::scale_color_paletteer_c("grDevices::Lisbon")
+    paletteer::scale_fill_paletteer_c("grDevices::Lisbon")
+    
+    paletteer::paletteer_c("grDevices::Lisbon")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-47.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Tofino")
+    paletteer::scale_color_paletteer_c("grDevices::Tofino")
+    paletteer::scale_fill_paletteer_c("grDevices::Tofino")
+    
+    paletteer::paletteer_c("grDevices::Tofino")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-48.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::ArmyRose")
+    paletteer::scale_color_paletteer_c("grDevices::ArmyRose")
+    paletteer::scale_fill_paletteer_c("grDevices::ArmyRose")
+    
+    paletteer::paletteer_c("grDevices::ArmyRose")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-49.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Earth")
+    paletteer::scale_color_paletteer_c("grDevices::Earth")
+    paletteer::scale_fill_paletteer_c("grDevices::Earth")
+    
+    paletteer::paletteer_c("grDevices::Earth")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-50.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Fall")
+    paletteer::scale_color_paletteer_c("grDevices::Fall")
+    paletteer::scale_fill_paletteer_c("grDevices::Fall")
+    
+    paletteer::paletteer_c("grDevices::Fall")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-51.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Geyser")
+    paletteer::scale_color_paletteer_c("grDevices::Geyser")
+    paletteer::scale_fill_paletteer_c("grDevices::Geyser")
+    
+    paletteer::paletteer_c("grDevices::Geyser")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-52.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::TealRose")
+    paletteer::scale_color_paletteer_c("grDevices::TealRose")
+    paletteer::scale_fill_paletteer_c("grDevices::TealRose")
+    
+    paletteer::paletteer_c("grDevices::TealRose")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-53.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Temps")
+    paletteer::scale_color_paletteer_c("grDevices::Temps")
+    paletteer::scale_fill_paletteer_c("grDevices::Temps")
+    
+    paletteer::paletteer_c("grDevices::Temps")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-54.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::PuOr")
+    paletteer::scale_color_paletteer_c("grDevices::PuOr")
+    paletteer::scale_fill_paletteer_c("grDevices::PuOr")
+    
+    paletteer::paletteer_c("grDevices::PuOr")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-55.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::RdBu")
+    paletteer::scale_color_paletteer_c("grDevices::RdBu")
+    paletteer::scale_fill_paletteer_c("grDevices::RdBu")
+    
+    paletteer::paletteer_c("grDevices::RdBu")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-56.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::RdGy")
+    paletteer::scale_color_paletteer_c("grDevices::RdGy")
+    paletteer::scale_fill_paletteer_c("grDevices::RdGy")
+    
+    paletteer::paletteer_c("grDevices::RdGy")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-57.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::PiYG")
+    paletteer::scale_color_paletteer_c("grDevices::PiYG")
+    paletteer::scale_fill_paletteer_c("grDevices::PiYG")
+    
+    paletteer::paletteer_c("grDevices::PiYG")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-58.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::PRGn")
+    paletteer::scale_color_paletteer_c("grDevices::PRGn")
+    paletteer::scale_fill_paletteer_c("grDevices::PRGn")
+    
+    paletteer::paletteer_c("grDevices::PRGn")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-59.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::BrBG")
+    paletteer::scale_color_paletteer_c("grDevices::BrBG")
+    paletteer::scale_fill_paletteer_c("grDevices::BrBG")
+    
+    paletteer::paletteer_c("grDevices::BrBG")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-60.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::RdYlBu")
+    paletteer::scale_color_paletteer_c("grDevices::RdYlBu")
+    paletteer::scale_fill_paletteer_c("grDevices::RdYlBu")
+    
+    paletteer::paletteer_c("grDevices::RdYlBu")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-61.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::RdYlGn")
+    paletteer::scale_color_paletteer_c("grDevices::RdYlGn")
+    paletteer::scale_fill_paletteer_c("grDevices::RdYlGn")
+    
+    paletteer::paletteer_c("grDevices::RdYlGn")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-62.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Spectral")
+    paletteer::scale_color_paletteer_c("grDevices::Spectral")
+    paletteer::scale_fill_paletteer_c("grDevices::Spectral")
+    
+    paletteer::paletteer_c("grDevices::Spectral")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-63.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Zissou 1")
+    paletteer::scale_color_paletteer_c("grDevices::Zissou 1")
+    paletteer::scale_fill_paletteer_c("grDevices::Zissou 1")
+    
+    paletteer::paletteer_c("grDevices::Zissou 1")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-64.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Cividis")
+    paletteer::scale_color_paletteer_c("grDevices::Cividis")
+    paletteer::scale_fill_paletteer_c("grDevices::Cividis")
+    
+    paletteer::paletteer_c("grDevices::Cividis")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-65.png" style="display: block; margin: auto;" />
+
     paletteer::scale_colour_paletteer_c("oompaBase::blueyellow")
     paletteer::scale_color_paletteer_c("oompaBase::blueyellow")
     paletteer::scale_fill_paletteer_c("oompaBase::blueyellow")
     
     paletteer::paletteer_c("oompaBase::blueyellow")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-31.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-66.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("oompaBase::cyanyellow")
     paletteer::scale_color_paletteer_c("oompaBase::cyanyellow")
@@ -8897,7 +9736,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("oompaBase::cyanyellow")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-32.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-67.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("oompaBase::redgreen")
     paletteer::scale_color_paletteer_c("oompaBase::redgreen")
@@ -8905,7 +9744,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("oompaBase::redgreen")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-33.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-68.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::coolwarm")
     paletteer::scale_color_paletteer_c("pals::coolwarm")
@@ -8913,7 +9752,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::coolwarm")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-34.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-69.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::warmcool")
     paletteer::scale_color_paletteer_c("pals::warmcool")
@@ -8921,7 +9760,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::warmcool")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-35.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-70.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::ocean.balance")
     paletteer::scale_color_paletteer_c("pals::ocean.balance")
@@ -8929,7 +9768,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::ocean.balance")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-36.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-71.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::ocean.curl")
     paletteer::scale_color_paletteer_c("pals::ocean.curl")
@@ -8937,7 +9776,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::ocean.curl")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-37.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-72.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::ocean.delta")
     paletteer::scale_color_paletteer_c("pals::ocean.delta")
@@ -8945,7 +9784,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::ocean.delta")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-38.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-73.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_isoluminant_cjm_75_c23")
     paletteer::scale_color_paletteer_c("pals::kovesi.diverging_isoluminant_cjm_75_c23")
@@ -8953,7 +9792,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.diverging_isoluminant_cjm_75_c23")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-39.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-74.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_isoluminant_cjm_75_c24")
     paletteer::scale_color_paletteer_c("pals::kovesi.diverging_isoluminant_cjm_75_c24")
@@ -8961,7 +9800,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.diverging_isoluminant_cjm_75_c24")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-40.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-75.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_isoluminant_cjo_70_c25")
     paletteer::scale_color_paletteer_c("pals::kovesi.diverging_isoluminant_cjo_70_c25")
@@ -8969,7 +9808,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.diverging_isoluminant_cjo_70_c25")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-41.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-76.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_linear_bjr_30_55_c53")
     paletteer::scale_color_paletteer_c("pals::kovesi.diverging_linear_bjr_30_55_c53")
@@ -8977,7 +9816,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.diverging_linear_bjr_30_55_c53")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-42.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-77.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_linear_bjy_30_90_c45")
     paletteer::scale_color_paletteer_c("pals::kovesi.diverging_linear_bjy_30_90_c45")
@@ -8985,7 +9824,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.diverging_linear_bjy_30_90_c45")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-43.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-78.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_bkr_55_10_c35")
     paletteer::scale_color_paletteer_c("pals::kovesi.diverging_bkr_55_10_c35")
@@ -8993,7 +9832,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.diverging_bkr_55_10_c35")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-44.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-79.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_bky_60_10_c30")
     paletteer::scale_color_paletteer_c("pals::kovesi.diverging_bky_60_10_c30")
@@ -9001,7 +9840,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.diverging_bky_60_10_c30")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-45.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-80.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_bwr_40_95_c42")
     paletteer::scale_color_paletteer_c("pals::kovesi.diverging_bwr_40_95_c42")
@@ -9009,7 +9848,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.diverging_bwr_40_95_c42")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-46.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-81.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_bwr_55_98_c37")
     paletteer::scale_color_paletteer_c("pals::kovesi.diverging_bwr_55_98_c37")
@@ -9017,7 +9856,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.diverging_bwr_55_98_c37")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-47.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-82.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_cwm_80_100_c22")
     paletteer::scale_color_paletteer_c("pals::kovesi.diverging_cwm_80_100_c22")
@@ -9025,7 +9864,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.diverging_cwm_80_100_c22")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-48.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-83.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_gkr_60_10_c40")
     paletteer::scale_color_paletteer_c("pals::kovesi.diverging_gkr_60_10_c40")
@@ -9033,7 +9872,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.diverging_gkr_60_10_c40")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-49.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-84.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_gwr_55_95_c38")
     paletteer::scale_color_paletteer_c("pals::kovesi.diverging_gwr_55_95_c38")
@@ -9041,7 +9880,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.diverging_gwr_55_95_c38")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-50.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-85.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_gwv_55_95_c39")
     paletteer::scale_color_paletteer_c("pals::kovesi.diverging_gwv_55_95_c39")
@@ -9049,7 +9888,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.diverging_gwv_55_95_c39")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-51.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-86.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::berlin")
     paletteer::scale_color_paletteer_c("scico::berlin")
@@ -9057,7 +9896,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::berlin")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-52.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-87.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::broc")
     paletteer::scale_color_paletteer_c("scico::broc")
@@ -9065,7 +9904,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::broc")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-53.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-88.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::cork")
     paletteer::scale_color_paletteer_c("scico::cork")
@@ -9073,7 +9912,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::cork")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-54.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-89.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::lisbon")
     paletteer::scale_color_paletteer_c("scico::lisbon")
@@ -9081,7 +9920,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::lisbon")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-55.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-90.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::nuuk")
     paletteer::scale_color_paletteer_c("scico::nuuk")
@@ -9089,7 +9928,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::nuuk")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-56.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-91.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::roma")
     paletteer::scale_color_paletteer_c("scico::roma")
@@ -9097,7 +9936,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::roma")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-57.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-92.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::tofino")
     paletteer::scale_color_paletteer_c("scico::tofino")
@@ -9105,7 +9944,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::tofino")
 
-<img src="README_files/figure-gfm/unnamed-chunk-9-58.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-9-93.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::vik")
     paletteer::scale_color_paletteer_c("scico::vik")
@@ -9461,13 +10300,541 @@ palettes](#continuous-palettes)
 
 <img src="README_files/figure-gfm/unnamed-chunk-10-44.png" style="display: block; margin: auto;" />
 
+    paletteer::scale_colour_paletteer_c("grDevices::Grays")
+    paletteer::scale_color_paletteer_c("grDevices::Grays")
+    paletteer::scale_fill_paletteer_c("grDevices::Grays")
+    
+    paletteer::paletteer_c("grDevices::Grays")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-45.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Light Grays")
+    paletteer::scale_color_paletteer_c("grDevices::Light Grays")
+    paletteer::scale_fill_paletteer_c("grDevices::Light Grays")
+    
+    paletteer::paletteer_c("grDevices::Light Grays")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-46.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Blues 2")
+    paletteer::scale_color_paletteer_c("grDevices::Blues 2")
+    paletteer::scale_fill_paletteer_c("grDevices::Blues 2")
+    
+    paletteer::paletteer_c("grDevices::Blues 2")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-47.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Blues 3")
+    paletteer::scale_color_paletteer_c("grDevices::Blues 3")
+    paletteer::scale_fill_paletteer_c("grDevices::Blues 3")
+    
+    paletteer::paletteer_c("grDevices::Blues 3")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-48.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Purples 2")
+    paletteer::scale_color_paletteer_c("grDevices::Purples 2")
+    paletteer::scale_fill_paletteer_c("grDevices::Purples 2")
+    
+    paletteer::paletteer_c("grDevices::Purples 2")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-49.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Purples 3")
+    paletteer::scale_color_paletteer_c("grDevices::Purples 3")
+    paletteer::scale_fill_paletteer_c("grDevices::Purples 3")
+    
+    paletteer::paletteer_c("grDevices::Purples 3")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-50.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Reds 2")
+    paletteer::scale_color_paletteer_c("grDevices::Reds 2")
+    paletteer::scale_fill_paletteer_c("grDevices::Reds 2")
+    
+    paletteer::paletteer_c("grDevices::Reds 2")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-51.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Reds 3")
+    paletteer::scale_color_paletteer_c("grDevices::Reds 3")
+    paletteer::scale_fill_paletteer_c("grDevices::Reds 3")
+    
+    paletteer::paletteer_c("grDevices::Reds 3")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-52.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Greens 2")
+    paletteer::scale_color_paletteer_c("grDevices::Greens 2")
+    paletteer::scale_fill_paletteer_c("grDevices::Greens 2")
+    
+    paletteer::paletteer_c("grDevices::Greens 2")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-53.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Greens 3")
+    paletteer::scale_color_paletteer_c("grDevices::Greens 3")
+    paletteer::scale_fill_paletteer_c("grDevices::Greens 3")
+    
+    paletteer::paletteer_c("grDevices::Greens 3")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-54.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Oslo")
+    paletteer::scale_color_paletteer_c("grDevices::Oslo")
+    paletteer::scale_fill_paletteer_c("grDevices::Oslo")
+    
+    paletteer::paletteer_c("grDevices::Oslo")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-55.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Purple-Blue")
+    paletteer::scale_color_paletteer_c("grDevices::Purple-Blue")
+    paletteer::scale_fill_paletteer_c("grDevices::Purple-Blue")
+    
+    paletteer::paletteer_c("grDevices::Purple-Blue")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-56.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Red-Purple")
+    paletteer::scale_color_paletteer_c("grDevices::Red-Purple")
+    paletteer::scale_fill_paletteer_c("grDevices::Red-Purple")
+    
+    paletteer::paletteer_c("grDevices::Red-Purple")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-57.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Red-Blue")
+    paletteer::scale_color_paletteer_c("grDevices::Red-Blue")
+    paletteer::scale_fill_paletteer_c("grDevices::Red-Blue")
+    
+    paletteer::paletteer_c("grDevices::Red-Blue")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-58.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Purple-Orange")
+    paletteer::scale_color_paletteer_c("grDevices::Purple-Orange")
+    paletteer::scale_fill_paletteer_c("grDevices::Purple-Orange")
+    
+    paletteer::paletteer_c("grDevices::Purple-Orange")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-59.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Purple-Yellow")
+    paletteer::scale_color_paletteer_c("grDevices::Purple-Yellow")
+    paletteer::scale_fill_paletteer_c("grDevices::Purple-Yellow")
+    
+    paletteer::paletteer_c("grDevices::Purple-Yellow")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-60.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Blue-Yellow")
+    paletteer::scale_color_paletteer_c("grDevices::Blue-Yellow")
+    paletteer::scale_fill_paletteer_c("grDevices::Blue-Yellow")
+    
+    paletteer::paletteer_c("grDevices::Blue-Yellow")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-61.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Green-Yellow")
+    paletteer::scale_color_paletteer_c("grDevices::Green-Yellow")
+    paletteer::scale_fill_paletteer_c("grDevices::Green-Yellow")
+    
+    paletteer::paletteer_c("grDevices::Green-Yellow")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-62.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Red-Yellow")
+    paletteer::scale_color_paletteer_c("grDevices::Red-Yellow")
+    paletteer::scale_fill_paletteer_c("grDevices::Red-Yellow")
+    
+    paletteer::paletteer_c("grDevices::Red-Yellow")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-63.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Heat")
+    paletteer::scale_color_paletteer_c("grDevices::Heat")
+    paletteer::scale_fill_paletteer_c("grDevices::Heat")
+    
+    paletteer::paletteer_c("grDevices::Heat")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-64.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Heat 2")
+    paletteer::scale_color_paletteer_c("grDevices::Heat 2")
+    paletteer::scale_fill_paletteer_c("grDevices::Heat 2")
+    
+    paletteer::paletteer_c("grDevices::Heat 2")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-65.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Terrain")
+    paletteer::scale_color_paletteer_c("grDevices::Terrain")
+    paletteer::scale_fill_paletteer_c("grDevices::Terrain")
+    
+    paletteer::paletteer_c("grDevices::Terrain")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-66.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Terrain 2")
+    paletteer::scale_color_paletteer_c("grDevices::Terrain 2")
+    paletteer::scale_fill_paletteer_c("grDevices::Terrain 2")
+    
+    paletteer::paletteer_c("grDevices::Terrain 2")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-67.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Viridis")
+    paletteer::scale_color_paletteer_c("grDevices::Viridis")
+    paletteer::scale_fill_paletteer_c("grDevices::Viridis")
+    
+    paletteer::paletteer_c("grDevices::Viridis")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-68.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Plasma")
+    paletteer::scale_color_paletteer_c("grDevices::Plasma")
+    paletteer::scale_fill_paletteer_c("grDevices::Plasma")
+    
+    paletteer::paletteer_c("grDevices::Plasma")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-69.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Inferno")
+    paletteer::scale_color_paletteer_c("grDevices::Inferno")
+    paletteer::scale_fill_paletteer_c("grDevices::Inferno")
+    
+    paletteer::paletteer_c("grDevices::Inferno")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-70.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Dark Mint")
+    paletteer::scale_color_paletteer_c("grDevices::Dark Mint")
+    paletteer::scale_fill_paletteer_c("grDevices::Dark Mint")
+    
+    paletteer::paletteer_c("grDevices::Dark Mint")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-71.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Mint")
+    paletteer::scale_color_paletteer_c("grDevices::Mint")
+    paletteer::scale_fill_paletteer_c("grDevices::Mint")
+    
+    paletteer::paletteer_c("grDevices::Mint")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-72.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::BluGrn")
+    paletteer::scale_color_paletteer_c("grDevices::BluGrn")
+    paletteer::scale_fill_paletteer_c("grDevices::BluGrn")
+    
+    paletteer::paletteer_c("grDevices::BluGrn")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-73.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Teal")
+    paletteer::scale_color_paletteer_c("grDevices::Teal")
+    paletteer::scale_fill_paletteer_c("grDevices::Teal")
+    
+    paletteer::paletteer_c("grDevices::Teal")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-74.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::TealGrn")
+    paletteer::scale_color_paletteer_c("grDevices::TealGrn")
+    paletteer::scale_fill_paletteer_c("grDevices::TealGrn")
+    
+    paletteer::paletteer_c("grDevices::TealGrn")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-75.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Emrld")
+    paletteer::scale_color_paletteer_c("grDevices::Emrld")
+    paletteer::scale_fill_paletteer_c("grDevices::Emrld")
+    
+    paletteer::paletteer_c("grDevices::Emrld")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-76.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::BluYl")
+    paletteer::scale_color_paletteer_c("grDevices::BluYl")
+    paletteer::scale_fill_paletteer_c("grDevices::BluYl")
+    
+    paletteer::paletteer_c("grDevices::BluYl")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-77.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::ag_GrnYl")
+    paletteer::scale_color_paletteer_c("grDevices::ag_GrnYl")
+    paletteer::scale_fill_paletteer_c("grDevices::ag_GrnYl")
+    
+    paletteer::paletteer_c("grDevices::ag_GrnYl")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-78.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Peach")
+    paletteer::scale_color_paletteer_c("grDevices::Peach")
+    paletteer::scale_fill_paletteer_c("grDevices::Peach")
+    
+    paletteer::paletteer_c("grDevices::Peach")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-79.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::PinkYl")
+    paletteer::scale_color_paletteer_c("grDevices::PinkYl")
+    paletteer::scale_fill_paletteer_c("grDevices::PinkYl")
+    
+    paletteer::paletteer_c("grDevices::PinkYl")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-80.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Burg")
+    paletteer::scale_color_paletteer_c("grDevices::Burg")
+    paletteer::scale_fill_paletteer_c("grDevices::Burg")
+    
+    paletteer::paletteer_c("grDevices::Burg")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-81.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::BurgYl")
+    paletteer::scale_color_paletteer_c("grDevices::BurgYl")
+    paletteer::scale_fill_paletteer_c("grDevices::BurgYl")
+    
+    paletteer::paletteer_c("grDevices::BurgYl")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-82.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::RedOr")
+    paletteer::scale_color_paletteer_c("grDevices::RedOr")
+    paletteer::scale_fill_paletteer_c("grDevices::RedOr")
+    
+    paletteer::paletteer_c("grDevices::RedOr")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-83.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::OrYel")
+    paletteer::scale_color_paletteer_c("grDevices::OrYel")
+    paletteer::scale_fill_paletteer_c("grDevices::OrYel")
+    
+    paletteer::paletteer_c("grDevices::OrYel")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-84.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Purp")
+    paletteer::scale_color_paletteer_c("grDevices::Purp")
+    paletteer::scale_fill_paletteer_c("grDevices::Purp")
+    
+    paletteer::paletteer_c("grDevices::Purp")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-85.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::PurpOr")
+    paletteer::scale_color_paletteer_c("grDevices::PurpOr")
+    paletteer::scale_fill_paletteer_c("grDevices::PurpOr")
+    
+    paletteer::paletteer_c("grDevices::PurpOr")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-86.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Sunset")
+    paletteer::scale_color_paletteer_c("grDevices::Sunset")
+    paletteer::scale_fill_paletteer_c("grDevices::Sunset")
+    
+    paletteer::paletteer_c("grDevices::Sunset")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-87.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Magenta")
+    paletteer::scale_color_paletteer_c("grDevices::Magenta")
+    paletteer::scale_fill_paletteer_c("grDevices::Magenta")
+    
+    paletteer::paletteer_c("grDevices::Magenta")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-88.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::SunsetDark")
+    paletteer::scale_color_paletteer_c("grDevices::SunsetDark")
+    paletteer::scale_fill_paletteer_c("grDevices::SunsetDark")
+    
+    paletteer::paletteer_c("grDevices::SunsetDark")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-89.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::ag_Sunset")
+    paletteer::scale_color_paletteer_c("grDevices::ag_Sunset")
+    paletteer::scale_fill_paletteer_c("grDevices::ag_Sunset")
+    
+    paletteer::paletteer_c("grDevices::ag_Sunset")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-90.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::BrwnYl")
+    paletteer::scale_color_paletteer_c("grDevices::BrwnYl")
+    paletteer::scale_fill_paletteer_c("grDevices::BrwnYl")
+    
+    paletteer::paletteer_c("grDevices::BrwnYl")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-91.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::YlOrRd")
+    paletteer::scale_color_paletteer_c("grDevices::YlOrRd")
+    paletteer::scale_fill_paletteer_c("grDevices::YlOrRd")
+    
+    paletteer::paletteer_c("grDevices::YlOrRd")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-92.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::YlOrBr")
+    paletteer::scale_color_paletteer_c("grDevices::YlOrBr")
+    paletteer::scale_fill_paletteer_c("grDevices::YlOrBr")
+    
+    paletteer::paletteer_c("grDevices::YlOrBr")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-93.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::OrRd")
+    paletteer::scale_color_paletteer_c("grDevices::OrRd")
+    paletteer::scale_fill_paletteer_c("grDevices::OrRd")
+    
+    paletteer::paletteer_c("grDevices::OrRd")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-94.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Oranges")
+    paletteer::scale_color_paletteer_c("grDevices::Oranges")
+    paletteer::scale_fill_paletteer_c("grDevices::Oranges")
+    
+    paletteer::paletteer_c("grDevices::Oranges")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-95.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::YlGn")
+    paletteer::scale_color_paletteer_c("grDevices::YlGn")
+    paletteer::scale_fill_paletteer_c("grDevices::YlGn")
+    
+    paletteer::paletteer_c("grDevices::YlGn")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-96.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::YlGnBu")
+    paletteer::scale_color_paletteer_c("grDevices::YlGnBu")
+    paletteer::scale_fill_paletteer_c("grDevices::YlGnBu")
+    
+    paletteer::paletteer_c("grDevices::YlGnBu")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-97.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Reds")
+    paletteer::scale_color_paletteer_c("grDevices::Reds")
+    paletteer::scale_fill_paletteer_c("grDevices::Reds")
+    
+    paletteer::paletteer_c("grDevices::Reds")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-98.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::RdPu")
+    paletteer::scale_color_paletteer_c("grDevices::RdPu")
+    paletteer::scale_fill_paletteer_c("grDevices::RdPu")
+    
+    paletteer::paletteer_c("grDevices::RdPu")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-99.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::PuRd")
+    paletteer::scale_color_paletteer_c("grDevices::PuRd")
+    paletteer::scale_fill_paletteer_c("grDevices::PuRd")
+    
+    paletteer::paletteer_c("grDevices::PuRd")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-100.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Purples")
+    paletteer::scale_color_paletteer_c("grDevices::Purples")
+    paletteer::scale_fill_paletteer_c("grDevices::Purples")
+    
+    paletteer::paletteer_c("grDevices::Purples")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-101.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::PuBuGn")
+    paletteer::scale_color_paletteer_c("grDevices::PuBuGn")
+    paletteer::scale_fill_paletteer_c("grDevices::PuBuGn")
+    
+    paletteer::paletteer_c("grDevices::PuBuGn")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-102.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::PuBu")
+    paletteer::scale_color_paletteer_c("grDevices::PuBu")
+    paletteer::scale_fill_paletteer_c("grDevices::PuBu")
+    
+    paletteer::paletteer_c("grDevices::PuBu")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-103.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Greens")
+    paletteer::scale_color_paletteer_c("grDevices::Greens")
+    paletteer::scale_fill_paletteer_c("grDevices::Greens")
+    
+    paletteer::paletteer_c("grDevices::Greens")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-104.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::BuGn")
+    paletteer::scale_color_paletteer_c("grDevices::BuGn")
+    paletteer::scale_fill_paletteer_c("grDevices::BuGn")
+    
+    paletteer::paletteer_c("grDevices::BuGn")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-105.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::GnBu")
+    paletteer::scale_color_paletteer_c("grDevices::GnBu")
+    paletteer::scale_fill_paletteer_c("grDevices::GnBu")
+    
+    paletteer::paletteer_c("grDevices::GnBu")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-106.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::BuPu")
+    paletteer::scale_color_paletteer_c("grDevices::BuPu")
+    paletteer::scale_fill_paletteer_c("grDevices::BuPu")
+    
+    paletteer::paletteer_c("grDevices::BuPu")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-107.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Blues")
+    paletteer::scale_color_paletteer_c("grDevices::Blues")
+    paletteer::scale_fill_paletteer_c("grDevices::Blues")
+    
+    paletteer::paletteer_c("grDevices::Blues")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-108.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Lajolla")
+    paletteer::scale_color_paletteer_c("grDevices::Lajolla")
+    paletteer::scale_fill_paletteer_c("grDevices::Lajolla")
+    
+    paletteer::paletteer_c("grDevices::Lajolla")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-109.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Turku")
+    paletteer::scale_color_paletteer_c("grDevices::Turku")
+    paletteer::scale_fill_paletteer_c("grDevices::Turku")
+    
+    paletteer::paletteer_c("grDevices::Turku")
+
+<img src="README_files/figure-gfm/unnamed-chunk-10-110.png" style="display: block; margin: auto;" />
+
     paletteer::scale_colour_paletteer_c("harrypotter::slytherin")
     paletteer::scale_color_paletteer_c("harrypotter::slytherin")
     paletteer::scale_fill_paletteer_c("harrypotter::slytherin")
     
     paletteer::paletteer_c("harrypotter::slytherin")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-45.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-111.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("harrypotter::gryffindor")
     paletteer::scale_color_paletteer_c("harrypotter::gryffindor")
@@ -9475,7 +10842,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("harrypotter::gryffindor")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-46.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-112.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("harrypotter::hufflepuff")
     paletteer::scale_color_paletteer_c("harrypotter::hufflepuff")
@@ -9483,7 +10850,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("harrypotter::hufflepuff")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-47.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-113.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("harrypotter::ravenclaw")
     paletteer::scale_color_paletteer_c("harrypotter::ravenclaw")
@@ -9491,7 +10858,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("harrypotter::ravenclaw")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-48.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-114.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("harrypotter::ravenclaw2")
     paletteer::scale_color_paletteer_c("harrypotter::ravenclaw2")
@@ -9499,7 +10866,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("harrypotter::ravenclaw2")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-49.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-115.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("harrypotter::lunalovegood")
     paletteer::scale_color_paletteer_c("harrypotter::lunalovegood")
@@ -9507,7 +10874,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("harrypotter::lunalovegood")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-50.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-116.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("harrypotter::dracomalfoy")
     paletteer::scale_color_paletteer_c("harrypotter::dracomalfoy")
@@ -9515,7 +10882,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("harrypotter::dracomalfoy")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-51.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-117.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("harrypotter::ronweasley")
     paletteer::scale_color_paletteer_c("harrypotter::ronweasley")
@@ -9523,7 +10890,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("harrypotter::ronweasley")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-52.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-118.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("harrypotter::ronweasley2")
     paletteer::scale_color_paletteer_c("harrypotter::ronweasley2")
@@ -9531,7 +10898,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("harrypotter::ronweasley2")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-53.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-119.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("harrypotter::harrypotter")
     paletteer::scale_color_paletteer_c("harrypotter::harrypotter")
@@ -9539,7 +10906,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("harrypotter::harrypotter")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-54.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-120.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("harrypotter::hermionegranger")
     paletteer::scale_color_paletteer_c("harrypotter::hermionegranger")
@@ -9547,7 +10914,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("harrypotter::hermionegranger")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-55.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-121.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("harrypotter::always")
     paletteer::scale_color_paletteer_c("harrypotter::always")
@@ -9555,7 +10922,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("harrypotter::always")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-56.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-122.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("harrypotter::mischief")
     paletteer::scale_color_paletteer_c("harrypotter::mischief")
@@ -9563,7 +10930,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("harrypotter::mischief")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-57.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-123.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("harrypotter::sprout")
     paletteer::scale_color_paletteer_c("harrypotter::sprout")
@@ -9571,7 +10938,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("harrypotter::sprout")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-58.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-124.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("harrypotter::newtscamander")
     paletteer::scale_color_paletteer_c("harrypotter::newtscamander")
@@ -9579,7 +10946,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("harrypotter::newtscamander")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-59.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-125.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("oompaBase::redscale")
     paletteer::scale_color_paletteer_c("oompaBase::redscale")
@@ -9587,7 +10954,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("oompaBase::redscale")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-60.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-126.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("oompaBase::greenscale")
     paletteer::scale_color_paletteer_c("oompaBase::greenscale")
@@ -9595,7 +10962,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("oompaBase::greenscale")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-61.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-127.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("oompaBase::bluescale")
     paletteer::scale_color_paletteer_c("oompaBase::bluescale")
@@ -9603,7 +10970,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("oompaBase::bluescale")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-62.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-128.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("oompaBase::jetColors")
     paletteer::scale_color_paletteer_c("oompaBase::jetColors")
@@ -9611,7 +10978,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("oompaBase::jetColors")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-63.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-129.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("oompaBase::greyscale")
     paletteer::scale_color_paletteer_c("oompaBase::greyscale")
@@ -9619,39 +10986,39 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("oompaBase::greyscale")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-64.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-130.png" style="display: block; margin: auto;" />
 
-    paletteer::scale_colour_paletteer_c("palr::bathyDeepPal")
-    paletteer::scale_color_paletteer_c("palr::bathyDeepPal")
-    paletteer::scale_fill_paletteer_c("palr::bathyDeepPal")
+    paletteer::scale_colour_paletteer_c("palr::bathy_deep_pal")
+    paletteer::scale_color_paletteer_c("palr::bathy_deep_pal")
+    paletteer::scale_fill_paletteer_c("palr::bathy_deep_pal")
     
-    paletteer::paletteer_c("palr::bathyDeepPal")
+    paletteer::paletteer_c("palr::bathy_deep_pal")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-65.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-131.png" style="display: block; margin: auto;" />
 
-    paletteer::scale_colour_paletteer_c("palr::chlPal")
-    paletteer::scale_color_paletteer_c("palr::chlPal")
-    paletteer::scale_fill_paletteer_c("palr::chlPal")
+    paletteer::scale_colour_paletteer_c("palr::chl_pal")
+    paletteer::scale_color_paletteer_c("palr::chl_pal")
+    paletteer::scale_fill_paletteer_c("palr::chl_pal")
     
-    paletteer::paletteer_c("palr::chlPal")
+    paletteer::paletteer_c("palr::chl_pal")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-66.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-132.png" style="display: block; margin: auto;" />
 
-    paletteer::scale_colour_paletteer_c("palr::icePal")
-    paletteer::scale_color_paletteer_c("palr::icePal")
-    paletteer::scale_fill_paletteer_c("palr::icePal")
+    paletteer::scale_colour_paletteer_c("palr::ice_pal")
+    paletteer::scale_color_paletteer_c("palr::ice_pal")
+    paletteer::scale_fill_paletteer_c("palr::ice_pal")
     
-    paletteer::paletteer_c("palr::icePal")
+    paletteer::paletteer_c("palr::ice_pal")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-67.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-133.png" style="display: block; margin: auto;" />
 
-    paletteer::scale_colour_paletteer_c("palr::sstPal")
-    paletteer::scale_color_paletteer_c("palr::sstPal")
-    paletteer::scale_fill_paletteer_c("palr::sstPal")
+    paletteer::scale_colour_paletteer_c("palr::sst_pal")
+    paletteer::scale_color_paletteer_c("palr::sst_pal")
+    paletteer::scale_fill_paletteer_c("palr::sst_pal")
     
-    paletteer::paletteer_c("palr::sstPal")
+    paletteer::paletteer_c("palr::sst_pal")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-68.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-134.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::jet")
     paletteer::scale_color_paletteer_c("pals::jet")
@@ -9659,7 +11026,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::jet")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-69.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-135.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::parula")
     paletteer::scale_color_paletteer_c("pals::parula")
@@ -9667,7 +11034,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::parula")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-70.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-136.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::cubicyf")
     paletteer::scale_color_paletteer_c("pals::cubicyf")
@@ -9675,7 +11042,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::cubicyf")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-71.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-137.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::isol")
     paletteer::scale_color_paletteer_c("pals::isol")
@@ -9683,7 +11050,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::isol")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-72.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-138.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::cubicl")
     paletteer::scale_color_paletteer_c("pals::cubicl")
@@ -9691,7 +11058,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::cubicl")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-73.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-139.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::linearl")
     paletteer::scale_color_paletteer_c("pals::linearl")
@@ -9699,7 +11066,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::linearl")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-74.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-140.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::linearlhot")
     paletteer::scale_color_paletteer_c("pals::linearlhot")
@@ -9707,7 +11074,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::linearlhot")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-75.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-141.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::ocean.algae")
     paletteer::scale_color_paletteer_c("pals::ocean.algae")
@@ -9715,7 +11082,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::ocean.algae")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-76.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-142.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::ocean.deep")
     paletteer::scale_color_paletteer_c("pals::ocean.deep")
@@ -9723,7 +11090,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::ocean.deep")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-77.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-143.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::ocean.dense")
     paletteer::scale_color_paletteer_c("pals::ocean.dense")
@@ -9731,7 +11098,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::ocean.dense")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-78.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-144.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::ocean.gray")
     paletteer::scale_color_paletteer_c("pals::ocean.gray")
@@ -9739,7 +11106,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::ocean.gray")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-79.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-145.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::ocean.haline")
     paletteer::scale_color_paletteer_c("pals::ocean.haline")
@@ -9747,7 +11114,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::ocean.haline")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-80.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-146.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::ocean.ice")
     paletteer::scale_color_paletteer_c("pals::ocean.ice")
@@ -9755,7 +11122,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::ocean.ice")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-81.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-147.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::ocean.matter")
     paletteer::scale_color_paletteer_c("pals::ocean.matter")
@@ -9763,7 +11130,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::ocean.matter")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-82.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-148.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::ocean.oxy")
     paletteer::scale_color_paletteer_c("pals::ocean.oxy")
@@ -9771,7 +11138,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::ocean.oxy")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-83.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-149.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::ocean.phase")
     paletteer::scale_color_paletteer_c("pals::ocean.phase")
@@ -9779,7 +11146,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::ocean.phase")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-84.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-150.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::ocean.solar")
     paletteer::scale_color_paletteer_c("pals::ocean.solar")
@@ -9787,7 +11154,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::ocean.solar")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-85.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-151.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::ocean.thermal")
     paletteer::scale_color_paletteer_c("pals::ocean.thermal")
@@ -9795,7 +11162,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::ocean.thermal")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-86.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-152.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::ocean.turbid")
     paletteer::scale_color_paletteer_c("pals::ocean.turbid")
@@ -9803,7 +11170,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::ocean.turbid")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-87.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-153.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::ocean.amp")
     paletteer::scale_color_paletteer_c("pals::ocean.amp")
@@ -9811,7 +11178,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::ocean.amp")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-88.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-154.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::ocean.speed")
     paletteer::scale_color_paletteer_c("pals::ocean.speed")
@@ -9819,7 +11186,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::ocean.speed")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-89.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-155.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::ocean.tempo")
     paletteer::scale_color_paletteer_c("pals::ocean.tempo")
@@ -9827,7 +11194,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::ocean.tempo")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-90.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-156.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.cyclic_grey_15_85_c0")
     paletteer::scale_color_paletteer_c("pals::kovesi.cyclic_grey_15_85_c0")
@@ -9835,7 +11202,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.cyclic_grey_15_85_c0")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-91.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-157.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.cyclic_grey_15_85_c0_s25")
     paletteer::scale_color_paletteer_c("pals::kovesi.cyclic_grey_15_85_c0_s25")
@@ -9843,7 +11210,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.cyclic_grey_15_85_c0_s25")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-92.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-158.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.cyclic_mrybm_35_75_c68")
     paletteer::scale_color_paletteer_c("pals::kovesi.cyclic_mrybm_35_75_c68")
@@ -9851,7 +11218,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.cyclic_mrybm_35_75_c68")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-93.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-159.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.cyclic_mrybm_35_75_c68_s25")
     paletteer::scale_color_paletteer_c("pals::kovesi.cyclic_mrybm_35_75_c68_s25")
@@ -9859,7 +11226,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.cyclic_mrybm_35_75_c68_s25")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-94.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-160.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.cyclic_mygbm_30_95_c78")
     paletteer::scale_color_paletteer_c("pals::kovesi.cyclic_mygbm_30_95_c78")
@@ -9867,7 +11234,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.cyclic_mygbm_30_95_c78")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-95.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-161.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.cyclic_mygbm_30_95_c78_s25")
     paletteer::scale_color_paletteer_c("pals::kovesi.cyclic_mygbm_30_95_c78_s25")
@@ -9875,7 +11242,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.cyclic_mygbm_30_95_c78_s25")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-96.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-162.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.cyclic_wrwbw_40_90_c42")
     paletteer::scale_color_paletteer_c("pals::kovesi.cyclic_wrwbw_40_90_c42")
@@ -9883,7 +11250,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.cyclic_wrwbw_40_90_c42")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-97.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-163.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.cyclic_wrwbw_40_90_c42_s25")
     paletteer::scale_color_paletteer_c("pals::kovesi.cyclic_wrwbw_40_90_c42_s25")
@@ -9891,7 +11258,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.cyclic_wrwbw_40_90_c42_s25")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-98.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-164.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_rainbow_bgymr_45_85_c67")
     paletteer::scale_color_paletteer_c("pals::kovesi.diverging_rainbow_bgymr_45_85_c67")
@@ -9899,7 +11266,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.diverging_rainbow_bgymr_45_85_c67")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-99.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-165.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.isoluminant_cgo_70_c39")
     paletteer::scale_color_paletteer_c("pals::kovesi.isoluminant_cgo_70_c39")
@@ -9907,7 +11274,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.isoluminant_cgo_70_c39")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-100.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-166.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.isoluminant_cgo_80_c38")
     paletteer::scale_color_paletteer_c("pals::kovesi.isoluminant_cgo_80_c38")
@@ -9915,7 +11282,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.isoluminant_cgo_80_c38")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-101.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-167.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.isoluminant_cm_70_c39")
     paletteer::scale_color_paletteer_c("pals::kovesi.isoluminant_cm_70_c39")
@@ -9923,7 +11290,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.isoluminant_cm_70_c39")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-102.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-168.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.linear_bgy_10_95_c74")
     paletteer::scale_color_paletteer_c("pals::kovesi.linear_bgy_10_95_c74")
@@ -9931,7 +11298,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.linear_bgy_10_95_c74")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-103.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-169.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.linear_bgyw_15_100_c67")
     paletteer::scale_color_paletteer_c("pals::kovesi.linear_bgyw_15_100_c67")
@@ -9939,7 +11306,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.linear_bgyw_15_100_c67")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-104.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-170.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.linear_bgyw_15_100_c68")
     paletteer::scale_color_paletteer_c("pals::kovesi.linear_bgyw_15_100_c68")
@@ -9947,7 +11314,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.linear_bgyw_15_100_c68")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-105.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-171.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.linear_blue_5_95_c73")
     paletteer::scale_color_paletteer_c("pals::kovesi.linear_blue_5_95_c73")
@@ -9955,7 +11322,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.linear_blue_5_95_c73")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-106.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-172.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.linear_blue_95_50_c20")
     paletteer::scale_color_paletteer_c("pals::kovesi.linear_blue_95_50_c20")
@@ -9963,7 +11330,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.linear_blue_95_50_c20")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-107.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-173.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.linear_bmw_5_95_c86")
     paletteer::scale_color_paletteer_c("pals::kovesi.linear_bmw_5_95_c86")
@@ -9971,7 +11338,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.linear_bmw_5_95_c86")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-108.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-174.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.linear_bmw_5_95_c89")
     paletteer::scale_color_paletteer_c("pals::kovesi.linear_bmw_5_95_c89")
@@ -9979,7 +11346,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.linear_bmw_5_95_c89")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-109.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-175.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.linear_bmy_10_95_c71")
     paletteer::scale_color_paletteer_c("pals::kovesi.linear_bmy_10_95_c71")
@@ -9987,7 +11354,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.linear_bmy_10_95_c71")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-110.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-176.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.linear_bmy_10_95_c78")
     paletteer::scale_color_paletteer_c("pals::kovesi.linear_bmy_10_95_c78")
@@ -9995,7 +11362,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.linear_bmy_10_95_c78")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-111.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-177.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.linear_gow_60_85_c27")
     paletteer::scale_color_paletteer_c("pals::kovesi.linear_gow_60_85_c27")
@@ -10003,7 +11370,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.linear_gow_60_85_c27")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-112.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-178.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.linear_gow_65_90_c35")
     paletteer::scale_color_paletteer_c("pals::kovesi.linear_gow_65_90_c35")
@@ -10011,7 +11378,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.linear_gow_65_90_c35")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-113.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-179.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.linear_green_5_95_c69")
     paletteer::scale_color_paletteer_c("pals::kovesi.linear_green_5_95_c69")
@@ -10019,7 +11386,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.linear_green_5_95_c69")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-114.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-180.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.linear_grey_0_100_c0")
     paletteer::scale_color_paletteer_c("pals::kovesi.linear_grey_0_100_c0")
@@ -10027,7 +11394,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.linear_grey_0_100_c0")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-115.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-181.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.linear_grey_10_95_c0")
     paletteer::scale_color_paletteer_c("pals::kovesi.linear_grey_10_95_c0")
@@ -10035,7 +11402,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.linear_grey_10_95_c0")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-116.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-182.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.linear_kry_5_95_c72")
     paletteer::scale_color_paletteer_c("pals::kovesi.linear_kry_5_95_c72")
@@ -10043,7 +11410,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.linear_kry_5_95_c72")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-117.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-183.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.linear_kry_5_98_c75")
     paletteer::scale_color_paletteer_c("pals::kovesi.linear_kry_5_98_c75")
@@ -10051,7 +11418,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.linear_kry_5_98_c75")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-118.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-184.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.linear_kryw_5_100_c64")
     paletteer::scale_color_paletteer_c("pals::kovesi.linear_kryw_5_100_c64")
@@ -10059,7 +11426,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.linear_kryw_5_100_c64")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-119.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-185.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.linear_kryw_5_100_c67")
     paletteer::scale_color_paletteer_c("pals::kovesi.linear_kryw_5_100_c67")
@@ -10067,7 +11434,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.linear_kryw_5_100_c67")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-120.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-186.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.linear_ternary_blue_0_44_c57")
     paletteer::scale_color_paletteer_c("pals::kovesi.linear_ternary_blue_0_44_c57")
@@ -10075,7 +11442,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.linear_ternary_blue_0_44_c57")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-121.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-187.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.linear_ternary_green_0_46_c42")
     paletteer::scale_color_paletteer_c("pals::kovesi.linear_ternary_green_0_46_c42")
@@ -10083,7 +11450,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.linear_ternary_green_0_46_c42")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-122.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-188.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.linear_ternary_red_0_50_c52")
     paletteer::scale_color_paletteer_c("pals::kovesi.linear_ternary_red_0_50_c52")
@@ -10091,7 +11458,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.linear_ternary_red_0_50_c52")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-123.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-189.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.rainbow_bgyr_35_85_c72")
     paletteer::scale_color_paletteer_c("pals::kovesi.rainbow_bgyr_35_85_c72")
@@ -10099,7 +11466,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.rainbow_bgyr_35_85_c72")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-124.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-190.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.rainbow_bgyr_35_85_c73")
     paletteer::scale_color_paletteer_c("pals::kovesi.rainbow_bgyr_35_85_c73")
@@ -10107,7 +11474,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.rainbow_bgyr_35_85_c73")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-125.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-191.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.rainbow_bgyrm_35_85_c69")
     paletteer::scale_color_paletteer_c("pals::kovesi.rainbow_bgyrm_35_85_c69")
@@ -10115,7 +11482,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.rainbow_bgyrm_35_85_c69")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-126.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-192.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("pals::kovesi.rainbow_bgyrm_35_85_c71")
     paletteer::scale_color_paletteer_c("pals::kovesi.rainbow_bgyrm_35_85_c71")
@@ -10123,7 +11490,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("pals::kovesi.rainbow_bgyrm_35_85_c71")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-127.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-193.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::acton")
     paletteer::scale_color_paletteer_c("scico::acton")
@@ -10131,7 +11498,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::acton")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-128.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-194.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::bamako")
     paletteer::scale_color_paletteer_c("scico::bamako")
@@ -10139,7 +11506,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::bamako")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-129.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-195.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::batlow")
     paletteer::scale_color_paletteer_c("scico::batlow")
@@ -10147,7 +11514,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::batlow")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-130.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-196.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::bilbao")
     paletteer::scale_color_paletteer_c("scico::bilbao")
@@ -10155,7 +11522,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::bilbao")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-131.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-197.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::buda")
     paletteer::scale_color_paletteer_c("scico::buda")
@@ -10163,7 +11530,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::buda")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-132.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-198.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::davos")
     paletteer::scale_color_paletteer_c("scico::davos")
@@ -10171,7 +11538,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::davos")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-133.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-199.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::devon")
     paletteer::scale_color_paletteer_c("scico::devon")
@@ -10179,7 +11546,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::devon")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-134.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-200.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::grayC")
     paletteer::scale_color_paletteer_c("scico::grayC")
@@ -10187,7 +11554,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::grayC")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-135.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-201.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::hawaii")
     paletteer::scale_color_paletteer_c("scico::hawaii")
@@ -10195,7 +11562,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::hawaii")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-136.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-202.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::imola")
     paletteer::scale_color_paletteer_c("scico::imola")
@@ -10203,7 +11570,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::imola")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-137.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-203.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::lajolla")
     paletteer::scale_color_paletteer_c("scico::lajolla")
@@ -10211,7 +11578,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::lajolla")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-138.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-204.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::lapaz")
     paletteer::scale_color_paletteer_c("scico::lapaz")
@@ -10219,7 +11586,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::lapaz")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-139.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-205.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::oleron")
     paletteer::scale_color_paletteer_c("scico::oleron")
@@ -10227,7 +11594,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::oleron")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-140.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-206.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::oslo")
     paletteer::scale_color_paletteer_c("scico::oslo")
@@ -10235,7 +11602,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::oslo")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-141.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-207.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::tokyo")
     paletteer::scale_color_paletteer_c("scico::tokyo")
@@ -10243,7 +11610,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::tokyo")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-142.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-208.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("scico::turku")
     paletteer::scale_color_paletteer_c("scico::turku")
@@ -10251,7 +11618,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("scico::turku")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-143.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-209.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("viridis::viridis")
     paletteer::scale_color_paletteer_c("viridis::viridis")
@@ -10259,7 +11626,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("viridis::viridis")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-144.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-210.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("viridis::inferno")
     paletteer::scale_color_paletteer_c("viridis::inferno")
@@ -10267,7 +11634,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("viridis::inferno")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-145.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-211.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("viridis::magma")
     paletteer::scale_color_paletteer_c("viridis::magma")
@@ -10275,7 +11642,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("viridis::magma")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-146.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-212.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("viridis::plasma")
     paletteer::scale_color_paletteer_c("viridis::plasma")
@@ -10283,7 +11650,7 @@ palettes](#continuous-palettes)
     
     paletteer::paletteer_c("viridis::plasma")
 
-<img src="README_files/figure-gfm/unnamed-chunk-10-147.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/unnamed-chunk-10-213.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("viridis::cividis")
     paletteer::scale_color_paletteer_c("viridis::cividis")
