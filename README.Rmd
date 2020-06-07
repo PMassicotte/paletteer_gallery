@@ -111,7 +111,7 @@ This page is a simple gallery of these palettes. The are a total of `r nrow(df)`
 ```{r}
 df %>%
   filter(str_ends(pal_function, "_d") & type == "diverging") %>%
-  pwalk(~ display_pal(..5, ..1, ..2, ..4))
+  pwalk(~ display_pal(..1, ..2, ..3, ..5))
 ```
 
 ### Qualitative
@@ -119,7 +119,7 @@ df %>%
 ```{r}
 df %>%
   filter(str_ends(pal_function, "_d") & type == "qualitative") %>%
-  pwalk(~ display_pal(..5, ..1, ..2, ..4))
+  pwalk(~ display_pal(..1, ..2, ..3, ..5))
 ```
 
 ### Sequential
@@ -127,7 +127,7 @@ df %>%
 ```{r}
 df %>%
   filter(str_ends(pal_function, "_d") & type == "sequential") %>%
-  pwalk(~ display_pal(..5, ..1, ..2, ..4))
+  pwalk(~ display_pal(..1, ..2, ..3, ..5))
 ```
 
 ## Continuous palettes
@@ -137,7 +137,7 @@ df %>%
 ```{r}
 df %>%
   filter(str_ends(pal_function, "_c") & type == "diverging") %>%
-  pwalk(~ display_pal(..5, ..1, ..2, ..4))
+  pwalk(~ display_pal(..1, ..2, ..3, ..5))
 ```
 
 ## Sequential
@@ -145,5 +145,5 @@ df %>%
 ```{r}
 df %>%
   filter(str_ends(pal_function, "_c") & type == "sequential") %>%
-  pwalk(~ display_pal(..5, ..1, ..2, ..4))
+  pwalk(~ display_pal(..1, ..2, ..3, ..5))
 ```
