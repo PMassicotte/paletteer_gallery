@@ -12,7 +12,11 @@ packages.
 > palettes in R using a common interface. Think of it as the “caret of
 > palettes”.
 
+<<<<<<< HEAD
 This page is a simple gallery of these palettes. The are a total of 1570
+=======
+This page is a simple gallery of these palettes. The are a total of 1461
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 palettes (available from CRAN packages) divided into `discrete` and
 `continuous` scales. The titles of the following graphs present the
 `palette {package}`. There is also copy/pastable R code to use with
@@ -4886,13 +4890,25 @@ ggplot2.
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-12.png" style="display: block; margin: auto;" />
 
+    paletteer::scale_colour_paletteer_d("vapoRwave::crystalPepsi")
+    paletteer::scale_color_paletteer_d("vapoRwave::crystalPepsi")
+    paletteer::scale_fill_paletteer_d("vapoRwave::crystalPepsi")
+    
+    paletteer::paletteer_d("vapoRwave::crystalPepsi")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-7.png" style="display: block; margin: auto;" />
+
     paletteer::scale_colour_paletteer_d("fishualize::Acanthurus_leucosternon")
     paletteer::scale_color_paletteer_d("fishualize::Acanthurus_leucosternon")
     paletteer::scale_fill_paletteer_d("fishualize::Acanthurus_leucosternon")
     
     paletteer::paletteer_d("fishualize::Acanthurus_leucosternon")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-13.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-8.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Acanthurus_olivaceus")
     paletteer::scale_color_paletteer_d("fishualize::Acanthurus_olivaceus")
@@ -4900,7 +4916,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Acanthurus_olivaceus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-14.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-9.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Acanthurus_sohal")
     paletteer::scale_color_paletteer_d("fishualize::Acanthurus_sohal")
@@ -4908,7 +4928,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Acanthurus_sohal")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-15.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-10.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Acanthurus_triostegus")
     paletteer::scale_color_paletteer_d("fishualize::Acanthurus_triostegus")
@@ -4916,6 +4940,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Acanthurus_triostegus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-16.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Aluterus_scriptus")
@@ -4941,6 +4966,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Anisotremus_virginicus")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-19.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-11.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Antennarius_commerson")
     paletteer::scale_color_paletteer_d("fishualize::Antennarius_commerson")
@@ -4948,7 +4976,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Antennarius_commerson")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-20.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-12.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Antennarius_multiocellatus")
     paletteer::scale_color_paletteer_d("fishualize::Antennarius_multiocellatus")
@@ -4956,6 +4988,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Antennarius_multiocellatus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-21.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Atherinella_brasiliensis")
@@ -4965,6 +4998,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Atherinella_brasiliensis")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-22.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-13.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Aulostomus_chinensis")
     paletteer::scale_color_paletteer_d("fishualize::Aulostomus_chinensis")
@@ -4972,7 +5008,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Aulostomus_chinensis")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-23.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-14.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Balistapus_undulatus")
     paletteer::scale_color_paletteer_d("fishualize::Balistapus_undulatus")
@@ -4980,6 +5020,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Balistapus_undulatus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-24.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Balistes_vetula")
@@ -4989,6 +5030,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Balistes_vetula")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-25.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-15.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Balistoides_conspicillum")
     paletteer::scale_color_paletteer_d("fishualize::Balistoides_conspicillum")
@@ -4996,7 +5040,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Balistoides_conspicillum")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-26.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-16.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Bodianus_pulchellus")
     paletteer::scale_color_paletteer_d("fishualize::Bodianus_pulchellus")
@@ -5004,7 +5052,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Bodianus_pulchellus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-27.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-17.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Bodianus_rufus")
     paletteer::scale_color_paletteer_d("fishualize::Bodianus_rufus")
@@ -5012,7 +5064,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Bodianus_rufus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-28.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-18.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Bryaninops_natans")
     paletteer::scale_color_paletteer_d("fishualize::Bryaninops_natans")
@@ -5020,7 +5076,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Bryaninops_natans")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-29.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-19.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Callanthias_australis")
     paletteer::scale_color_paletteer_d("fishualize::Callanthias_australis")
@@ -5028,7 +5088,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Callanthias_australis")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-30.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-20.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Cantherhines_macrocerus")
     paletteer::scale_color_paletteer_d("fishualize::Cantherhines_macrocerus")
@@ -5044,7 +5108,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Centropyge_loricula")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-32.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-21.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Cephalopholis_argus")
     paletteer::scale_color_paletteer_d("fishualize::Cephalopholis_argus")
@@ -5052,6 +5120,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Cephalopholis_argus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-33.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Cephalopholis_fulva")
@@ -5069,6 +5138,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Cetengraulis_edentulus")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-35.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-22.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Chaetodon_ephippium")
     paletteer::scale_color_paletteer_d("fishualize::Chaetodon_ephippium")
@@ -5076,7 +5148,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Chaetodon_ephippium")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-36.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-23.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Chaetodon_larvatus")
     paletteer::scale_color_paletteer_d("fishualize::Chaetodon_larvatus")
@@ -5084,7 +5160,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Chaetodon_larvatus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-37.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-24.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Chaetodon_pelewensis")
     paletteer::scale_color_paletteer_d("fishualize::Chaetodon_pelewensis")
@@ -5092,6 +5172,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Chaetodon_pelewensis")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-38.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Chaetodon_sedentarius")
@@ -5101,6 +5182,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Chaetodon_sedentarius")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-39.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-25.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Chaetodontoplus_conspicillatus")
     paletteer::scale_color_paletteer_d("fishualize::Chaetodontoplus_conspicillatus")
@@ -5108,7 +5192,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Chaetodontoplus_conspicillatus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-40.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-26.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Chlorurus_microrhinos")
     paletteer::scale_color_paletteer_d("fishualize::Chlorurus_microrhinos")
@@ -5116,6 +5204,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Chlorurus_microrhinos")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-41.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Chlorurus_spilurus")
@@ -5133,6 +5222,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Chormis_multilineata")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-43.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-27.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Chromis_vanderbilti")
     paletteer::scale_color_paletteer_d("fishualize::Chromis_vanderbilti")
@@ -5140,7 +5232,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Chromis_vanderbilti")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-44.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-28.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Cirrhilabrus_solorensis")
     paletteer::scale_color_paletteer_d("fishualize::Cirrhilabrus_solorensis")
@@ -5148,7 +5244,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Cirrhilabrus_solorensis")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-45.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-29.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Cirrhilabrus_tonozukai")
     paletteer::scale_color_paletteer_d("fishualize::Cirrhilabrus_tonozukai")
@@ -5156,6 +5256,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Cirrhilabrus_tonozukai")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-46.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Clepticus_brasiliensis")
@@ -5165,6 +5266,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Clepticus_brasiliensis")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-47.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-30.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Clepticus_parrae")
     paletteer::scale_color_paletteer_d("fishualize::Clepticus_parrae")
@@ -5172,7 +5276,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Clepticus_parrae")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-48.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-31.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Coris_gaimard")
     paletteer::scale_color_paletteer_d("fishualize::Coris_gaimard")
@@ -5180,7 +5288,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Coris_gaimard")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-49.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-32.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Coryphaena_hippurus")
     paletteer::scale_color_paletteer_d("fishualize::Coryphaena_hippurus")
@@ -5188,6 +5300,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Coryphaena_hippurus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-50.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Dermatolepis_inermis")
@@ -5205,6 +5318,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Elacatinus_figaro")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-52.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-33.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Elagatis_bipinnulata")
     paletteer::scale_color_paletteer_d("fishualize::Elagatis_bipinnulata")
@@ -5212,7 +5328,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Elagatis_bipinnulata")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-53.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-34.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Epibulus_insidiator")
     paletteer::scale_color_paletteer_d("fishualize::Epibulus_insidiator")
@@ -5220,7 +5340,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Epibulus_insidiator")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-54.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-35.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Epinephelus_fasciatus")
     paletteer::scale_color_paletteer_d("fishualize::Epinephelus_fasciatus")
@@ -5228,6 +5352,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Epinephelus_fasciatus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-55.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Epinephelus_lanceolatus")
@@ -5245,6 +5370,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Epinephelus_marginatus")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-57.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-36.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Epinephelus_striatus")
     paletteer::scale_color_paletteer_d("fishualize::Epinephelus_striatus")
@@ -5252,7 +5380,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Epinephelus_striatus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-58.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-37.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Etheostoma_barrenense")
     paletteer::scale_color_paletteer_d("fishualize::Etheostoma_barrenense")
@@ -5260,7 +5392,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Etheostoma_barrenense")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-59.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-38.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Etheostoma_spectabile")
     paletteer::scale_color_paletteer_d("fishualize::Etheostoma_spectabile")
@@ -5268,7 +5404,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Etheostoma_spectabile")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-60.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-39.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Exallias_brevis")
     paletteer::scale_color_paletteer_d("fishualize::Exallias_brevis")
@@ -5276,6 +5416,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Exallias_brevis")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-61.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Forcipiger_longirostris")
@@ -5293,6 +5434,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Ginglymostoma_cirratum")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-63.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-40.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Gomphosus_varius")
     paletteer::scale_color_paletteer_d("fishualize::Gomphosus_varius")
@@ -5300,6 +5444,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Gomphosus_varius")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-64.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Gramma_brasiliensis")
@@ -5309,6 +5454,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Gramma_brasiliensis")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-65.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-41.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Gramma_loreto")
     paletteer::scale_color_paletteer_d("fishualize::Gramma_loreto")
@@ -5316,6 +5464,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Gramma_loreto")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-66.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Gymnothorax_funebris")
@@ -5333,6 +5482,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Haemulon_squamipinna")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-68.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-42.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Halichoeres_bivittatus")
     paletteer::scale_color_paletteer_d("fishualize::Halichoeres_bivittatus")
@@ -5340,6 +5492,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Halichoeres_bivittatus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-69.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Halichoeres_brasiliensis")
@@ -5357,6 +5510,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Halichoeres_dimidiatus")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-71.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-43.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Halichoeres_garnoti")
     paletteer::scale_color_paletteer_d("fishualize::Halichoeres_garnoti")
@@ -5364,7 +5520,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Halichoeres_garnoti")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-72.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-44.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Halichoeres_radiatus")
     paletteer::scale_color_paletteer_d("fishualize::Halichoeres_radiatus")
@@ -5372,6 +5532,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Halichoeres_radiatus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-73.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Hamulon_plumieri")
@@ -5389,6 +5550,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Harengula_jaguana")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-75.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-45.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Hemitaurichthys_polylepis")
     paletteer::scale_color_paletteer_d("fishualize::Hemitaurichthys_polylepis")
@@ -5396,6 +5560,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Hemitaurichthys_polylepis")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-76.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Heretopriacanthus_cruentatus")
@@ -5405,6 +5570,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Heretopriacanthus_cruentatus")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-77.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-46.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Hexagrammos_lagocephalus")
     paletteer::scale_color_paletteer_d("fishualize::Hexagrammos_lagocephalus")
@@ -5412,6 +5580,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Hexagrammos_lagocephalus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-78.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Hippocampus_reidi")
@@ -5421,6 +5590,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Hippocampus_reidi")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-79.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-47.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Histiophryne_psychedelica")
     paletteer::scale_color_paletteer_d("fishualize::Histiophryne_psychedelica")
@@ -5428,7 +5600,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Histiophryne_psychedelica")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-80.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-48.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Holacanthus_ciliaris")
     paletteer::scale_color_paletteer_d("fishualize::Holacanthus_ciliaris")
@@ -5436,6 +5612,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Holacanthus_ciliaris")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-81.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Holocentrus_adscensionis")
@@ -5453,6 +5630,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Hypleurochilus_fissicornis")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-83.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-49.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Hypoplectrus_puella")
     paletteer::scale_color_paletteer_d("fishualize::Hypoplectrus_puella")
@@ -5460,7 +5640,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Hypoplectrus_puella")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-84.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-50.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Hypsoblennius_invemar")
     paletteer::scale_color_paletteer_d("fishualize::Hypsoblennius_invemar")
@@ -5468,7 +5652,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Hypsoblennius_invemar")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-85.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-51.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Hypsypops_rubicundus")
     paletteer::scale_color_paletteer_d("fishualize::Hypsypops_rubicundus")
@@ -5476,6 +5664,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Hypsypops_rubicundus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-86.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Koumansetta_rainfordi")
@@ -5501,6 +5690,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Labrisomus_nuchipinnis")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-89.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-52.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Lampris_guttatus")
     paletteer::scale_color_paletteer_d("fishualize::Lampris_guttatus")
@@ -5508,7 +5700,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Lampris_guttatus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-90.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-53.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Lepomis_megalotis")
     paletteer::scale_color_paletteer_d("fishualize::Lepomis_megalotis")
@@ -5516,6 +5712,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Lepomis_megalotis")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-91.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Lile_piquitinga")
@@ -5533,6 +5730,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Lutjanus_jocu")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-93.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-54.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Lutjanus_sebae")
     paletteer::scale_color_paletteer_d("fishualize::Lutjanus_sebae")
@@ -5540,6 +5740,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Lutjanus_sebae")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-94.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Lycengraulis_grossidens")
@@ -5549,6 +5750,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Lycengraulis_grossidens")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-95.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-55.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Melichthys_vidua")
     paletteer::scale_color_paletteer_d("fishualize::Melichthys_vidua")
@@ -5556,6 +5760,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Melichthys_vidua")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-96.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Micropterus_punctulatus")
@@ -5597,6 +5802,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Myrichthys_ocellatus")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-101.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-56.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Naso_lituratus")
     paletteer::scale_color_paletteer_d("fishualize::Naso_lituratus")
@@ -5604,7 +5812,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Naso_lituratus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-102.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-57.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Nemateleotris_magnifica")
     paletteer::scale_color_paletteer_d("fishualize::Nemateleotris_magnifica")
@@ -5612,7 +5824,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Nemateleotris_magnifica")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-103.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-58.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Odonus_niger")
     paletteer::scale_color_paletteer_d("fishualize::Odonus_niger")
@@ -5620,7 +5836,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Odonus_niger")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-104.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-59.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Oncorhynchus_gorbuscha")
     paletteer::scale_color_paletteer_d("fishualize::Oncorhynchus_gorbuscha")
@@ -5628,7 +5848,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Oncorhynchus_gorbuscha")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-105.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-60.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Oncorhynchus_keta")
     paletteer::scale_color_paletteer_d("fishualize::Oncorhynchus_keta")
@@ -5636,7 +5860,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Oncorhynchus_keta")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-106.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-61.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Oncorhynchus_kisutch")
     paletteer::scale_color_paletteer_d("fishualize::Oncorhynchus_kisutch")
@@ -5644,7 +5872,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Oncorhynchus_kisutch")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-107.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-62.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Oncorhynchus_mykiss")
     paletteer::scale_color_paletteer_d("fishualize::Oncorhynchus_mykiss")
@@ -5652,7 +5884,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Oncorhynchus_mykiss")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-108.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-63.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Oncorhynchus_nerka")
     paletteer::scale_color_paletteer_d("fishualize::Oncorhynchus_nerka")
@@ -5660,7 +5896,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Oncorhynchus_nerka")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-109.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-64.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Oncorhynchus_tshawytscha")
     paletteer::scale_color_paletteer_d("fishualize::Oncorhynchus_tshawytscha")
@@ -5668,6 +5908,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Oncorhynchus_tshawytscha")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-110.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Opisthonema_oglinum")
@@ -5677,6 +5918,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Opisthonema_oglinum")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-111.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-65.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Ostorhinchus_angustatus")
     paletteer::scale_color_paletteer_d("fishualize::Ostorhinchus_angustatus")
@@ -5684,7 +5928,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Ostorhinchus_angustatus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-112.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-66.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Ostracion_cubicus")
     paletteer::scale_color_paletteer_d("fishualize::Ostracion_cubicus")
@@ -5692,7 +5940,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Ostracion_cubicus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-113.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-67.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Ostracion_whitleyi")
     paletteer::scale_color_paletteer_d("fishualize::Ostracion_whitleyi")
@@ -5700,7 +5952,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Ostracion_whitleyi")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-114.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-68.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Oxymonacanthus_longirostris")
     paletteer::scale_color_paletteer_d("fishualize::Oxymonacanthus_longirostris")
@@ -5708,6 +5964,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Oxymonacanthus_longirostris")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-115.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Parablennius_marmoreus")
@@ -5725,6 +5982,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Parablennius_pilicornis")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-117.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-69.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Paracanthurus_hepatus")
     paletteer::scale_color_paletteer_d("fishualize::Paracanthurus_hepatus")
@@ -5732,6 +5992,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Paracanthurus_hepatus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-118.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Paralabrax_clathratus")
@@ -5757,6 +6018,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Pareiorhaphis_garbei")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-121.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-70.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Parupeneus_insularis")
     paletteer::scale_color_paletteer_d("fishualize::Parupeneus_insularis")
@@ -5764,6 +6028,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Parupeneus_insularis")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-122.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Phractocephalus_hemioliopterus")
@@ -5773,6 +6038,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Phractocephalus_hemioliopterus")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-123.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-71.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Pomacanthus_imperator")
     paletteer::scale_color_paletteer_d("fishualize::Pomacanthus_imperator")
@@ -5780,6 +6048,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Pomacanthus_imperator")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-124.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Pomacanthus_paru")
@@ -5789,6 +6058,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Pomacanthus_paru")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-125.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-72.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Pomacanthus_xanthometopon")
     paletteer::scale_color_paletteer_d("fishualize::Pomacanthus_xanthometopon")
@@ -5796,7 +6068,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Pomacanthus_xanthometopon")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-126.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-73.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Prionace_glauca")
     paletteer::scale_color_paletteer_d("fishualize::Prionace_glauca")
@@ -5804,6 +6080,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Prionace_glauca")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-127.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Prognathodes_brasiliensis")
@@ -5829,6 +6106,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Pronotogrammus_martinicensis")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-130.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-74.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Pseudocheilinus_tetrataenia")
     paletteer::scale_color_paletteer_d("fishualize::Pseudocheilinus_tetrataenia")
@@ -5836,7 +6116,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Pseudocheilinus_tetrataenia")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-131.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-75.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Pseudochromis_aldabraensis")
     paletteer::scale_color_paletteer_d("fishualize::Pseudochromis_aldabraensis")
@@ -5844,6 +6128,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Pseudochromis_aldabraensis")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-132.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Pseudupeneus_maculatus")
@@ -5853,6 +6138,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Pseudupeneus_maculatus")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-133.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-76.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Pterois_volitans")
     paletteer::scale_color_paletteer_d("fishualize::Pterois_volitans")
@@ -5860,6 +6148,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Pterois_volitans")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-134.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Rhinecanthus_aculeatus")
@@ -5869,6 +6158,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Rhinecanthus_aculeatus")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-135.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-77.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Rhinecanthus_assasi")
     paletteer::scale_color_paletteer_d("fishualize::Rhinecanthus_assasi")
@@ -5876,7 +6168,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Rhinecanthus_assasi")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-136.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-78.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Salmo_salar")
     paletteer::scale_color_paletteer_d("fishualize::Salmo_salar")
@@ -5884,7 +6180,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Salmo_salar")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-137.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-79.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Salmo_trutta")
     paletteer::scale_color_paletteer_d("fishualize::Salmo_trutta")
@@ -5892,7 +6192,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Salmo_trutta")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-138.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-80.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Salvelinus_fontinalis")
     paletteer::scale_color_paletteer_d("fishualize::Salvelinus_fontinalis")
@@ -5900,6 +6204,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Salvelinus_fontinalis")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-139.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Sardinella_brasiliensis")
@@ -5917,6 +6222,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Sargocentron_bullisi")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-141.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-81.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Scarus_ghobban")
     paletteer::scale_color_paletteer_d("fishualize::Scarus_ghobban")
@@ -5924,7 +6232,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Scarus_ghobban")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-142.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-82.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Scarus_globiceps")
     paletteer::scale_color_paletteer_d("fishualize::Scarus_globiceps")
@@ -5932,7 +6244,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Scarus_globiceps")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-143.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-83.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Scarus_hoefleri")
     paletteer::scale_color_paletteer_d("fishualize::Scarus_hoefleri")
@@ -5940,7 +6256,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Scarus_hoefleri")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-144.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-84.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Scarus_quoyi")
     paletteer::scale_color_paletteer_d("fishualize::Scarus_quoyi")
@@ -5948,6 +6268,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Scarus_quoyi")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-145.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Scarus_tricolor")
@@ -6013,6 +6334,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Sparisoma_tuyupiranga_m")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-153.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-85.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Sparisoma_viride")
     paletteer::scale_color_paletteer_d("fishualize::Sparisoma_viride")
@@ -6020,7 +6344,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Sparisoma_viride")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-154.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-86.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Stegastes_nigricans")
     paletteer::scale_color_paletteer_d("fishualize::Stegastes_nigricans")
@@ -6028,6 +6356,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Stegastes_nigricans")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-155.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Stegastes_partitus")
@@ -6045,6 +6374,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Stegastes_variabilis")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-157.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-87.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Stethojulis_bandanensis")
     paletteer::scale_color_paletteer_d("fishualize::Stethojulis_bandanensis")
@@ -6052,7 +6384,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Stethojulis_bandanensis")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-158.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-88.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Synchiropus_splendidus")
     paletteer::scale_color_paletteer_d("fishualize::Synchiropus_splendidus")
@@ -6060,7 +6396,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Synchiropus_splendidus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-159.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-89.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Taeniura_lymma")
     paletteer::scale_color_paletteer_d("fishualize::Taeniura_lymma")
@@ -6068,7 +6408,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Taeniura_lymma")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-160.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-90.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Thalassoma_bifasciatum")
     paletteer::scale_color_paletteer_d("fishualize::Thalassoma_bifasciatum")
@@ -6076,7 +6420,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Thalassoma_bifasciatum")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-161.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-91.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Thalassoma_hardwicke")
     paletteer::scale_color_paletteer_d("fishualize::Thalassoma_hardwicke")
@@ -6084,6 +6432,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Thalassoma_hardwicke")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-162.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Thalassoma_noronhanum")
@@ -6093,6 +6442,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Thalassoma_noronhanum")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-163.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-92.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Thalassoma_pavo")
     paletteer::scale_color_paletteer_d("fishualize::Thalassoma_pavo")
@@ -6100,7 +6452,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Thalassoma_pavo")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-164.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-93.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Trimma_lantana")
     paletteer::scale_color_paletteer_d("fishualize::Trimma_lantana")
@@ -6108,7 +6464,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Trimma_lantana")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-165.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-94.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Valenciennea_strigata")
     paletteer::scale_color_paletteer_d("fishualize::Valenciennea_strigata")
@@ -6116,7 +6476,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Valenciennea_strigata")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-166.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-95.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Variola_louti")
     paletteer::scale_color_paletteer_d("fishualize::Variola_louti")
@@ -6124,6 +6488,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Variola_louti")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-167.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Xyrichthys_novacula")
@@ -6133,6 +6498,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Xyrichthys_novacula")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-168.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-96.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Zanclus_cornutus")
     paletteer::scale_color_paletteer_d("fishualize::Zanclus_cornutus")
@@ -6140,6 +6508,7 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Zanclus_cornutus")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-169.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("fishualize::Zapteryx_brevirostris")
@@ -6149,6 +6518,9 @@ ggplot2.
     paletteer::paletteer_d("fishualize::Zapteryx_brevirostris")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-170.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-97.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Zebrasoma_velifer")
     paletteer::scale_color_paletteer_d("fishualize::Zebrasoma_velifer")
@@ -6156,7 +6528,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Zebrasoma_velifer")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-171.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-98.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("fishualize::Zebrasoma_xanthurum")
     paletteer::scale_color_paletteer_d("fishualize::Zebrasoma_xanthurum")
@@ -6164,7 +6540,11 @@ ggplot2.
     
     paletteer::paletteer_d("fishualize::Zebrasoma_xanthurum")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-172.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-99.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::Seattle_Grays")
     paletteer::scale_color_paletteer_d("ggthemes::Seattle_Grays")
@@ -6172,6 +6552,7 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::Seattle_Grays")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-173.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic_Gray_5")
@@ -6181,6 +6562,9 @@ ggplot2.
     paletteer::paletteer_d("ggthemes::Classic_Gray_5")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-174.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-100.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::hc_bg")
     paletteer::scale_color_paletteer_d("ggthemes::hc_bg")
@@ -6188,7 +6572,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::hc_bg")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-175.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-101.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::JosefAlbers")
     paletteer::scale_color_paletteer_d("lisa::JosefAlbers")
@@ -6196,7 +6584,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::JosefAlbers")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-176.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-102.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::JosefAlbers_1")
     paletteer::scale_color_paletteer_d("lisa::JosefAlbers_1")
@@ -6204,7 +6596,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::JosefAlbers_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-177.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-103.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::GretchenAlbrecht")
     paletteer::scale_color_paletteer_d("lisa::GretchenAlbrecht")
@@ -6212,7 +6608,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::GretchenAlbrecht")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-178.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-104.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::BillyApple")
     paletteer::scale_color_paletteer_d("lisa::BillyApple")
@@ -6220,7 +6620,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::BillyApple")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-179.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-105.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::PerArnoldi")
     paletteer::scale_color_paletteer_d("lisa::PerArnoldi")
@@ -6228,7 +6632,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::PerArnoldi")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-180.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-106.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::MiltonAvery")
     paletteer::scale_color_paletteer_d("lisa::MiltonAvery")
@@ -6236,7 +6644,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::MiltonAvery")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-181.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-107.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::MiltonAvery_1")
     paletteer::scale_color_paletteer_d("lisa::MiltonAvery_1")
@@ -6244,7 +6656,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::MiltonAvery_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-182.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-108.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::HilmaafKlint")
     paletteer::scale_color_paletteer_d("lisa::HilmaafKlint")
@@ -6252,7 +6668,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::HilmaafKlint")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-183.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-109.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::Jean_MichelBasquiat")
     paletteer::scale_color_paletteer_d("lisa::Jean_MichelBasquiat")
@@ -6260,7 +6680,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::Jean_MichelBasquiat")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-184.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-110.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::Jean_MichelBasquiat_1")
     paletteer::scale_color_paletteer_d("lisa::Jean_MichelBasquiat_1")
@@ -6268,7 +6692,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::Jean_MichelBasquiat_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-185.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-111.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::MaxBeckmann")
     paletteer::scale_color_paletteer_d("lisa::MaxBeckmann")
@@ -6276,7 +6704,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::MaxBeckmann")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-186.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-112.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::FernandoBotero")
     paletteer::scale_color_paletteer_d("lisa::FernandoBotero")
@@ -6284,7 +6716,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::FernandoBotero")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-187.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-113.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::SandroBotticelli")
     paletteer::scale_color_paletteer_d("lisa::SandroBotticelli")
@@ -6292,7 +6728,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::SandroBotticelli")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-188.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-114.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::SandroBotticelli_1")
     paletteer::scale_color_paletteer_d("lisa::SandroBotticelli_1")
@@ -6300,7 +6740,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::SandroBotticelli_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-189.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-115.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::PieterBruegel")
     paletteer::scale_color_paletteer_d("lisa::PieterBruegel")
@@ -6308,7 +6752,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::PieterBruegel")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-190.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-116.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::JackBush")
     paletteer::scale_color_paletteer_d("lisa::JackBush")
@@ -6316,7 +6764,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::JackBush")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-191.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-117.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::JackBush_1")
     paletteer::scale_color_paletteer_d("lisa::JackBush_1")
@@ -6324,7 +6776,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::JackBush_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-192.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-118.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::MaryCassatt")
     paletteer::scale_color_paletteer_d("lisa::MaryCassatt")
@@ -6332,7 +6788,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::MaryCassatt")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-193.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-119.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::PaulCezanne")
     paletteer::scale_color_paletteer_d("lisa::PaulCezanne")
@@ -6340,7 +6800,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::PaulCezanne")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-194.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-120.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::MarcChagall")
     paletteer::scale_color_paletteer_d("lisa::MarcChagall")
@@ -6348,7 +6812,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::MarcChagall")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-195.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-121.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::C_M_Coolidge")
     paletteer::scale_color_paletteer_d("lisa::C_M_Coolidge")
@@ -6356,7 +6824,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::C_M_Coolidge")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-196.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-122.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::SalvadorDali")
     paletteer::scale_color_paletteer_d("lisa::SalvadorDali")
@@ -6364,7 +6836,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::SalvadorDali")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-197.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-123.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::SalvadorDali_1")
     paletteer::scale_color_paletteer_d("lisa::SalvadorDali_1")
@@ -6372,7 +6848,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::SalvadorDali_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-198.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-124.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::LeonardodaVinci")
     paletteer::scale_color_paletteer_d("lisa::LeonardodaVinci")
@@ -6380,7 +6860,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::LeonardodaVinci")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-199.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-125.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::GeneDavis")
     paletteer::scale_color_paletteer_d("lisa::GeneDavis")
@@ -6388,7 +6872,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::GeneDavis")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-200.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-126.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::GiorgiodeChirico")
     paletteer::scale_color_paletteer_d("lisa::GiorgiodeChirico")
@@ -6396,7 +6884,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::GiorgiodeChirico")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-201.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-127.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::GiorgiodeChirico_1")
     paletteer::scale_color_paletteer_d("lisa::GiorgiodeChirico_1")
@@ -6404,7 +6896,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::GiorgiodeChirico_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-202.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-128.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::EdgarDegas")
     paletteer::scale_color_paletteer_d("lisa::EdgarDegas")
@@ -6412,7 +6908,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::EdgarDegas")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-203.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-129.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::RobertDelaunay")
     paletteer::scale_color_paletteer_d("lisa::RobertDelaunay")
@@ -6420,7 +6920,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::RobertDelaunay")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-204.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-130.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::RobertDelaunay_1")
     paletteer::scale_color_paletteer_d("lisa::RobertDelaunay_1")
@@ -6428,7 +6932,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::RobertDelaunay_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-205.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-131.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::CharlesDemuth")
     paletteer::scale_color_paletteer_d("lisa::CharlesDemuth")
@@ -6436,7 +6944,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::CharlesDemuth")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-206.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-132.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::RichardDiebenkorn")
     paletteer::scale_color_paletteer_d("lisa::RichardDiebenkorn")
@@ -6444,7 +6956,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::RichardDiebenkorn")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-207.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-133.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::OttoDix")
     paletteer::scale_color_paletteer_d("lisa::OttoDix")
@@ -6452,7 +6968,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::OttoDix")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-208.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-134.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::OttoDix_1")
     paletteer::scale_color_paletteer_d("lisa::OttoDix_1")
@@ -6460,7 +6980,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::OttoDix_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-209.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-135.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::MarcelDuchamp")
     paletteer::scale_color_paletteer_d("lisa::MarcelDuchamp")
@@ -6468,7 +6992,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::MarcelDuchamp")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-210.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-136.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::AlbrechtDurer")
     paletteer::scale_color_paletteer_d("lisa::AlbrechtDurer")
@@ -6476,7 +7004,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::AlbrechtDurer")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-211.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-137.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::MaxErnst")
     paletteer::scale_color_paletteer_d("lisa::MaxErnst")
@@ -6484,7 +7016,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::MaxErnst")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-212.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-138.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::M_C_Escher")
     paletteer::scale_color_paletteer_d("lisa::M_C_Escher")
@@ -6492,7 +7028,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::M_C_Escher")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-213.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-139.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::PaulFeeley")
     paletteer::scale_color_paletteer_d("lisa::PaulFeeley")
@@ -6500,7 +7040,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::PaulFeeley")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-214.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-140.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::LorserFeitelson")
     paletteer::scale_color_paletteer_d("lisa::LorserFeitelson")
@@ -6508,7 +7052,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::LorserFeitelson")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-215.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-141.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::HelenFrankenthaler")
     paletteer::scale_color_paletteer_d("lisa::HelenFrankenthaler")
@@ -6516,7 +7064,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::HelenFrankenthaler")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-216.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-142.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::LucianFreud")
     paletteer::scale_color_paletteer_d("lisa::LucianFreud")
@@ -6524,7 +7076,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::LucianFreud")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-217.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-143.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::TerryFrost")
     paletteer::scale_color_paletteer_d("lisa::TerryFrost")
@@ -6532,7 +7088,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::TerryFrost")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-218.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-144.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::PaulGauguin")
     paletteer::scale_color_paletteer_d("lisa::PaulGauguin")
@@ -6540,7 +7100,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::PaulGauguin")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-219.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-145.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::RupprechtGeiger")
     paletteer::scale_color_paletteer_d("lisa::RupprechtGeiger")
@@ -6548,7 +7112,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::RupprechtGeiger")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-220.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-146.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::HansHofmann")
     paletteer::scale_color_paletteer_d("lisa::HansHofmann")
@@ -6556,7 +7124,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::HansHofmann")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-221.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-147.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::KatsushikaHokusai")
     paletteer::scale_color_paletteer_d("lisa::KatsushikaHokusai")
@@ -6564,7 +7136,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::KatsushikaHokusai")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-222.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-148.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::WinslowHomer")
     paletteer::scale_color_paletteer_d("lisa::WinslowHomer")
@@ -6572,7 +7148,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::WinslowHomer")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-223.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-149.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::EdwardHopper")
     paletteer::scale_color_paletteer_d("lisa::EdwardHopper")
@@ -6580,7 +7160,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::EdwardHopper")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-224.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-150.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::RobertIndiana")
     paletteer::scale_color_paletteer_d("lisa::RobertIndiana")
@@ -6588,7 +7172,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::RobertIndiana")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-225.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-151.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::JamesJean")
     paletteer::scale_color_paletteer_d("lisa::JamesJean")
@@ -6596,7 +7184,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::JamesJean")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-226.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-152.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::JasperJohns")
     paletteer::scale_color_paletteer_d("lisa::JasperJohns")
@@ -6604,7 +7196,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::JasperJohns")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-227.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-153.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::FridaKahlo")
     paletteer::scale_color_paletteer_d("lisa::FridaKahlo")
@@ -6612,7 +7208,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::FridaKahlo")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-228.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-154.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::WassilyKandinsky")
     paletteer::scale_color_paletteer_d("lisa::WassilyKandinsky")
@@ -6620,7 +7220,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::WassilyKandinsky")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-229.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-155.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::WassilyKandinsky_1")
     paletteer::scale_color_paletteer_d("lisa::WassilyKandinsky_1")
@@ -6628,7 +7232,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::WassilyKandinsky_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-230.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-156.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::WassilyKandinsky_2")
     paletteer::scale_color_paletteer_d("lisa::WassilyKandinsky_2")
@@ -6636,7 +7244,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::WassilyKandinsky_2")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-231.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-157.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::PaulKlee")
     paletteer::scale_color_paletteer_d("lisa::PaulKlee")
@@ -6644,7 +7256,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::PaulKlee")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-232.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-158.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::PaulKlee_1")
     paletteer::scale_color_paletteer_d("lisa::PaulKlee_1")
@@ -6652,7 +7268,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::PaulKlee_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-233.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-159.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::YvesKlein")
     paletteer::scale_color_paletteer_d("lisa::YvesKlein")
@@ -6660,7 +7280,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::YvesKlein")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-234.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-160.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::GustavKlimt")
     paletteer::scale_color_paletteer_d("lisa::GustavKlimt")
@@ -6668,7 +7292,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::GustavKlimt")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-235.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-161.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::JeffKoons")
     paletteer::scale_color_paletteer_d("lisa::JeffKoons")
@@ -6676,7 +7304,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::JeffKoons")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-236.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-162.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::LeeKrasner")
     paletteer::scale_color_paletteer_d("lisa::LeeKrasner")
@@ -6684,7 +7316,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::LeeKrasner")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-237.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-163.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::JacobLawrence")
     paletteer::scale_color_paletteer_d("lisa::JacobLawrence")
@@ -6692,7 +7328,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::JacobLawrence")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-238.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-164.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::JacobLawrence_1")
     paletteer::scale_color_paletteer_d("lisa::JacobLawrence_1")
@@ -6700,7 +7340,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::JacobLawrence_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-239.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-165.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::SolLeWitt")
     paletteer::scale_color_paletteer_d("lisa::SolLeWitt")
@@ -6708,7 +7352,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::SolLeWitt")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-240.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-166.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::RoyLichtenstein")
     paletteer::scale_color_paletteer_d("lisa::RoyLichtenstein")
@@ -6716,7 +7364,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::RoyLichtenstein")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-241.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-167.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::RoyLichtenstein_1")
     paletteer::scale_color_paletteer_d("lisa::RoyLichtenstein_1")
@@ -6724,7 +7376,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::RoyLichtenstein_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-242.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-168.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::RoyLichtenstein_2")
     paletteer::scale_color_paletteer_d("lisa::RoyLichtenstein_2")
@@ -6732,7 +7388,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::RoyLichtenstein_2")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-243.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-169.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::KazimirMalevich")
     paletteer::scale_color_paletteer_d("lisa::KazimirMalevich")
@@ -6740,7 +7400,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::KazimirMalevich")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-244.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-170.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::EdouardManet")
     paletteer::scale_color_paletteer_d("lisa::EdouardManet")
@@ -6748,7 +7412,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::EdouardManet")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-245.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-171.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::ReneMagritte")
     paletteer::scale_color_paletteer_d("lisa::ReneMagritte")
@@ -6756,7 +7424,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::ReneMagritte")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-246.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-172.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::ReneMagritte_1")
     paletteer::scale_color_paletteer_d("lisa::ReneMagritte_1")
@@ -6764,7 +7436,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::ReneMagritte_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-247.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-173.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::Masaccio")
     paletteer::scale_color_paletteer_d("lisa::Masaccio")
@@ -6772,7 +7448,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::Masaccio")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-248.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-174.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::Michelangelo")
     paletteer::scale_color_paletteer_d("lisa::Michelangelo")
@@ -6780,7 +7460,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::Michelangelo")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-249.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-175.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::JoanMiro")
     paletteer::scale_color_paletteer_d("lisa::JoanMiro")
@@ -6788,7 +7472,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::JoanMiro")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-250.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-176.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::AmedeoModigliani")
     paletteer::scale_color_paletteer_d("lisa::AmedeoModigliani")
@@ -6796,7 +7484,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::AmedeoModigliani")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-251.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-177.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::PietMondrian")
     paletteer::scale_color_paletteer_d("lisa::PietMondrian")
@@ -6804,7 +7496,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::PietMondrian")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-252.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-178.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::ClaudeMonet")
     paletteer::scale_color_paletteer_d("lisa::ClaudeMonet")
@@ -6812,7 +7508,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::ClaudeMonet")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-253.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-179.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::ClaudeMonet_1")
     paletteer::scale_color_paletteer_d("lisa::ClaudeMonet_1")
@@ -6820,7 +7520,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::ClaudeMonet_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-254.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-180.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::ClaudeMonet_2")
     paletteer::scale_color_paletteer_d("lisa::ClaudeMonet_2")
@@ -6828,7 +7532,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::ClaudeMonet_2")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-255.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-181.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::EdvardMunch")
     paletteer::scale_color_paletteer_d("lisa::EdvardMunch")
@@ -6836,7 +7544,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::EdvardMunch")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-256.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-182.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::EdvardMunch_1")
     paletteer::scale_color_paletteer_d("lisa::EdvardMunch_1")
@@ -6844,7 +7556,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::EdvardMunch_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-257.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-183.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::BarnettNewman")
     paletteer::scale_color_paletteer_d("lisa::BarnettNewman")
@@ -6852,7 +7568,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::BarnettNewman")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-258.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-184.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::KennethNoland")
     paletteer::scale_color_paletteer_d("lisa::KennethNoland")
@@ -6860,7 +7580,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::KennethNoland")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-259.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-185.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::GeorgiaOKeeffe")
     paletteer::scale_color_paletteer_d("lisa::GeorgiaOKeeffe")
@@ -6868,7 +7592,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::GeorgiaOKeeffe")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-260.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-186.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::ClaesOldenburg")
     paletteer::scale_color_paletteer_d("lisa::ClaesOldenburg")
@@ -6876,7 +7604,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::ClaesOldenburg")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-261.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-187.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::PabloPicasso")
     paletteer::scale_color_paletteer_d("lisa::PabloPicasso")
@@ -6884,7 +7616,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::PabloPicasso")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-262.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-188.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::PabloPicasso_1")
     paletteer::scale_color_paletteer_d("lisa::PabloPicasso_1")
@@ -6892,7 +7628,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::PabloPicasso_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-263.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-189.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::JacksonPollock")
     paletteer::scale_color_paletteer_d("lisa::JacksonPollock")
@@ -6900,7 +7640,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::JacksonPollock")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-264.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-190.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::Prince")
     paletteer::scale_color_paletteer_d("lisa::Prince")
@@ -6908,7 +7652,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::Prince")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-265.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-191.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::JohnQuidor")
     paletteer::scale_color_paletteer_d("lisa::JohnQuidor")
@@ -6916,7 +7664,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::JohnQuidor")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-266.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-192.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::MelRamos")
     paletteer::scale_color_paletteer_d("lisa::MelRamos")
@@ -6924,7 +7676,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::MelRamos")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-267.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-193.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::OdilonRedon")
     paletteer::scale_color_paletteer_d("lisa::OdilonRedon")
@@ -6932,7 +7688,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::OdilonRedon")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-268.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-194.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::Rembrandt")
     paletteer::scale_color_paletteer_d("lisa::Rembrandt")
@@ -6940,7 +7700,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::Rembrandt")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-269.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-195.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::Pierre_AugusteRenoir")
     paletteer::scale_color_paletteer_d("lisa::Pierre_AugusteRenoir")
@@ -6948,7 +7712,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::Pierre_AugusteRenoir")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-270.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-196.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::Pierre_AugusteRenoir_1")
     paletteer::scale_color_paletteer_d("lisa::Pierre_AugusteRenoir_1")
@@ -6956,7 +7724,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::Pierre_AugusteRenoir_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-271.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-197.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::BridgetRiley")
     paletteer::scale_color_paletteer_d("lisa::BridgetRiley")
@@ -6964,7 +7736,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::BridgetRiley")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-272.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-198.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::JamesRosenquist")
     paletteer::scale_color_paletteer_d("lisa::JamesRosenquist")
@@ -6972,7 +7748,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::JamesRosenquist")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-273.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-199.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::MarkRothko")
     paletteer::scale_color_paletteer_d("lisa::MarkRothko")
@@ -6980,7 +7760,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::MarkRothko")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-274.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-200.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::MarkRothko_1")
     paletteer::scale_color_paletteer_d("lisa::MarkRothko_1")
@@ -6988,7 +7772,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::MarkRothko_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-275.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-201.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::JohnSingerSargent")
     paletteer::scale_color_paletteer_d("lisa::JohnSingerSargent")
@@ -6996,7 +7784,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::JohnSingerSargent")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-276.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-202.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::JohnSingerSargent_1")
     paletteer::scale_color_paletteer_d("lisa::JohnSingerSargent_1")
@@ -7004,7 +7796,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::JohnSingerSargent_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-277.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-203.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::JohnSingerSargent_2")
     paletteer::scale_color_paletteer_d("lisa::JohnSingerSargent_2")
@@ -7012,7 +7808,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::JohnSingerSargent_2")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-278.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-204.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::OskarSchlemmer")
     paletteer::scale_color_paletteer_d("lisa::OskarSchlemmer")
@@ -7020,7 +7820,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::OskarSchlemmer")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-279.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-205.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::GeorgesSeurat")
     paletteer::scale_color_paletteer_d("lisa::GeorgesSeurat")
@@ -7028,7 +7832,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::GeorgesSeurat")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-280.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-206.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::SandySkoglund")
     paletteer::scale_color_paletteer_d("lisa::SandySkoglund")
@@ -7036,7 +7844,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::SandySkoglund")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-281.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-207.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::PavelTchelitchew")
     paletteer::scale_color_paletteer_d("lisa::PavelTchelitchew")
@@ -7044,7 +7856,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::PavelTchelitchew")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-282.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-208.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::J_M_W_Turner")
     paletteer::scale_color_paletteer_d("lisa::J_M_W_Turner")
@@ -7052,7 +7868,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::J_M_W_Turner")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-283.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-209.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::CyTwombly")
     paletteer::scale_color_paletteer_d("lisa::CyTwombly")
@@ -7060,7 +7880,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::CyTwombly")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-284.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-210.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::JohannJacobUlrich")
     paletteer::scale_color_paletteer_d("lisa::JohannJacobUlrich")
@@ -7068,7 +7892,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::JohannJacobUlrich")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-285.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-211.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::TheovanDoesburg")
     paletteer::scale_color_paletteer_d("lisa::TheovanDoesburg")
@@ -7076,7 +7904,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::TheovanDoesburg")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-286.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-212.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::TheovanDoesburg_1")
     paletteer::scale_color_paletteer_d("lisa::TheovanDoesburg_1")
@@ -7084,7 +7916,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::TheovanDoesburg_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-287.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-213.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::JanvanEyck")
     paletteer::scale_color_paletteer_d("lisa::JanvanEyck")
@@ -7092,7 +7928,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::JanvanEyck")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-288.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-214.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::VincentvanGogh")
     paletteer::scale_color_paletteer_d("lisa::VincentvanGogh")
@@ -7100,7 +7940,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::VincentvanGogh")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-289.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-215.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::VincentvanGogh_1")
     paletteer::scale_color_paletteer_d("lisa::VincentvanGogh_1")
@@ -7108,7 +7952,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::VincentvanGogh_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-290.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-216.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::VincentvanGogh_2")
     paletteer::scale_color_paletteer_d("lisa::VincentvanGogh_2")
@@ -7116,7 +7964,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::VincentvanGogh_2")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-291.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-217.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::RemediosVaro")
     paletteer::scale_color_paletteer_d("lisa::RemediosVaro")
@@ -7124,7 +7976,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::RemediosVaro")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-292.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-218.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::DiegoVelazquez")
     paletteer::scale_color_paletteer_d("lisa::DiegoVelazquez")
@@ -7132,7 +7988,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::DiegoVelazquez")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-293.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-219.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::JohannesVermeer")
     paletteer::scale_color_paletteer_d("lisa::JohannesVermeer")
@@ -7140,7 +8000,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::JohannesVermeer")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-294.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-220.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::JohannesVermeer_1")
     paletteer::scale_color_paletteer_d("lisa::JohannesVermeer_1")
@@ -7148,7 +8012,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::JohannesVermeer_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-295.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-221.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::AndyWarhol")
     paletteer::scale_color_paletteer_d("lisa::AndyWarhol")
@@ -7156,7 +8024,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::AndyWarhol")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-296.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-222.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::AndyWarhol_1")
     paletteer::scale_color_paletteer_d("lisa::AndyWarhol_1")
@@ -7164,7 +8036,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::AndyWarhol_1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-297.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-223.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::AndyWarhol_2")
     paletteer::scale_color_paletteer_d("lisa::AndyWarhol_2")
@@ -7172,7 +8048,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::AndyWarhol_2")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-298.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-224.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::AndyWarhol_3")
     paletteer::scale_color_paletteer_d("lisa::AndyWarhol_3")
@@ -7180,7 +8060,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::AndyWarhol_3")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-299.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-225.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::GrantWood")
     paletteer::scale_color_paletteer_d("lisa::GrantWood")
@@ -7188,7 +8072,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::GrantWood")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-300.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-226.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::FrancescoXanto")
     paletteer::scale_color_paletteer_d("lisa::FrancescoXanto")
@@ -7196,7 +8084,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::FrancescoXanto")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-301.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-227.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::JackYoungerman")
     paletteer::scale_color_paletteer_d("lisa::JackYoungerman")
@@ -7204,7 +8096,11 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::JackYoungerman")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-302.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-228.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("lisa::KarlZerbe")
     paletteer::scale_color_paletteer_d("lisa::KarlZerbe")
@@ -7212,6 +8108,7 @@ ggplot2.
     
     paletteer::paletteer_d("lisa::KarlZerbe")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-303.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("rtist::raphael")
@@ -7333,6 +8230,9 @@ ggplot2.
     paletteer::paletteer_d("rtist::pollock")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-318.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-229.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::black_alert")
     paletteer::scale_color_paletteer_d("trekcolors::black_alert")
@@ -7340,7 +8240,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::black_alert")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-319.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-230.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::Targaryen")
     paletteer::scale_color_paletteer_d("tvthemes::Targaryen")
@@ -7348,7 +8252,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::Targaryen")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-320.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-231.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("unikn::pal_seeblau")
     paletteer::scale_color_paletteer_d("unikn::pal_seeblau")
@@ -7356,7 +8264,11 @@ ggplot2.
     
     paletteer::paletteer_d("unikn::pal_seeblau")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-321.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-232.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("unikn::pal_peach")
     paletteer::scale_color_paletteer_d("unikn::pal_peach")
@@ -7364,7 +8276,11 @@ ggplot2.
     
     paletteer::paletteer_d("unikn::pal_peach")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-322.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-233.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("unikn::pal_grau")
     paletteer::scale_color_paletteer_d("unikn::pal_grau")
@@ -7372,7 +8288,11 @@ ggplot2.
     
     paletteer::paletteer_d("unikn::pal_grau")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-323.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-234.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("unikn::pal_petrol")
     paletteer::scale_color_paletteer_d("unikn::pal_petrol")
@@ -7380,7 +8300,11 @@ ggplot2.
     
     paletteer::paletteer_d("unikn::pal_petrol")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-324.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-235.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("unikn::pal_seegruen")
     paletteer::scale_color_paletteer_d("unikn::pal_seegruen")
@@ -7388,7 +8312,11 @@ ggplot2.
     
     paletteer::paletteer_d("unikn::pal_seegruen")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-325.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-236.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("unikn::pal_karpfenblau")
     paletteer::scale_color_paletteer_d("unikn::pal_karpfenblau")
@@ -7396,7 +8324,11 @@ ggplot2.
     
     paletteer::paletteer_d("unikn::pal_karpfenblau")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-326.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-237.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("unikn::pal_pinky")
     paletteer::scale_color_paletteer_d("unikn::pal_pinky")
@@ -7404,7 +8336,11 @@ ggplot2.
     
     paletteer::paletteer_d("unikn::pal_pinky")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-327.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-238.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("unikn::pal_bordeaux")
     paletteer::scale_color_paletteer_d("unikn::pal_bordeaux")
@@ -7412,7 +8348,59 @@ ggplot2.
     
     paletteer::paletteer_d("unikn::pal_bordeaux")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-328.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-239.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::avanti")
+    paletteer::scale_color_paletteer_d("vapoRwave::avanti")
+    paletteer::scale_fill_paletteer_d("vapoRwave::avanti")
+    
+    paletteer::paletteer_d("vapoRwave::avanti")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-240.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::cool")
+    paletteer::scale_color_paletteer_d("vapoRwave::cool")
+    paletteer::scale_fill_paletteer_d("vapoRwave::cool")
+    
+    paletteer::paletteer_d("vapoRwave::cool")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-241.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::jazzCup")
+    paletteer::scale_color_paletteer_d("vapoRwave::jazzCup")
+    paletteer::scale_fill_paletteer_d("vapoRwave::jazzCup")
+    
+    paletteer::paletteer_d("vapoRwave::jazzCup")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-242.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::seaPunk")
+    paletteer::scale_color_paletteer_d("vapoRwave::seaPunk")
+    paletteer::scale_fill_paletteer_d("vapoRwave::seaPunk")
+    
+    paletteer::paletteer_d("vapoRwave::seaPunk")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-243.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::sunSet")
+    paletteer::scale_color_paletteer_d("vapoRwave::sunSet")
+    paletteer::scale_fill_paletteer_d("vapoRwave::sunSet")
+    
+    paletteer::paletteer_d("vapoRwave::sunSet")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-244.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("fishualize::Scarus_tricolor")
+    paletteer::scale_color_paletteer_d("fishualize::Scarus_tricolor")
+    paletteer::scale_fill_paletteer_d("fishualize::Scarus_tricolor")
+    
+    paletteer::paletteer_d("fishualize::Scarus_tricolor")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-245.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::signature_substitutions_cosmic")
     paletteer::scale_color_paletteer_d("ggsci::signature_substitutions_cosmic")
@@ -7420,7 +8408,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::signature_substitutions_cosmic")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-329.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-246.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic_Purple_Gray_6")
     paletteer::scale_color_paletteer_d("ggthemes::Classic_Purple_Gray_6")
@@ -7428,7 +8420,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::Classic_Purple_Gray_6")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-330.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-247.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic_Green_Orange_6")
     paletteer::scale_color_paletteer_d("ggthemes::Classic_Green_Orange_6")
@@ -7436,7 +8432,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::Classic_Green_Orange_6")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-331.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-248.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic_Blue_Red_6")
     paletteer::scale_color_paletteer_d("ggthemes::Classic_Blue_Red_6")
@@ -7444,7 +8444,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::Classic_Blue_Red_6")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-332.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-249.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Atlas")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Atlas")
@@ -7452,7 +8456,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Atlas")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-333.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-250.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Badge")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Badge")
@@ -7460,7 +8468,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Badge")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-334.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-251.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Berlin")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Berlin")
@@ -7468,7 +8480,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Berlin")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-335.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-252.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Celestial")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Celestial")
@@ -7476,7 +8492,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Celestial")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-336.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-253.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Crop")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Crop")
@@ -7484,7 +8504,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Crop")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-337.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-254.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Depth")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Depth")
@@ -7492,7 +8516,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Depth")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-338.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-255.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Droplet")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Droplet")
@@ -7500,7 +8528,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Droplet")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-339.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-256.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Facet")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Facet")
@@ -7508,7 +8540,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Facet")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-340.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-257.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Feathered")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Feathered")
@@ -7516,7 +8552,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Feathered")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-341.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-258.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Gallery")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Gallery")
@@ -7524,7 +8564,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Gallery")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-342.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-259.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Headlines")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Headlines")
@@ -7532,7 +8576,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Headlines")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-343.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-260.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Integral")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Integral")
@@ -7540,7 +8588,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Integral")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-344.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-261.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Ion_Boardroom")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Ion_Boardroom")
@@ -7548,7 +8600,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Ion_Boardroom")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-345.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-262.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Ion")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Ion")
@@ -7556,7 +8612,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Ion")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-346.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-263.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Madison")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Madison")
@@ -7564,7 +8624,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Madison")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-347.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-264.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Main_Event")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Main_Event")
@@ -7572,7 +8636,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Main_Event")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-348.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-265.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Mesh")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Mesh")
@@ -7580,7 +8648,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Mesh")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-349.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-266.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Office_Theme")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Office_Theme")
@@ -7588,7 +8660,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Office_Theme")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-350.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-267.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Organic")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Organic")
@@ -7596,7 +8672,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Organic")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-351.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-268.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Parallax")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Parallax")
@@ -7604,7 +8684,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Parallax")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-352.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-269.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Parcel")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Parcel")
@@ -7612,7 +8696,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Parcel")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-353.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-270.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Retrospect")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Retrospect")
@@ -7620,7 +8708,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Retrospect")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-354.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-271.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Savon")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Savon")
@@ -7628,7 +8720,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Savon")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-355.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-272.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Slice")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Slice")
@@ -7636,7 +8732,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Slice")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-356.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-273.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Vapor_Trail")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Vapor_Trail")
@@ -7644,7 +8744,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Vapor_Trail")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-357.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-274.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_View")
     paletteer::scale_color_paletteer_d("ggthemes::excel_View")
@@ -7652,7 +8756,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_View")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-358.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-275.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Wisp")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Wisp")
@@ -7660,7 +8768,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Wisp")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-359.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-276.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Wood_Type")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Wood_Type")
@@ -7668,7 +8780,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Wood_Type")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-360.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-277.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Aspect")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Aspect")
@@ -7676,7 +8792,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Aspect")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-361.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-278.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Blue_Green")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Blue_Green")
@@ -7684,7 +8804,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Blue_Green")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-362.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-279.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Blue_II")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Blue_II")
@@ -7692,7 +8816,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Blue_II")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-363.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-280.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Blue_Warm")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Blue_Warm")
@@ -7700,7 +8828,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Blue_Warm")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-364.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-281.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Blue")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Blue")
@@ -7708,7 +8840,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Blue")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-365.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-282.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Grayscale")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Grayscale")
@@ -7716,7 +8852,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Grayscale")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-366.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-283.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Green_Yellow")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Green_Yellow")
@@ -7724,7 +8864,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Green_Yellow")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-367.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-284.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Green")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Green")
@@ -7732,7 +8876,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Green")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-368.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-285.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Marquee")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Marquee")
@@ -7740,7 +8888,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Marquee")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-369.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-286.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Median")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Median")
@@ -7748,7 +8900,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Median")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-370.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-287.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Office_2007_2010")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Office_2007_2010")
@@ -7756,7 +8912,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Office_2007_2010")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-371.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-288.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Orange_Red")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Orange_Red")
@@ -7764,7 +8924,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Orange_Red")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-372.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-289.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Orange")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Orange")
@@ -7772,7 +8936,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Orange")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-373.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-290.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Paper")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Paper")
@@ -7780,7 +8948,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Paper")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-374.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-291.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Red_Orange")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Red_Orange")
@@ -7788,7 +8960,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Red_Orange")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-375.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-292.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Red_Violet")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Red_Violet")
@@ -7796,7 +8972,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Red_Violet")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-376.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-293.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Red")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Red")
@@ -7804,7 +8984,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Red")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-377.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-294.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Slipstream")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Slipstream")
@@ -7812,7 +8996,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Slipstream")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-378.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-295.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Violet_II")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Violet_II")
@@ -7820,7 +9008,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Violet_II")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-379.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-296.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Violet")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Violet")
@@ -7828,7 +9020,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Violet")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-380.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-297.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Yellow_Orange")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Yellow_Orange")
@@ -7836,7 +9032,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Yellow_Orange")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-381.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-298.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::excel_Yellow")
     paletteer::scale_color_paletteer_d("ggthemes::excel_Yellow")
@@ -7844,6 +9044,7 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::excel_Yellow")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-382.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("khroma::pale")
@@ -7861,6 +9062,9 @@ ggplot2.
     paletteer::paletteer_d("khroma::dark")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-384.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-299.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("nord::halifax_harbor")
     paletteer::scale_color_paletteer_d("nord::halifax_harbor")
@@ -7868,7 +9072,11 @@ ggplot2.
     
     paletteer::paletteer_d("nord::halifax_harbor")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-385.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-300.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::bajoran")
     paletteer::scale_color_paletteer_d("trekcolors::bajoran")
@@ -7876,7 +9084,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::bajoran")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-386.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-301.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_nx01")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_nx01")
@@ -7884,7 +9096,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::lcars_nx01")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-387.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-302.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::starfleet2")
     paletteer::scale_color_paletteer_d("trekcolors::starfleet2")
@@ -7892,7 +9108,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::starfleet2")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-388.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-303.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::red_alert")
     paletteer::scale_color_paletteer_d("trekcolors::red_alert")
@@ -7900,7 +9120,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::red_alert")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-389.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-304.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::yellow_alert")
     paletteer::scale_color_paletteer_d("trekcolors::yellow_alert")
@@ -7908,7 +9132,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::yellow_alert")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-390.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-305.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::Lannister")
     paletteer::scale_color_paletteer_d("tvthemes::Lannister")
@@ -7916,7 +9144,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::Lannister")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-391.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-306.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::Tully")
     paletteer::scale_color_paletteer_d("tvthemes::Tully")
@@ -7924,7 +9156,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::Tully")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-392.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-307.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::Greyjoy")
     paletteer::scale_color_paletteer_d("tvthemes::Greyjoy")
@@ -7932,7 +9168,27 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::Greyjoy")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-393.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-308.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::macPlus")
+    paletteer::scale_color_paletteer_d("vapoRwave::macPlus")
+    paletteer::scale_fill_paletteer_d("vapoRwave::macPlus")
+    
+    paletteer::paletteer_d("vapoRwave::macPlus")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-309.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::mallSoft")
+    paletteer::scale_color_paletteer_d("vapoRwave::mallSoft")
+    paletteer::scale_fill_paletteer_d("vapoRwave::mallSoft")
+    
+    paletteer::paletteer_d("vapoRwave::mallSoft")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-310.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("colorBlindness::LightBlue2DarkBlue7Steps")
     paletteer::scale_color_paletteer_d("colorBlindness::LightBlue2DarkBlue7Steps")
@@ -7940,7 +9196,11 @@ ggplot2.
     
     paletteer::paletteer_d("colorBlindness::LightBlue2DarkBlue7Steps")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-394.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-311.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("dichromat::LightBluetoDarkBlue_7")
     paletteer::scale_color_paletteer_d("dichromat::LightBluetoDarkBlue_7")
@@ -7948,6 +9208,7 @@ ggplot2.
     
     paletteer::paletteer_d("dichromat::LightBluetoDarkBlue_7")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-395.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("khroma::vibrant")
@@ -7957,6 +9218,9 @@ ggplot2.
     paletteer::paletteer_d("khroma::vibrant")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-396.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-312.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("palettesForR::Warm")
     paletteer::scale_color_paletteer_d("palettesForR::Warm")
@@ -7964,7 +9228,11 @@ ggplot2.
     
     paletteer::paletteer_d("palettesForR::Warm")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-397.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-313.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("rcartocolor::ag_Sunset")
     paletteer::scale_color_paletteer_d("rcartocolor::ag_Sunset")
@@ -7972,7 +9240,11 @@ ggplot2.
     
     paletteer::paletteer_d("rcartocolor::ag_Sunset")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-398.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-314.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("rcartocolor::ag_GrnYl")
     paletteer::scale_color_paletteer_d("rcartocolor::ag_GrnYl")
@@ -7980,7 +9252,11 @@ ggplot2.
     
     paletteer::paletteer_d("rcartocolor::ag_GrnYl")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-399.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-315.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("rcartocolor::TealGrn")
     paletteer::scale_color_paletteer_d("rcartocolor::TealGrn")
@@ -7988,7 +9264,11 @@ ggplot2.
     
     paletteer::paletteer_d("rcartocolor::TealGrn")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-400.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-316.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("rcartocolor::Teal")
     paletteer::scale_color_paletteer_d("rcartocolor::Teal")
@@ -7996,7 +9276,11 @@ ggplot2.
     
     paletteer::paletteer_d("rcartocolor::Teal")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-401.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-317.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("rcartocolor::SunsetDark")
     paletteer::scale_color_paletteer_d("rcartocolor::SunsetDark")
@@ -8004,7 +9288,11 @@ ggplot2.
     
     paletteer::paletteer_d("rcartocolor::SunsetDark")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-402.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-318.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("rcartocolor::Sunset")
     paletteer::scale_color_paletteer_d("rcartocolor::Sunset")
@@ -8012,7 +9300,11 @@ ggplot2.
     
     paletteer::paletteer_d("rcartocolor::Sunset")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-403.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-319.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("rcartocolor::RedOr")
     paletteer::scale_color_paletteer_d("rcartocolor::RedOr")
@@ -8020,7 +9312,11 @@ ggplot2.
     
     paletteer::paletteer_d("rcartocolor::RedOr")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-404.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-320.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("rcartocolor::PurpOr")
     paletteer::scale_color_paletteer_d("rcartocolor::PurpOr")
@@ -8028,7 +9324,11 @@ ggplot2.
     
     paletteer::paletteer_d("rcartocolor::PurpOr")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-405.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-321.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("rcartocolor::Purp")
     paletteer::scale_color_paletteer_d("rcartocolor::Purp")
@@ -8036,7 +9336,11 @@ ggplot2.
     
     paletteer::paletteer_d("rcartocolor::Purp")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-406.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-322.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("rcartocolor::PinkYl")
     paletteer::scale_color_paletteer_d("rcartocolor::PinkYl")
@@ -8044,7 +9348,11 @@ ggplot2.
     
     paletteer::paletteer_d("rcartocolor::PinkYl")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-407.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-323.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("rcartocolor::Peach")
     paletteer::scale_color_paletteer_d("rcartocolor::Peach")
@@ -8052,7 +9360,11 @@ ggplot2.
     
     paletteer::paletteer_d("rcartocolor::Peach")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-408.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-324.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("rcartocolor::OrYel")
     paletteer::scale_color_paletteer_d("rcartocolor::OrYel")
@@ -8060,7 +9372,11 @@ ggplot2.
     
     paletteer::paletteer_d("rcartocolor::OrYel")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-409.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-325.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("rcartocolor::Mint")
     paletteer::scale_color_paletteer_d("rcartocolor::Mint")
@@ -8068,7 +9384,11 @@ ggplot2.
     
     paletteer::paletteer_d("rcartocolor::Mint")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-410.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-326.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("rcartocolor::Magenta")
     paletteer::scale_color_paletteer_d("rcartocolor::Magenta")
@@ -8076,7 +9396,11 @@ ggplot2.
     
     paletteer::paletteer_d("rcartocolor::Magenta")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-411.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-327.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("rcartocolor::Emrld")
     paletteer::scale_color_paletteer_d("rcartocolor::Emrld")
@@ -8084,7 +9408,11 @@ ggplot2.
     
     paletteer::paletteer_d("rcartocolor::Emrld")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-412.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-328.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("rcartocolor::DarkMint")
     paletteer::scale_color_paletteer_d("rcartocolor::DarkMint")
@@ -8092,7 +9420,11 @@ ggplot2.
     
     paletteer::paletteer_d("rcartocolor::DarkMint")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-413.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-329.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("rcartocolor::BurgYl")
     paletteer::scale_color_paletteer_d("rcartocolor::BurgYl")
@@ -8100,7 +9432,11 @@ ggplot2.
     
     paletteer::paletteer_d("rcartocolor::BurgYl")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-414.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-330.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("rcartocolor::Burg")
     paletteer::scale_color_paletteer_d("rcartocolor::Burg")
@@ -8108,7 +9444,11 @@ ggplot2.
     
     paletteer::paletteer_d("rcartocolor::Burg")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-415.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-331.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("rcartocolor::BrwnYl")
     paletteer::scale_color_paletteer_d("rcartocolor::BrwnYl")
@@ -8116,7 +9456,11 @@ ggplot2.
     
     paletteer::paletteer_d("rcartocolor::BrwnYl")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-416.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-332.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("rcartocolor::BluYl")
     paletteer::scale_color_paletteer_d("rcartocolor::BluYl")
@@ -8124,7 +9468,11 @@ ggplot2.
     
     paletteer::paletteer_d("rcartocolor::BluYl")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-417.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-333.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("rcartocolor::BluGrn")
     paletteer::scale_color_paletteer_d("rcartocolor::BluGrn")
@@ -8132,7 +9480,11 @@ ggplot2.
     
     paletteer::paletteer_d("rcartocolor::BluGrn")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-418.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-334.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::dominion")
     paletteer::scale_color_paletteer_d("trekcolors::dominion")
@@ -8140,7 +9492,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::dominion")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-419.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-335.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_23c")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_23c")
@@ -8148,7 +9504,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::lcars_23c")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-420.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-336.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::AirNomads")
     paletteer::scale_color_paletteer_d("tvthemes::AirNomads")
@@ -8156,7 +9516,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::AirNomads")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-421.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-337.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::Stannis")
     paletteer::scale_color_paletteer_d("tvthemes::Stannis")
@@ -8164,7 +9528,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::Stannis")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-422.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-338.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::Manderly")
     paletteer::scale_color_paletteer_d("tvthemes::Manderly")
@@ -8172,7 +9540,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::Manderly")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-423.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-339.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::Arryn")
     paletteer::scale_color_paletteer_d("tvthemes::Arryn")
@@ -8180,6 +9552,7 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::Arryn")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-424.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("colorBlindness::Blue2Gray8Steps")
@@ -8213,6 +9586,17 @@ ggplot2.
     paletteer::paletteer_d("dichromat::BluetoOrange_8")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-428.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-340.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::hyperBubble")
+    paletteer::scale_color_paletteer_d("vapoRwave::hyperBubble")
+    paletteer::scale_fill_paletteer_d("vapoRwave::hyperBubble")
+    
+    paletteer::paletteer_d("vapoRwave::hyperBubble")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-341.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::Summer")
     paletteer::scale_color_paletteer_d("ggthemes::Summer")
@@ -8220,7 +9604,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::Summer")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-429.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-342.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("palettesForR::Cool")
     paletteer::scale_color_paletteer_d("palettesForR::Cool")
@@ -8228,7 +9616,11 @@ ggplot2.
     
     paletteer::paletteer_d("palettesForR::Cool")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-430.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-343.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::breen")
     paletteer::scale_color_paletteer_d("trekcolors::breen")
@@ -8236,7 +9628,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::breen")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-431.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-344.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_2369")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_2369")
@@ -8244,7 +9640,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::lcars_2369")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-432.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-345.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_2375")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_2375")
@@ -8252,7 +9652,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::lcars_2375")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-433.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-346.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_2379")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_2379")
@@ -8260,7 +9664,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::lcars_2379")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-434.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-347.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_first_contact")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_first_contact")
@@ -8268,7 +9676,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::lcars_first_contact")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-435.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-348.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_29c")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_29c")
@@ -8276,7 +9688,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::lcars_29c")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-436.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-349.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_red_alert")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_red_alert")
@@ -8284,7 +9700,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::lcars_red_alert")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-437.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-350.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::attackOnTitan")
     paletteer::scale_color_paletteer_d("tvthemes::attackOnTitan")
@@ -8292,7 +9712,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::attackOnTitan")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-438.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-351.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::FireNation")
     paletteer::scale_color_paletteer_d("tvthemes::FireNation")
@@ -8300,7 +9724,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::FireNation")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-439.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-352.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::WaterTribe")
     paletteer::scale_color_paletteer_d("tvthemes::WaterTribe")
@@ -8308,7 +9736,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::WaterTribe")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-440.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-353.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::bigHero6")
     paletteer::scale_color_paletteer_d("tvthemes::bigHero6")
@@ -8316,7 +9748,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::bigHero6")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-441.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-354.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::Day")
     paletteer::scale_color_paletteer_d("tvthemes::Day")
@@ -8324,7 +9760,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::Day")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-442.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-355.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::Dusk")
     paletteer::scale_color_paletteer_d("tvthemes::Dusk")
@@ -8332,7 +9772,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::Dusk")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-443.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-356.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::Night")
     paletteer::scale_color_paletteer_d("tvthemes::Night")
@@ -8340,7 +9784,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::Night")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-444.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-357.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::Martell")
     paletteer::scale_color_paletteer_d("tvthemes::Martell")
@@ -8348,7 +9796,35 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::Martell")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-445.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-358.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::floralShoppe")
+    paletteer::scale_color_paletteer_d("vapoRwave::floralShoppe")
+    paletteer::scale_fill_paletteer_d("vapoRwave::floralShoppe")
+    
+    paletteer::paletteer_d("vapoRwave::floralShoppe")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-359.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::hotlineBling")
+    paletteer::scale_color_paletteer_d("vapoRwave::hotlineBling")
+    paletteer::scale_fill_paletteer_d("vapoRwave::hotlineBling")
+    
+    paletteer::paletteer_d("vapoRwave::hotlineBling")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-360.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::jwz")
+    paletteer::scale_color_paletteer_d("vapoRwave::jwz")
+    paletteer::scale_fill_paletteer_d("vapoRwave::jwz")
+    
+    paletteer::paletteer_d("vapoRwave::jwz")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-361.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::Traffic")
     paletteer::scale_color_paletteer_d("ggthemes::Traffic")
@@ -8356,7 +9832,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::Traffic")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-446.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-362.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::Nuriel_Stone")
     paletteer::scale_color_paletteer_d("ggthemes::Nuriel_Stone")
@@ -8364,7 +9844,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::Nuriel_Stone")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-447.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-363.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::Jewel_Bright")
     paletteer::scale_color_paletteer_d("ggthemes::Jewel_Bright")
@@ -8372,7 +9856,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::Jewel_Bright")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-448.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-364.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic_Traffic_Light")
     paletteer::scale_color_paletteer_d("ggthemes::Classic_Traffic_Light")
@@ -8380,7 +9868,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::Classic_Traffic_Light")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-449.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-365.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::few_Light")
     paletteer::scale_color_paletteer_d("ggthemes::few_Light")
@@ -8388,7 +9880,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::few_Light")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-450.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-366.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::few_Medium")
     paletteer::scale_color_paletteer_d("ggthemes::few_Medium")
@@ -8396,7 +9892,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::few_Medium")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-451.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-367.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::few_Dark")
     paletteer::scale_color_paletteer_d("ggthemes::few_Dark")
@@ -8404,7 +9904,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::few_Dark")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-452.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-368.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("grDevices::blues9")
     paletteer::scale_color_paletteer_d("grDevices::blues9")
@@ -8412,6 +9916,7 @@ ggplot2.
     
     paletteer::paletteer_d("grDevices::blues9")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-453.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("khroma::muted")
@@ -8437,6 +9942,9 @@ ggplot2.
     paletteer::paletteer_d("khroma::YlOrBr")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-456.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-369.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::Blues")
     paletteer::scale_color_paletteer_d("RColorBrewer::Blues")
@@ -8444,7 +9952,11 @@ ggplot2.
     
     paletteer::paletteer_d("RColorBrewer::Blues")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-457.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-370.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::BuGn")
     paletteer::scale_color_paletteer_d("RColorBrewer::BuGn")
@@ -8452,7 +9964,11 @@ ggplot2.
     
     paletteer::paletteer_d("RColorBrewer::BuGn")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-458.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-371.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::BuPu")
     paletteer::scale_color_paletteer_d("RColorBrewer::BuPu")
@@ -8460,7 +9976,11 @@ ggplot2.
     
     paletteer::paletteer_d("RColorBrewer::BuPu")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-459.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-372.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::GnBu")
     paletteer::scale_color_paletteer_d("RColorBrewer::GnBu")
@@ -8468,7 +9988,11 @@ ggplot2.
     
     paletteer::paletteer_d("RColorBrewer::GnBu")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-460.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-373.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::Greens")
     paletteer::scale_color_paletteer_d("RColorBrewer::Greens")
@@ -8476,7 +10000,11 @@ ggplot2.
     
     paletteer::paletteer_d("RColorBrewer::Greens")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-461.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-374.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::Greys")
     paletteer::scale_color_paletteer_d("RColorBrewer::Greys")
@@ -8484,7 +10012,11 @@ ggplot2.
     
     paletteer::paletteer_d("RColorBrewer::Greys")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-462.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-375.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::Oranges")
     paletteer::scale_color_paletteer_d("RColorBrewer::Oranges")
@@ -8492,7 +10024,11 @@ ggplot2.
     
     paletteer::paletteer_d("RColorBrewer::Oranges")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-463.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-376.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::OrRd")
     paletteer::scale_color_paletteer_d("RColorBrewer::OrRd")
@@ -8500,7 +10036,11 @@ ggplot2.
     
     paletteer::paletteer_d("RColorBrewer::OrRd")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-464.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-377.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::PuBu")
     paletteer::scale_color_paletteer_d("RColorBrewer::PuBu")
@@ -8508,7 +10048,11 @@ ggplot2.
     
     paletteer::paletteer_d("RColorBrewer::PuBu")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-465.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-378.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::PuBuGn")
     paletteer::scale_color_paletteer_d("RColorBrewer::PuBuGn")
@@ -8516,7 +10060,11 @@ ggplot2.
     
     paletteer::paletteer_d("RColorBrewer::PuBuGn")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-466.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-379.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::PuRd")
     paletteer::scale_color_paletteer_d("RColorBrewer::PuRd")
@@ -8524,7 +10072,11 @@ ggplot2.
     
     paletteer::paletteer_d("RColorBrewer::PuRd")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-467.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-380.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::Purples")
     paletteer::scale_color_paletteer_d("RColorBrewer::Purples")
@@ -8532,7 +10084,11 @@ ggplot2.
     
     paletteer::paletteer_d("RColorBrewer::Purples")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-468.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-381.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::RdPu")
     paletteer::scale_color_paletteer_d("RColorBrewer::RdPu")
@@ -8540,7 +10096,11 @@ ggplot2.
     
     paletteer::paletteer_d("RColorBrewer::RdPu")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-469.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-382.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::Reds")
     paletteer::scale_color_paletteer_d("RColorBrewer::Reds")
@@ -8548,7 +10108,11 @@ ggplot2.
     
     paletteer::paletteer_d("RColorBrewer::Reds")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-470.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-383.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::YlGn")
     paletteer::scale_color_paletteer_d("RColorBrewer::YlGn")
@@ -8556,7 +10120,11 @@ ggplot2.
     
     paletteer::paletteer_d("RColorBrewer::YlGn")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-471.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-384.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::YlGnBu")
     paletteer::scale_color_paletteer_d("RColorBrewer::YlGnBu")
@@ -8564,7 +10132,11 @@ ggplot2.
     
     paletteer::paletteer_d("RColorBrewer::YlGnBu")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-472.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-385.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::YlOrBr")
     paletteer::scale_color_paletteer_d("RColorBrewer::YlOrBr")
@@ -8572,7 +10144,11 @@ ggplot2.
     
     paletteer::paletteer_d("RColorBrewer::YlOrBr")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-473.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-386.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("RColorBrewer::YlOrRd")
     paletteer::scale_color_paletteer_d("RColorBrewer::YlOrRd")
@@ -8580,7 +10156,11 @@ ggplot2.
     
     paletteer::paletteer_d("RColorBrewer::YlOrRd")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-474.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-387.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("Redmonder::sPBIGn")
     paletteer::scale_color_paletteer_d("Redmonder::sPBIGn")
@@ -8588,7 +10168,11 @@ ggplot2.
     
     paletteer::paletteer_d("Redmonder::sPBIGn")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-475.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-388.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("Redmonder::sPBIGy1")
     paletteer::scale_color_paletteer_d("Redmonder::sPBIGy1")
@@ -8596,7 +10180,11 @@ ggplot2.
     
     paletteer::paletteer_d("Redmonder::sPBIGy1")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-476.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-389.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("Redmonder::sPBIRd")
     paletteer::scale_color_paletteer_d("Redmonder::sPBIRd")
@@ -8604,7 +10192,11 @@ ggplot2.
     
     paletteer::paletteer_d("Redmonder::sPBIRd")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-477.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-390.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("Redmonder::sPBIYl")
     paletteer::scale_color_paletteer_d("Redmonder::sPBIYl")
@@ -8612,7 +10204,11 @@ ggplot2.
     
     paletteer::paletteer_d("Redmonder::sPBIYl")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-478.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-391.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("Redmonder::sPBIGy2")
     paletteer::scale_color_paletteer_d("Redmonder::sPBIGy2")
@@ -8620,7 +10216,11 @@ ggplot2.
     
     paletteer::paletteer_d("Redmonder::sPBIGy2")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-479.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-392.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("Redmonder::sPBIBu")
     paletteer::scale_color_paletteer_d("Redmonder::sPBIBu")
@@ -8628,7 +10228,11 @@ ggplot2.
     
     paletteer::paletteer_d("Redmonder::sPBIBu")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-480.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-393.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("Redmonder::sPBIOr")
     paletteer::scale_color_paletteer_d("Redmonder::sPBIOr")
@@ -8636,7 +10240,11 @@ ggplot2.
     
     paletteer::paletteer_d("Redmonder::sPBIOr")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-481.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-394.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("Redmonder::sPBIPu")
     paletteer::scale_color_paletteer_d("Redmonder::sPBIPu")
@@ -8644,7 +10252,11 @@ ggplot2.
     
     paletteer::paletteer_d("Redmonder::sPBIPu")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-482.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-395.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("Redmonder::sPBIYlGn")
     paletteer::scale_color_paletteer_d("Redmonder::sPBIYlGn")
@@ -8652,7 +10264,11 @@ ggplot2.
     
     paletteer::paletteer_d("Redmonder::sPBIYlGn")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-483.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-396.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("Redmonder::sPBIRdPu")
     paletteer::scale_color_paletteer_d("Redmonder::sPBIRdPu")
@@ -8660,7 +10276,11 @@ ggplot2.
     
     paletteer::paletteer_d("Redmonder::sPBIRdPu")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-484.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-397.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::andorian")
     paletteer::scale_color_paletteer_d("trekcolors::andorian")
@@ -8668,7 +10288,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::andorian")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-485.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-398.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::borg")
     paletteer::scale_color_paletteer_d("trekcolors::borg")
@@ -8676,7 +10300,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::borg")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-486.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-399.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::breen2")
     paletteer::scale_color_paletteer_d("trekcolors::breen2")
@@ -8684,7 +10312,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::breen2")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-487.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-400.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::enara")
     paletteer::scale_color_paletteer_d("trekcolors::enara")
@@ -8692,7 +10324,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::enara")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-488.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-401.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::ferengi")
     paletteer::scale_color_paletteer_d("trekcolors::ferengi")
@@ -8700,7 +10336,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::ferengi")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-489.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-402.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::gorn")
     paletteer::scale_color_paletteer_d("trekcolors::gorn")
@@ -8708,7 +10348,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::gorn")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-490.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-403.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::iconian")
     paletteer::scale_color_paletteer_d("trekcolors::iconian")
@@ -8716,7 +10360,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::iconian")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-491.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-404.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::klingon")
     paletteer::scale_color_paletteer_d("trekcolors::klingon")
@@ -8724,7 +10372,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::klingon")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-492.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-405.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_2357")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_2357")
@@ -8732,7 +10384,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::lcars_2357")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-493.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-406.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::romulan")
     paletteer::scale_color_paletteer_d("trekcolors::romulan")
@@ -8740,7 +10396,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::romulan")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-494.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-407.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::romulan2")
     paletteer::scale_color_paletteer_d("trekcolors::romulan2")
@@ -8748,7 +10408,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::romulan2")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-495.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-408.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::tholian")
     paletteer::scale_color_paletteer_d("trekcolors::tholian")
@@ -8756,7 +10420,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::tholian")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-496.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-409.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::terran")
     paletteer::scale_color_paletteer_d("trekcolors::terran")
@@ -8764,7 +10432,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::terran")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-497.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-410.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::ufp")
     paletteer::scale_color_paletteer_d("trekcolors::ufp")
@@ -8772,7 +10444,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::ufp")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-498.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-411.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::EarthKingdom")
     paletteer::scale_color_paletteer_d("tvthemes::EarthKingdom")
@@ -8780,7 +10456,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::EarthKingdom")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-499.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-412.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::Dark")
     paletteer::scale_color_paletteer_d("tvthemes::Dark")
@@ -8788,7 +10468,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::Dark")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-500.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-413.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::rickAndMorty")
     paletteer::scale_color_paletteer_d("tvthemes::rickAndMorty")
@@ -8796,7 +10480,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::rickAndMorty")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-501.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-414.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::spongeBob")
     paletteer::scale_color_paletteer_d("tvthemes::spongeBob")
@@ -8804,7 +10492,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::spongeBob")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-502.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-415.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::Stark")
     paletteer::scale_color_paletteer_d("tvthemes::Stark")
@@ -8812,7 +10504,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::Stark")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-503.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-416.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::Tyrell")
     paletteer::scale_color_paletteer_d("tvthemes::Tyrell")
@@ -8820,7 +10516,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::Tyrell")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-504.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-417.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("unikn::pal_unikn_pref")
     paletteer::scale_color_paletteer_d("unikn::pal_unikn_pref")
@@ -8828,7 +10528,19 @@ ggplot2.
     
     paletteer::paletteer_d("unikn::pal_unikn_pref")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-505.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-418.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::newRetro")
+    paletteer::scale_color_paletteer_d("vapoRwave::newRetro")
+    paletteer::scale_fill_paletteer_d("vapoRwave::newRetro")
+    
+    paletteer::paletteer_d("vapoRwave::newRetro")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-419.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("basetheme::brutal")
     paletteer::scale_color_paletteer_d("basetheme::brutal")
@@ -8836,7 +10548,11 @@ ggplot2.
     
     paletteer::paletteer_d("basetheme::brutal")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-506.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-420.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("basetheme::clean")
     paletteer::scale_color_paletteer_d("basetheme::clean")
@@ -8844,7 +10560,11 @@ ggplot2.
     
     paletteer::paletteer_d("basetheme::clean")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-507.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-421.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("basetheme::dark")
     paletteer::scale_color_paletteer_d("basetheme::dark")
@@ -8852,7 +10572,11 @@ ggplot2.
     
     paletteer::paletteer_d("basetheme::dark")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-508.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-422.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("basetheme::deepblue")
     paletteer::scale_color_paletteer_d("basetheme::deepblue")
@@ -8860,7 +10584,11 @@ ggplot2.
     
     paletteer::paletteer_d("basetheme::deepblue")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-509.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-423.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("basetheme::ink")
     paletteer::scale_color_paletteer_d("basetheme::ink")
@@ -8868,7 +10596,11 @@ ggplot2.
     
     paletteer::paletteer_d("basetheme::ink")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-510.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-424.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("basetheme::minimal")
     paletteer::scale_color_paletteer_d("basetheme::minimal")
@@ -8876,6 +10608,7 @@ ggplot2.
     
     paletteer::paletteer_d("basetheme::minimal")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-511.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("basetheme::royal")
@@ -8885,6 +10618,9 @@ ggplot2.
     paletteer::paletteer_d("basetheme::royal")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-512.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-425.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("basetheme::void")
     paletteer::scale_color_paletteer_d("basetheme::void")
@@ -8892,7 +10628,11 @@ ggplot2.
     
     paletteer::paletteer_d("basetheme::void")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-513.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-426.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("colorBlindness::Blue2Orange10Steps")
     paletteer::scale_color_paletteer_d("colorBlindness::Blue2Orange10Steps")
@@ -8900,6 +10640,7 @@ ggplot2.
     
     paletteer::paletteer_d("colorBlindness::Blue2Orange10Steps")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-514.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("colorBlindness::Brown2Blue10Steps")
@@ -8941,6 +10682,9 @@ ggplot2.
     paletteer::paletteer_d("dichromat::LightBluetoDarkBlue_10")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-519.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-427.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::hallmarks_dark_cosmic")
     paletteer::scale_color_paletteer_d("ggsci::hallmarks_dark_cosmic")
@@ -8948,7 +10692,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::hallmarks_dark_cosmic")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-520.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-428.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::hallmarks_light_cosmic")
     paletteer::scale_color_paletteer_d("ggsci::hallmarks_light_cosmic")
@@ -8956,7 +10704,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::hallmarks_light_cosmic")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-521.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-429.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::red_material")
     paletteer::scale_color_paletteer_d("ggsci::red_material")
@@ -8964,7 +10716,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::red_material")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-522.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-430.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::pink_material")
     paletteer::scale_color_paletteer_d("ggsci::pink_material")
@@ -8972,7 +10728,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::pink_material")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-523.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-431.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::purple_material")
     paletteer::scale_color_paletteer_d("ggsci::purple_material")
@@ -8980,7 +10740,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::purple_material")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-524.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-432.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::deep_purple_material")
     paletteer::scale_color_paletteer_d("ggsci::deep_purple_material")
@@ -8988,7 +10752,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::deep_purple_material")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-525.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-433.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::indigo_material")
     paletteer::scale_color_paletteer_d("ggsci::indigo_material")
@@ -8996,7 +10764,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::indigo_material")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-526.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-434.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::blue_material")
     paletteer::scale_color_paletteer_d("ggsci::blue_material")
@@ -9004,7 +10776,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::blue_material")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-527.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-435.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::light_blue_material")
     paletteer::scale_color_paletteer_d("ggsci::light_blue_material")
@@ -9012,7 +10788,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::light_blue_material")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-528.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-436.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::cyan_material")
     paletteer::scale_color_paletteer_d("ggsci::cyan_material")
@@ -9020,7 +10800,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::cyan_material")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-529.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-437.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::teal_material")
     paletteer::scale_color_paletteer_d("ggsci::teal_material")
@@ -9028,7 +10812,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::teal_material")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-530.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-438.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::green_material")
     paletteer::scale_color_paletteer_d("ggsci::green_material")
@@ -9036,7 +10824,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::green_material")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-531.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-439.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::light_green_material")
     paletteer::scale_color_paletteer_d("ggsci::light_green_material")
@@ -9044,7 +10836,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::light_green_material")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-532.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-440.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::lime_material")
     paletteer::scale_color_paletteer_d("ggsci::lime_material")
@@ -9052,7 +10848,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::lime_material")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-533.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-441.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::yellow_material")
     paletteer::scale_color_paletteer_d("ggsci::yellow_material")
@@ -9060,7 +10860,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::yellow_material")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-534.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-442.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::amber_material")
     paletteer::scale_color_paletteer_d("ggsci::amber_material")
@@ -9068,7 +10872,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::amber_material")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-535.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-443.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::orange_material")
     paletteer::scale_color_paletteer_d("ggsci::orange_material")
@@ -9076,7 +10884,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::orange_material")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-536.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-444.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::deep_orange_material")
     paletteer::scale_color_paletteer_d("ggsci::deep_orange_material")
@@ -9084,7 +10896,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::deep_orange_material")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-537.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-445.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::brown_material")
     paletteer::scale_color_paletteer_d("ggsci::brown_material")
@@ -9092,7 +10908,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::brown_material")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-538.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-446.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::grey_material")
     paletteer::scale_color_paletteer_d("ggsci::grey_material")
@@ -9100,7 +10920,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::grey_material")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-539.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-447.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggsci::blue_grey_material")
     paletteer::scale_color_paletteer_d("ggsci::blue_grey_material")
@@ -9108,7 +10932,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggsci::blue_grey_material")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-540.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-448.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::gdoc")
     paletteer::scale_color_paletteer_d("ggthemes::gdoc")
@@ -9116,7 +10944,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::gdoc")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-541.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-449.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::Tableau_10")
     paletteer::scale_color_paletteer_d("ggthemes::Tableau_10")
@@ -9124,7 +10956,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::Tableau_10")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-542.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-450.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::Color_Blind")
     paletteer::scale_color_paletteer_d("ggthemes::Color_Blind")
@@ -9132,7 +10968,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::Color_Blind")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-543.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-451.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::Superfishel_Stone")
     paletteer::scale_color_paletteer_d("ggthemes::Superfishel_Stone")
@@ -9140,7 +10980,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::Superfishel_Stone")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-544.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-452.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::Winter")
     paletteer::scale_color_paletteer_d("ggthemes::Winter")
@@ -9148,7 +10992,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::Winter")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-545.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-453.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic_10")
     paletteer::scale_color_paletteer_d("ggthemes::Classic_10")
@@ -9156,7 +11004,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::Classic_10")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-546.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-454.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic_10_Medium")
     paletteer::scale_color_paletteer_d("ggthemes::Classic_10_Medium")
@@ -9164,7 +11016,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::Classic_10_Medium")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-547.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-455.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic_10_Light")
     paletteer::scale_color_paletteer_d("ggthemes::Classic_10_Light")
@@ -9172,7 +11028,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::Classic_10_Light")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-548.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-456.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic_Color_Blind")
     paletteer::scale_color_paletteer_d("ggthemes::Classic_Color_Blind")
@@ -9180,7 +11040,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::Classic_Color_Blind")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-549.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-457.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("jcolors::pal10")
     paletteer::scale_color_paletteer_d("jcolors::pal10")
@@ -9188,7 +11052,11 @@ ggplot2.
     
     paletteer::paletteer_d("jcolors::pal10")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-550.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-458.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_nemesis")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_nemesis")
@@ -9196,7 +11064,11 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::lcars_nemesis")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-551.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-459.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::Regular")
     paletteer::scale_color_paletteer_d("tvthemes::Regular")
@@ -9204,7 +11076,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::Regular")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-552.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-460.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::parksAndRec")
     paletteer::scale_color_paletteer_d("tvthemes::parksAndRec")
@@ -9212,7 +11088,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::parksAndRec")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-553.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-461.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::simpsons")
     paletteer::scale_color_paletteer_d("tvthemes::simpsons")
@@ -9220,7 +11100,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::simpsons")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-554.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-462.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("unikn::pal_unikn_web")
     paletteer::scale_color_paletteer_d("unikn::pal_unikn_web")
@@ -9228,7 +11112,11 @@ ggplot2.
     
     paletteer::paletteer_d("unikn::pal_unikn_web")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-555.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-463.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("unikn::pal_unikn_ppt")
     paletteer::scale_color_paletteer_d("unikn::pal_unikn_ppt")
@@ -9236,7 +11124,11 @@ ggplot2.
     
     paletteer::paletteer_d("unikn::pal_unikn_ppt")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-556.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-464.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("unikn::pal_unikn_light")
     paletteer::scale_color_paletteer_d("unikn::pal_unikn_light")
@@ -9244,7 +11136,11 @@ ggplot2.
     
     paletteer::paletteer_d("unikn::pal_unikn_light")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-557.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-465.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("unikn::pal_unikn_dark")
     paletteer::scale_color_paletteer_d("unikn::pal_unikn_dark")
@@ -9252,7 +11148,11 @@ ggplot2.
     
     paletteer::paletteer_d("unikn::pal_unikn_dark")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-558.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-466.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("colorBlindness::ModifiedSpectralScheme11Steps")
     paletteer::scale_color_paletteer_d("colorBlindness::ModifiedSpectralScheme11Steps")
@@ -9260,6 +11160,7 @@ ggplot2.
     
     paletteer::paletteer_d("colorBlindness::ModifiedSpectralScheme11Steps")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-559.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Miller_Stone")
@@ -9269,6 +11170,9 @@ ggplot2.
     paletteer::paletteer_d("ggthemes::Miller_Stone")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-560.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-467.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("unikn::pal_unikn")
     paletteer::scale_color_paletteer_d("unikn::pal_unikn")
@@ -9276,7 +11180,19 @@ ggplot2.
     
     paletteer::paletteer_d("unikn::pal_unikn")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-561.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-468.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("vapoRwave::vapoRwave")
+    paletteer::scale_color_paletteer_d("vapoRwave::vapoRwave")
+    paletteer::scale_fill_paletteer_d("vapoRwave::vapoRwave")
+    
+    paletteer::paletteer_d("vapoRwave::vapoRwave")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-469.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("colorBlindness::Blue2DarkOrange12Steps")
     paletteer::scale_color_paletteer_d("colorBlindness::Blue2DarkOrange12Steps")
@@ -9284,7 +11200,11 @@ ggplot2.
     
     paletteer::paletteer_d("colorBlindness::Blue2DarkOrange12Steps")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-562.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-470.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("colorBlindness::Blue2DarkRed12Steps")
     paletteer::scale_color_paletteer_d("colorBlindness::Blue2DarkRed12Steps")
@@ -9292,7 +11212,11 @@ ggplot2.
     
     paletteer::paletteer_d("colorBlindness::Blue2DarkRed12Steps")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-563.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-471.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("colorBlindness::Blue2Orange12Steps")
     paletteer::scale_color_paletteer_d("colorBlindness::Blue2Orange12Steps")
@@ -9300,7 +11224,11 @@ ggplot2.
     
     paletteer::paletteer_d("colorBlindness::Blue2Orange12Steps")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-564.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-472.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("colorBlindness::Brown2Blue12Steps")
     paletteer::scale_color_paletteer_d("colorBlindness::Brown2Blue12Steps")
@@ -9308,7 +11236,11 @@ ggplot2.
     
     paletteer::paletteer_d("colorBlindness::Brown2Blue12Steps")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-565.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-473.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("colorBlindness::PairedColor12Steps")
     paletteer::scale_color_paletteer_d("colorBlindness::PairedColor12Steps")
@@ -9316,7 +11248,11 @@ ggplot2.
     
     paletteer::paletteer_d("colorBlindness::PairedColor12Steps")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-566.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-474.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("dichromat::BrowntoBlue_12")
     paletteer::scale_color_paletteer_d("dichromat::BrowntoBlue_12")
@@ -9324,6 +11260,7 @@ ggplot2.
     
     paletteer::paletteer_d("dichromat::BrowntoBlue_12")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-567.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("dichromat::BluetoDarkOrange_12")
@@ -9405,6 +11342,9 @@ ggplot2.
     paletteer::paletteer_d("ggthemes::Classic_Blue_Red_12")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-577.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-475.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::hc_fg")
     paletteer::scale_color_paletteer_d("ggthemes::hc_fg")
@@ -9412,7 +11352,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::hc_fg")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-578.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-476.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("jcolors::pal11")
     paletteer::scale_color_paletteer_d("jcolors::pal11")
@@ -9420,7 +11364,11 @@ ggplot2.
     
     paletteer::paletteer_d("jcolors::pal11")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-579.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-477.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::kimPossible")
     paletteer::scale_color_paletteer_d("tvthemes::kimPossible")
@@ -9428,7 +11376,11 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::kimPossible")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-580.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-478.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::Classic_Cyclic")
     paletteer::scale_color_paletteer_d("ggthemes::Classic_Cyclic")
@@ -9436,7 +11388,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::Classic_Cyclic")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-581.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-479.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("jcolors::pal12")
     paletteer::scale_color_paletteer_d("jcolors::pal12")
@@ -9444,6 +11400,7 @@ ggplot2.
     
     paletteer::paletteer_d("jcolors::pal12")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-582.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("colorBlindness::Blue2Green14Steps")
@@ -9485,6 +11442,9 @@ ggplot2.
     paletteer::paletteer_d("khroma::land")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-587.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-480.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("tvthemes::gravityFalls")
     paletteer::scale_color_paletteer_d("tvthemes::gravityFalls")
@@ -9492,6 +11452,7 @@ ggplot2.
     
     paletteer::paletteer_d("tvthemes::gravityFalls")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-588.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("colorBlindness::paletteMartin")
@@ -9501,6 +11462,9 @@ ggplot2.
     paletteer::paletteer_d("colorBlindness::paletteMartin")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-589.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-481.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::stata_s2color")
     paletteer::scale_color_paletteer_d("ggthemes::stata_s2color")
@@ -9508,7 +11472,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::stata_s2color")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-590.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-482.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::stata_s1rcolor")
     paletteer::scale_color_paletteer_d("ggthemes::stata_s1rcolor")
@@ -9516,7 +11484,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::stata_s1rcolor")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-591.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-483.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::stata_s1color")
     paletteer::scale_color_paletteer_d("ggthemes::stata_s1color")
@@ -9524,7 +11496,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::stata_s1color")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-592.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-484.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::stata_mono")
     paletteer::scale_color_paletteer_d("ggthemes::stata_mono")
@@ -9532,7 +11508,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::stata_mono")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-593.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-485.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::stata_economist")
     paletteer::scale_color_paletteer_d("ggthemes::stata_economist")
@@ -9540,7 +11520,11 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::stata_economist")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-594.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-486.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("palettesForR::Android")
     paletteer::scale_color_paletteer_d("palettesForR::Android")
@@ -9548,6 +11532,7 @@ ggplot2.
     
     paletteer::paletteer_d("palettesForR::Android")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-595.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("colorBlindness::Green2Magenta16Steps")
@@ -9565,6 +11550,9 @@ ggplot2.
     paletteer::paletteer_d("dichromat::GreentoMagenta_16")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-597.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-487.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("palettesForR::Paintjet")
     paletteer::scale_color_paletteer_d("palettesForR::Paintjet")
@@ -9572,7 +11560,11 @@ ggplot2.
     
     paletteer::paletteer_d("palettesForR::Paintjet")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-598.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-488.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("unikn::pal_unikn_pair")
     paletteer::scale_color_paletteer_d("unikn::pal_unikn_pair")
@@ -9580,7 +11572,11 @@ ggplot2.
     
     paletteer::paletteer_d("unikn::pal_unikn_pair")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-599.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-489.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("trekcolors::lcars_alt")
     paletteer::scale_color_paletteer_d("trekcolors::lcars_alt")
@@ -9588,39 +11584,10 @@ ggplot2.
     
     paletteer::paletteer_d("trekcolors::lcars_alt")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-600.png" style="display: block; margin: auto;" />
-
-    paletteer::scale_colour_paletteer_d("colorBlindness::Blue2DarkOrange18Steps")
-    paletteer::scale_color_paletteer_d("colorBlindness::Blue2DarkOrange18Steps")
-    paletteer::scale_fill_paletteer_d("colorBlindness::Blue2DarkOrange18Steps")
-    
-    paletteer::paletteer_d("colorBlindness::Blue2DarkOrange18Steps")
-
-<img src="README_files/figure-gfm/unnamed-chunk-8-601.png" style="display: block; margin: auto;" />
-
-    paletteer::scale_colour_paletteer_d("colorBlindness::Blue2DarkRed18Steps")
-    paletteer::scale_color_paletteer_d("colorBlindness::Blue2DarkRed18Steps")
-    paletteer::scale_fill_paletteer_d("colorBlindness::Blue2DarkRed18Steps")
-    
-    paletteer::paletteer_d("colorBlindness::Blue2DarkRed18Steps")
-
-<img src="README_files/figure-gfm/unnamed-chunk-8-602.png" style="display: block; margin: auto;" />
-
-    paletteer::scale_colour_paletteer_d("dichromat::BluetoDarkOrange_18")
-    paletteer::scale_color_paletteer_d("dichromat::BluetoDarkOrange_18")
-    paletteer::scale_fill_paletteer_d("dichromat::BluetoDarkOrange_18")
-    
-    paletteer::paletteer_d("dichromat::BluetoDarkOrange_18")
-
-<img src="README_files/figure-gfm/unnamed-chunk-8-603.png" style="display: block; margin: auto;" />
-
-    paletteer::scale_colour_paletteer_d("dichromat::DarkRedtoBlue_18")
-    paletteer::scale_color_paletteer_d("dichromat::DarkRedtoBlue_18")
-    paletteer::scale_fill_paletteer_d("dichromat::DarkRedtoBlue_18")
-    
-    paletteer::paletteer_d("dichromat::DarkRedtoBlue_18")
-
-<img src="README_files/figure-gfm/unnamed-chunk-8-604.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-490.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("palettesForR::Pastels")
     paletteer::scale_color_paletteer_d("palettesForR::Pastels")
@@ -9628,7 +11595,92 @@ ggplot2.
     
     paletteer::paletteer_d("palettesForR::Pastels")
 
+<img src="README_files/figure-gfm/unnamed-chunk-8-491.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
+
+    paletteer::scale_colour_paletteer_d("colorBlindness::Blue2DarkOrange18Steps")
+    paletteer::scale_color_paletteer_d("colorBlindness::Blue2DarkOrange18Steps")
+    paletteer::scale_fill_paletteer_d("colorBlindness::Blue2DarkOrange18Steps")
+    
+    paletteer::paletteer_d("colorBlindness::Blue2DarkOrange18Steps")
+
+<<<<<<< HEAD
+<img src="README_files/figure-gfm/unnamed-chunk-8-601.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-492.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
+
+    paletteer::scale_colour_paletteer_d("colorBlindness::Blue2DarkRed18Steps")
+    paletteer::scale_color_paletteer_d("colorBlindness::Blue2DarkRed18Steps")
+    paletteer::scale_fill_paletteer_d("colorBlindness::Blue2DarkRed18Steps")
+    
+    paletteer::paletteer_d("colorBlindness::Blue2DarkRed18Steps")
+
+<<<<<<< HEAD
+<img src="README_files/figure-gfm/unnamed-chunk-8-602.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-493.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
+
+    paletteer::scale_colour_paletteer_d("dichromat::BluetoDarkOrange_18")
+    paletteer::scale_color_paletteer_d("dichromat::BluetoDarkOrange_18")
+    paletteer::scale_fill_paletteer_d("dichromat::BluetoDarkOrange_18")
+    
+    paletteer::paletteer_d("dichromat::BluetoDarkOrange_18")
+
+<<<<<<< HEAD
+<img src="README_files/figure-gfm/unnamed-chunk-8-603.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-494.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
+
+    paletteer::scale_colour_paletteer_d("dichromat::DarkRedtoBlue_18")
+    paletteer::scale_color_paletteer_d("dichromat::DarkRedtoBlue_18")
+    paletteer::scale_fill_paletteer_d("dichromat::DarkRedtoBlue_18")
+    
+    paletteer::paletteer_d("dichromat::DarkRedtoBlue_18")
+
+<<<<<<< HEAD
+<img src="README_files/figure-gfm/unnamed-chunk-8-604.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-495.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Pastels")
+    paletteer::scale_color_paletteer_d("palettesForR::Pastels")
+    paletteer::scale_fill_paletteer_d("palettesForR::Pastels")
+    
+    paletteer::paletteer_d("palettesForR::Pastels")
+
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-605.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-496.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Browns")
+    paletteer::scale_color_paletteer_d("palettesForR::Browns")
+    paletteer::scale_fill_paletteer_d("palettesForR::Browns")
+    
+    paletteer::paletteer_d("palettesForR::Browns")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-497.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::WebSafe22")
+    paletteer::scale_color_paletteer_d("palettesForR::WebSafe22")
+    paletteer::scale_fill_paletteer_d("palettesForR::WebSafe22")
+    
+    paletteer::paletteer_d("palettesForR::WebSafe22")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-498.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Default")
+    paletteer::scale_color_paletteer_d("palettesForR::Default")
+    paletteer::scale_fill_paletteer_d("palettesForR::Default")
+    
+    paletteer::paletteer_d("palettesForR::Default")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-499.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
     paletteer::scale_colour_paletteer_d("ggthemes::manyeys")
     paletteer::scale_color_paletteer_d("ggthemes::manyeys")
@@ -9644,6 +11696,7 @@ ggplot2.
     
     paletteer::paletteer_d("ggthemes::Hue_Circle")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-607.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("ggthemes::Tableau_20")
@@ -9773,13 +11826,17 @@ ggplot2.
     paletteer::paletteer_d("palettesForR::Windows")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-623.png" style="display: block; margin: auto;" />
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-500.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
 
-    paletteer::scale_colour_paletteer_d("trekcolors::lcars_series")
-    paletteer::scale_color_paletteer_d("trekcolors::lcars_series")
-    paletteer::scale_fill_paletteer_d("trekcolors::lcars_series")
+    paletteer::scale_colour_paletteer_d("palettesForR::Lights")
+    paletteer::scale_color_paletteer_d("palettesForR::Lights")
+    paletteer::scale_fill_paletteer_d("palettesForR::Lights")
     
-    paletteer::paletteer_d("trekcolors::lcars_series")
+    paletteer::paletteer_d("palettesForR::Lights")
 
+<<<<<<< HEAD
 <img src="README_files/figure-gfm/unnamed-chunk-8-624.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("khroma::smooth_rainbow")
@@ -10069,6 +12126,329 @@ ggplot2.
     paletteer::paletteer_d("palettesForR::Inkscape")
 
 <img src="README_files/figure-gfm/unnamed-chunk-8-660.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Named")
+    paletteer::scale_color_paletteer_d("palettesForR::Named")
+    paletteer::scale_fill_paletteer_d("palettesForR::Named")
+    
+    paletteer::paletteer_d("palettesForR::Named")
+
+## Continuous palettes
+=======
+<img src="README_files/figure-gfm/unnamed-chunk-8-501.png" style="display: block; margin: auto;" />
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Echo")
+    paletteer::scale_color_paletteer_d("palettesForR::Echo")
+    paletteer::scale_fill_paletteer_d("palettesForR::Echo")
+    
+    paletteer::paletteer_d("palettesForR::Echo")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-502.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Tango")
+    paletteer::scale_color_paletteer_d("palettesForR::Tango")
+    paletteer::scale_fill_paletteer_d("palettesForR::Tango")
+    
+    paletteer::paletteer_d("palettesForR::Tango")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-503.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Grays")
+    paletteer::scale_color_paletteer_d("palettesForR::Grays")
+    paletteer::scale_fill_paletteer_d("palettesForR::Grays")
+    
+    paletteer::paletteer_d("palettesForR::Grays")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-504.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Windows")
+    paletteer::scale_color_paletteer_d("palettesForR::Windows")
+    paletteer::scale_fill_paletteer_d("palettesForR::Windows")
+    
+    paletteer::paletteer_d("palettesForR::Windows")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-505.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("trekcolors::lcars_series")
+    paletteer::scale_color_paletteer_d("trekcolors::lcars_series")
+    paletteer::scale_fill_paletteer_d("trekcolors::lcars_series")
+    
+    paletteer::paletteer_d("trekcolors::lcars_series")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-506.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::MATLAB")
+    paletteer::scale_color_paletteer_d("palettesForR::MATLAB")
+    paletteer::scale_fill_paletteer_d("palettesForR::MATLAB")
+    
+    paletteer::paletteer_d("palettesForR::MATLAB")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-507.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Muted")
+    paletteer::scale_color_paletteer_d("palettesForR::Muted")
+    paletteer::scale_fill_paletteer_d("palettesForR::Muted")
+    
+    paletteer::paletteer_d("palettesForR::Muted")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-508.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Gold")
+    paletteer::scale_color_paletteer_d("palettesForR::Gold")
+    paletteer::scale_fill_paletteer_d("palettesForR::Gold")
+    
+    paletteer::paletteer_d("palettesForR::Gold")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-509.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::LaTeX")
+    paletteer::scale_color_paletteer_d("palettesForR::LaTeX")
+    paletteer::scale_fill_paletteer_d("palettesForR::LaTeX")
+    
+    paletteer::paletteer_d("palettesForR::LaTeX")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-510.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::SVG")
+    paletteer::scale_color_paletteer_d("palettesForR::SVG")
+    paletteer::scale_fill_paletteer_d("palettesForR::SVG")
+    
+    paletteer::paletteer_d("palettesForR::SVG")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-511.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Khaki")
+    paletteer::scale_color_paletteer_d("palettesForR::Khaki")
+    paletteer::scale_fill_paletteer_d("palettesForR::Khaki")
+    
+    paletteer::paletteer_d("palettesForR::Khaki")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-512.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Hilite")
+    paletteer::scale_color_paletteer_d("palettesForR::Hilite")
+    paletteer::scale_fill_paletteer_d("palettesForR::Hilite")
+    
+    paletteer::paletteer_d("palettesForR::Hilite")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-513.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Reds")
+    paletteer::scale_color_paletteer_d("palettesForR::Reds")
+    paletteer::scale_fill_paletteer_d("palettesForR::Reds")
+    
+    paletteer::paletteer_d("palettesForR::Reds")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-514.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Topographic")
+    paletteer::scale_color_paletteer_d("palettesForR::Topographic")
+    paletteer::scale_fill_paletteer_d("palettesForR::Topographic")
+    
+    paletteer::paletteer_d("palettesForR::Topographic")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-515.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Web")
+    paletteer::scale_color_paletteer_d("palettesForR::Web")
+    paletteer::scale_fill_paletteer_d("palettesForR::Web")
+    
+    paletteer::paletteer_d("palettesForR::Web")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-516.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::WebHex")
+    paletteer::scale_color_paletteer_d("palettesForR::WebHex")
+    paletteer::scale_fill_paletteer_d("palettesForR::WebHex")
+    
+    paletteer::paletteer_d("palettesForR::WebHex")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-517.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Royal")
+    paletteer::scale_color_paletteer_d("palettesForR::Royal")
+    paletteer::scale_fill_paletteer_d("palettesForR::Royal")
+    
+    paletteer::paletteer_d("palettesForR::Royal")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-518.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Ega")
+    paletteer::scale_color_paletteer_d("palettesForR::Ega")
+    paletteer::scale_fill_paletteer_d("palettesForR::Ega")
+    
+    paletteer::paletteer_d("palettesForR::Ega")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-519.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Bears")
+    paletteer::scale_color_paletteer_d("palettesForR::Bears")
+    paletteer::scale_fill_paletteer_d("palettesForR::Bears")
+    
+    paletteer::paletteer_d("palettesForR::Bears")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-520.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Bgold")
+    paletteer::scale_color_paletteer_d("palettesForR::Bgold")
+    paletteer::scale_fill_paletteer_d("palettesForR::Bgold")
+    
+    paletteer::paletteer_d("palettesForR::Bgold")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-521.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Blues")
+    paletteer::scale_color_paletteer_d("palettesForR::Blues")
+    paletteer::scale_fill_paletteer_d("palettesForR::Blues")
+    
+    paletteer::paletteer_d("palettesForR::Blues")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-522.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Borders")
+    paletteer::scale_color_paletteer_d("palettesForR::Borders")
+    paletteer::scale_fill_paletteer_d("palettesForR::Borders")
+    
+    paletteer::paletteer_d("palettesForR::Borders")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-523.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Caramel")
+    paletteer::scale_color_paletteer_d("palettesForR::Caramel")
+    paletteer::scale_fill_paletteer_d("palettesForR::Caramel")
+    
+    paletteer::paletteer_d("palettesForR::Caramel")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-524.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Cascade")
+    paletteer::scale_color_paletteer_d("palettesForR::Cascade")
+    paletteer::scale_fill_paletteer_d("palettesForR::Cascade")
+    
+    paletteer::paletteer_d("palettesForR::Cascade")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-525.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::China")
+    paletteer::scale_color_paletteer_d("palettesForR::China")
+    paletteer::scale_fill_paletteer_d("palettesForR::China")
+    
+    paletteer::paletteer_d("palettesForR::China")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-526.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Coldfire")
+    paletteer::scale_color_paletteer_d("palettesForR::Coldfire")
+    paletteer::scale_fill_paletteer_d("palettesForR::Coldfire")
+    
+    paletteer::paletteer_d("palettesForR::Coldfire")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-527.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Cranes")
+    paletteer::scale_color_paletteer_d("palettesForR::Cranes")
+    paletteer::scale_fill_paletteer_d("palettesForR::Cranes")
+    
+    paletteer::paletteer_d("palettesForR::Cranes")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-528.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Dark")
+    paletteer::scale_color_paletteer_d("palettesForR::Dark")
+    paletteer::scale_fill_paletteer_d("palettesForR::Dark")
+    
+    paletteer::paletteer_d("palettesForR::Dark")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-529.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Firecode")
+    paletteer::scale_color_paletteer_d("palettesForR::Firecode")
+    paletteer::scale_fill_paletteer_d("palettesForR::Firecode")
+    
+    paletteer::paletteer_d("palettesForR::Firecode")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-530.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Gray")
+    paletteer::scale_color_paletteer_d("palettesForR::Gray")
+    paletteer::scale_fill_paletteer_d("palettesForR::Gray")
+    
+    paletteer::paletteer_d("palettesForR::Gray")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-531.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Grayblue")
+    paletteer::scale_color_paletteer_d("palettesForR::Grayblue")
+    paletteer::scale_fill_paletteer_d("palettesForR::Grayblue")
+    
+    paletteer::paletteer_d("palettesForR::Grayblue")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-532.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::GrayViolet")
+    paletteer::scale_color_paletteer_d("palettesForR::GrayViolet")
+    paletteer::scale_fill_paletteer_d("palettesForR::GrayViolet")
+    
+    paletteer::paletteer_d("palettesForR::GrayViolet")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-533.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Greens")
+    paletteer::scale_color_paletteer_d("palettesForR::Greens")
+    paletteer::scale_fill_paletteer_d("palettesForR::Greens")
+    
+    paletteer::paletteer_d("palettesForR::Greens")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-534.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::News3")
+    paletteer::scale_color_paletteer_d("palettesForR::News3")
+    paletteer::scale_fill_paletteer_d("palettesForR::News3")
+    
+    paletteer::paletteer_d("palettesForR::News3")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-535.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Op2")
+    paletteer::scale_color_paletteer_d("palettesForR::Op2")
+    paletteer::scale_fill_paletteer_d("palettesForR::Op2")
+    
+    paletteer::paletteer_d("palettesForR::Op2")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-536.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Plasma")
+    paletteer::scale_color_paletteer_d("palettesForR::Plasma")
+    paletteer::scale_fill_paletteer_d("palettesForR::Plasma")
+    
+    paletteer::paletteer_d("palettesForR::Plasma")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-537.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Volcano")
+    paletteer::scale_color_paletteer_d("palettesForR::Volcano")
+    paletteer::scale_fill_paletteer_d("palettesForR::Volcano")
+    
+    paletteer::paletteer_d("palettesForR::Volcano")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-538.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Visibone")
+    paletteer::scale_color_paletteer_d("palettesForR::Visibone")
+    paletteer::scale_fill_paletteer_d("palettesForR::Visibone")
+    
+    paletteer::paletteer_d("palettesForR::Visibone")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-539.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_d("palettesForR::Inkscape")
+    paletteer::scale_color_paletteer_d("palettesForR::Inkscape")
+    paletteer::scale_fill_paletteer_d("palettesForR::Inkscape")
+    
+    paletteer::paletteer_d("palettesForR::Inkscape")
+
+<img src="README_files/figure-gfm/unnamed-chunk-8-540.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_d("palettesForR::Named")
     paletteer::scale_color_paletteer_d("palettesForR::Named")
@@ -10485,6 +12865,7 @@ ggplot2.
     paletteer::scale_colour_paletteer_c("grDevices::Geyser")
     paletteer::scale_color_paletteer_c("grDevices::Geyser")
     paletteer::scale_fill_paletteer_c("grDevices::Geyser")
+<<<<<<< HEAD
     
     paletteer::paletteer_c("grDevices::Geyser")
 
@@ -10537,6 +12918,288 @@ ggplot2.
     paletteer::paletteer_c("grDevices::PiYG")
 
 <img src="README_files/figure-gfm/unnamed-chunk-9-58.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::PRGn")
+    paletteer::scale_color_paletteer_c("grDevices::PRGn")
+    paletteer::scale_fill_paletteer_c("grDevices::PRGn")
+    
+    paletteer::paletteer_c("grDevices::PRGn")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-59.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::BrBG")
+    paletteer::scale_color_paletteer_c("grDevices::BrBG")
+    paletteer::scale_fill_paletteer_c("grDevices::BrBG")
+    
+    paletteer::paletteer_c("grDevices::BrBG")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-60.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::RdYlBu")
+    paletteer::scale_color_paletteer_c("grDevices::RdYlBu")
+    paletteer::scale_fill_paletteer_c("grDevices::RdYlBu")
+    
+    paletteer::paletteer_c("grDevices::RdYlBu")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-61.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::RdYlGn")
+    paletteer::scale_color_paletteer_c("grDevices::RdYlGn")
+    paletteer::scale_fill_paletteer_c("grDevices::RdYlGn")
+    
+    paletteer::paletteer_c("grDevices::RdYlGn")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-62.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Spectral")
+    paletteer::scale_color_paletteer_c("grDevices::Spectral")
+    paletteer::scale_fill_paletteer_c("grDevices::Spectral")
+    
+    paletteer::paletteer_c("grDevices::Spectral")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-63.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Zissou 1")
+    paletteer::scale_color_paletteer_c("grDevices::Zissou 1")
+    paletteer::scale_fill_paletteer_c("grDevices::Zissou 1")
+    
+    paletteer::paletteer_c("grDevices::Zissou 1")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-64.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Cividis")
+    paletteer::scale_color_paletteer_c("grDevices::Cividis")
+    paletteer::scale_fill_paletteer_c("grDevices::Cividis")
+    
+    paletteer::paletteer_c("grDevices::Cividis")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-65.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("oompaBase::blueyellow")
+    paletteer::scale_color_paletteer_c("oompaBase::blueyellow")
+    paletteer::scale_fill_paletteer_c("oompaBase::blueyellow")
+    
+    paletteer::paletteer_c("oompaBase::blueyellow")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-66.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("oompaBase::cyanyellow")
+    paletteer::scale_color_paletteer_c("oompaBase::cyanyellow")
+    paletteer::scale_fill_paletteer_c("oompaBase::cyanyellow")
+    
+    paletteer::paletteer_c("oompaBase::cyanyellow")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-67.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("oompaBase::redgreen")
+    paletteer::scale_color_paletteer_c("oompaBase::redgreen")
+    paletteer::scale_fill_paletteer_c("oompaBase::redgreen")
+    
+    paletteer::paletteer_c("oompaBase::redgreen")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-68.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("pals::coolwarm")
+    paletteer::scale_color_paletteer_c("pals::coolwarm")
+    paletteer::scale_fill_paletteer_c("pals::coolwarm")
+    
+    paletteer::paletteer_c("pals::coolwarm")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-69.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("pals::warmcool")
+    paletteer::scale_color_paletteer_c("pals::warmcool")
+    paletteer::scale_fill_paletteer_c("pals::warmcool")
+    
+    paletteer::paletteer_c("pals::warmcool")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-70.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("pals::ocean.balance")
+    paletteer::scale_color_paletteer_c("pals::ocean.balance")
+    paletteer::scale_fill_paletteer_c("pals::ocean.balance")
+    
+    paletteer::paletteer_c("pals::ocean.balance")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-71.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("pals::ocean.curl")
+    paletteer::scale_color_paletteer_c("pals::ocean.curl")
+    paletteer::scale_fill_paletteer_c("pals::ocean.curl")
+    
+    paletteer::paletteer_c("pals::ocean.curl")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-72.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("pals::ocean.delta")
+    paletteer::scale_color_paletteer_c("pals::ocean.delta")
+    paletteer::scale_fill_paletteer_c("pals::ocean.delta")
+    
+    paletteer::paletteer_c("pals::ocean.delta")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-73.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_isoluminant_cjm_75_c23")
+    paletteer::scale_color_paletteer_c("pals::kovesi.diverging_isoluminant_cjm_75_c23")
+    paletteer::scale_fill_paletteer_c("pals::kovesi.diverging_isoluminant_cjm_75_c23")
+    
+    paletteer::paletteer_c("pals::kovesi.diverging_isoluminant_cjm_75_c23")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-74.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_isoluminant_cjm_75_c24")
+    paletteer::scale_color_paletteer_c("pals::kovesi.diverging_isoluminant_cjm_75_c24")
+    paletteer::scale_fill_paletteer_c("pals::kovesi.diverging_isoluminant_cjm_75_c24")
+    
+    paletteer::paletteer_c("pals::kovesi.diverging_isoluminant_cjm_75_c24")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-75.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_isoluminant_cjo_70_c25")
+    paletteer::scale_color_paletteer_c("pals::kovesi.diverging_isoluminant_cjo_70_c25")
+    paletteer::scale_fill_paletteer_c("pals::kovesi.diverging_isoluminant_cjo_70_c25")
+    
+    paletteer::paletteer_c("pals::kovesi.diverging_isoluminant_cjo_70_c25")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-76.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_linear_bjr_30_55_c53")
+    paletteer::scale_color_paletteer_c("pals::kovesi.diverging_linear_bjr_30_55_c53")
+    paletteer::scale_fill_paletteer_c("pals::kovesi.diverging_linear_bjr_30_55_c53")
+    
+    paletteer::paletteer_c("pals::kovesi.diverging_linear_bjr_30_55_c53")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-77.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_linear_bjy_30_90_c45")
+    paletteer::scale_color_paletteer_c("pals::kovesi.diverging_linear_bjy_30_90_c45")
+    paletteer::scale_fill_paletteer_c("pals::kovesi.diverging_linear_bjy_30_90_c45")
+    
+    paletteer::paletteer_c("pals::kovesi.diverging_linear_bjy_30_90_c45")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-78.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_bkr_55_10_c35")
+    paletteer::scale_color_paletteer_c("pals::kovesi.diverging_bkr_55_10_c35")
+    paletteer::scale_fill_paletteer_c("pals::kovesi.diverging_bkr_55_10_c35")
+    
+    paletteer::paletteer_c("pals::kovesi.diverging_bkr_55_10_c35")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-79.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_bky_60_10_c30")
+    paletteer::scale_color_paletteer_c("pals::kovesi.diverging_bky_60_10_c30")
+    paletteer::scale_fill_paletteer_c("pals::kovesi.diverging_bky_60_10_c30")
+    
+    paletteer::paletteer_c("pals::kovesi.diverging_bky_60_10_c30")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-80.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_bwr_40_95_c42")
+    paletteer::scale_color_paletteer_c("pals::kovesi.diverging_bwr_40_95_c42")
+    paletteer::scale_fill_paletteer_c("pals::kovesi.diverging_bwr_40_95_c42")
+    
+    paletteer::paletteer_c("pals::kovesi.diverging_bwr_40_95_c42")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-81.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_bwr_55_98_c37")
+    paletteer::scale_color_paletteer_c("pals::kovesi.diverging_bwr_55_98_c37")
+    paletteer::scale_fill_paletteer_c("pals::kovesi.diverging_bwr_55_98_c37")
+    
+    paletteer::paletteer_c("pals::kovesi.diverging_bwr_55_98_c37")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-82.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_cwm_80_100_c22")
+    paletteer::scale_color_paletteer_c("pals::kovesi.diverging_cwm_80_100_c22")
+    paletteer::scale_fill_paletteer_c("pals::kovesi.diverging_cwm_80_100_c22")
+    
+    paletteer::paletteer_c("pals::kovesi.diverging_cwm_80_100_c22")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-83.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_gkr_60_10_c40")
+    paletteer::scale_color_paletteer_c("pals::kovesi.diverging_gkr_60_10_c40")
+    paletteer::scale_fill_paletteer_c("pals::kovesi.diverging_gkr_60_10_c40")
+    
+    paletteer::paletteer_c("pals::kovesi.diverging_gkr_60_10_c40")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-84.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_gwr_55_95_c38")
+    paletteer::scale_color_paletteer_c("pals::kovesi.diverging_gwr_55_95_c38")
+    paletteer::scale_fill_paletteer_c("pals::kovesi.diverging_gwr_55_95_c38")
+    
+    paletteer::paletteer_c("pals::kovesi.diverging_gwr_55_95_c38")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-85.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("pals::kovesi.diverging_gwv_55_95_c39")
+    paletteer::scale_color_paletteer_c("pals::kovesi.diverging_gwv_55_95_c39")
+    paletteer::scale_fill_paletteer_c("pals::kovesi.diverging_gwv_55_95_c39")
+    
+    paletteer::paletteer_c("pals::kovesi.diverging_gwv_55_95_c39")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-86.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("scico::berlin")
+    paletteer::scale_color_paletteer_c("scico::berlin")
+    paletteer::scale_fill_paletteer_c("scico::berlin")
+=======
+>>>>>>> 6291dab0c253136db6a9051cb2b418b604fca35f
+    
+    paletteer::paletteer_c("grDevices::Geyser")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-87.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::TealRose")
+    paletteer::scale_color_paletteer_c("grDevices::TealRose")
+    paletteer::scale_fill_paletteer_c("grDevices::TealRose")
+    
+    paletteer::paletteer_c("grDevices::TealRose")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-88.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::Temps")
+    paletteer::scale_color_paletteer_c("grDevices::Temps")
+    paletteer::scale_fill_paletteer_c("grDevices::Temps")
+    
+    paletteer::paletteer_c("grDevices::Temps")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-89.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::PuOr")
+    paletteer::scale_color_paletteer_c("grDevices::PuOr")
+    paletteer::scale_fill_paletteer_c("grDevices::PuOr")
+    
+    paletteer::paletteer_c("grDevices::PuOr")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-90.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::RdBu")
+    paletteer::scale_color_paletteer_c("grDevices::RdBu")
+    paletteer::scale_fill_paletteer_c("grDevices::RdBu")
+    
+    paletteer::paletteer_c("grDevices::RdBu")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-91.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::RdGy")
+    paletteer::scale_color_paletteer_c("grDevices::RdGy")
+    paletteer::scale_fill_paletteer_c("grDevices::RdGy")
+    
+    paletteer::paletteer_c("grDevices::RdGy")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-92.png" style="display: block; margin: auto;" />
+
+    paletteer::scale_colour_paletteer_c("grDevices::PiYG")
+    paletteer::scale_color_paletteer_c("grDevices::PiYG")
+    paletteer::scale_fill_paletteer_c("grDevices::PiYG")
+    
+    paletteer::paletteer_c("grDevices::PiYG")
+
+<img src="README_files/figure-gfm/unnamed-chunk-9-93.png" style="display: block; margin: auto;" />
 
     paletteer::scale_colour_paletteer_c("grDevices::PRGn")
     paletteer::scale_color_paletteer_c("grDevices::PRGn")
