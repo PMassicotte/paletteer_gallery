@@ -1,6 +1,9 @@
 ---
 title: "The paletteer gallery"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 ```{r, include = FALSE}
@@ -92,16 +95,6 @@ The new R package [paletteer](https://github.com/EmilHvitfeldt/paletteer) from E
 
 This page is a simple gallery of these palettes. The are a total of `r nrow(df)` palettes (available from CRAN packages) divided into `discrete` and `continuous` scales. The titles of the following graphs present the `palette {package}`. There is also copy/pastable R code to use with ggplot2.
 
-# Table of contents
-
-- [Discrete palettes](#discrete-palettes)
-    - [Diverging](#diverging)
-    - [Qualitative](#qualitative)
-    - [Sequential](#sequential)
-- [Continuous palettes](#continuous-palettes)
-    - [Diverging](#diverging-1)
-    - [Sequential](#sequential-1)
-
 ## Discrete palettes
 
 ### Diverging
@@ -130,7 +123,7 @@ df %>%
 
 ## Continuous palettes
 
-## Diverging
+### Diverging
 
 ```{r}
 df %>%
@@ -138,7 +131,7 @@ df %>%
   pwalk(~ display_pal(..1, ..2, ..3, ..5))
 ```
 
-## Sequential
+### Sequential
 
 ```{r}
 df %>%
