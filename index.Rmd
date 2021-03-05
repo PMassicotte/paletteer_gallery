@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "The paletteer gallery"
 output: html_document
 ---
 
@@ -85,8 +85,6 @@ df <- df %>%
   filter(package %in% installed.packages()) %>% 
   arrange(type, length)
 ```
-
-# The *paletteer* gallery
 
 The new R package [paletteer](https://github.com/EmilHvitfeldt/paletteer) from Emil Hvitfeldt is a collection of various color palettes found in different R packages.
 
