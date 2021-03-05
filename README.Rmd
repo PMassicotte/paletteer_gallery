@@ -130,9 +130,9 @@ df %>%
 ### Sequential
 
 ```{r}
-# df %>%
-#   filter(str_ends(pal_function, "_d") & type == "sequential") %>%
-#   pwalk(~ display_pal(..1, ..2, ..3, ..5))
+df %>%
+  filter(str_ends(pal_function, "_d") & type == "sequential") %>%
+  pwalk(~ display_pal(..1, ..2, ..3, ..5))
 ```
 
 ## Continuous palettes
