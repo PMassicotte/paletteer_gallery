@@ -6,6 +6,22 @@ output:
     toc_float: true
 ---
 
+```{css, echo=FALSE}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+pre code {
+  font-family: 'Roboto', sans-serif;
+}
+
+pre {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 5px solid #cecece;
+}
+```
+
+
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
@@ -27,7 +43,7 @@ library(glue)
 library(extrafont)
 loadfonts()
 ```
-```{r}
+```{r, results='asis'}
 display_pal <- function(pkg, palette, n, pal_function) {
   n <- ifelse(is.na(n), 100, n)
 
@@ -52,13 +68,12 @@ display_pal <- function(pkg, palette, n, pal_function) {
   } else {
     c("scale_colour_paletteer_c", "scale_color_paletteer_c", "scale_fill_paletteer_c")
   }
-  
+
   print(glue('paletteer::{f}("{pkg}::{palette}")'))
-  
+
   # The color palettes
   cat("\n")
   print(glue('paletteer::{pal_function}("{pkg}::{palette}")'))
-  # print(paletteer::paletteer_d(glue("{pkg}::{palette}")))
 }
 ```
 
@@ -71,10 +86,10 @@ df <- list(palettes_d_names, palettes_c_names) %>%
 ```
 
 ```{r, eval=FALSE}
-pkg_cran <- paletteer::paletteer_packages %>% 
+pkg_cran <- paletteer::paletteer_packages %>%
   filter(CRAN == TRUE)
 
-pkg_github <- paletteer::paletteer_packages %>% 
+pkg_github <- paletteer::paletteer_packages %>%
   filter(CRAN == FALSE)
 
 # Use a safely function, so wont crash if a package is not found
@@ -85,7 +100,7 @@ walk(pkg_github$Github, safe_install)
 
 ```{r}
 df <- df %>%
-  filter(package %in% installed.packages()) %>% 
+  filter(package %in% installed.packages()) %>%
   arrange(type, length)
 ```
 
@@ -100,6 +115,8 @@ This page is a simple gallery of these palettes. The are a total of `r nrow(df)`
 ### Diverging
 
 ```{r}
+
+# htmltools::tagList(htmltools::tags$h1("fsdf")
 df %>%
   filter(str_ends(pal_function, "_d") & type == "diverging") %>%
   pwalk(~ display_pal(..1, ..2, ..3, ..5))
