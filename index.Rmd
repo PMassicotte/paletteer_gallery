@@ -4,6 +4,8 @@ output:
   html_document:
     toc: true
     toc_float: true
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{css, echo=FALSE}
@@ -93,7 +95,7 @@ pkg_github <- paletteer::paletteer_packages %>%
   filter(CRAN == FALSE)
 
 # Use a safely function, so wont crash if a package is not found
-safe_install <- safely(pak::pkg_install)
+safe_install <- safely(renv::install)
 walk(pkg_cran$Name, safe_install)
 walk(pkg_github$Github, safe_install)
 ```
@@ -118,7 +120,7 @@ This page is a simple gallery of these palettes. The are a total of `r nrow(df)`
 
 # htmltools::tagList(htmltools::tags$h1("fsdf")
 df %>%
-  filter(str_ends(pal_function, "_d") & type == "diverging") %>%
+  filter(str_ends(pal_function, "_d") & type == "diverging" || type == "divergent") %>%
   pwalk(~ display_pal(..1, ..2, ..3, ..5))
 ```
 
@@ -134,7 +136,7 @@ df %>%
 
 ```{r}
 df %>%
-  filter(str_ends(pal_function, "_d") & type == "sequential") %>%
+  filter(str_ends(pal_function, "_d") & type == "sequential" || type == "sequantial") %>%
   pwalk(~ display_pal(..1, ..2, ..3, ..5))
 ```
 
@@ -144,7 +146,7 @@ df %>%
 
 ```{r}
 df %>%
-  filter(str_ends(pal_function, "_c") & type == "diverging") %>%
+  filter(str_ends(pal_function, "_c") & type == "diverging" || type == "divergent") %>%
   pwalk(~ display_pal(..1, ..2, ..3, ..5))
 ```
 
@@ -152,6 +154,6 @@ df %>%
 
 ```{r}
 df %>%
-  filter(str_ends(pal_function, "_c") & type == "sequential") %>%
+  filter(str_ends(pal_function, "_c") & type == "sequential" || type == "sequantial") %>%
   pwalk(~ display_pal(..1, ..2, ..3, ..5))
 ```
