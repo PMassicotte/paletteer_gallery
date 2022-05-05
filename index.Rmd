@@ -47,6 +47,9 @@ loadfonts()
 ```
 ```{r, results='asis'}
 display_pal <- function(pkg, palette, n, pal_function) {
+  
+  # print(palette)
+  
   n <- ifelse(is.na(n), 100, n)
 
   par(mar = c(0.5, 0, 2, 0), family = "Exo")
@@ -95,8 +98,8 @@ pkg_github <- paletteer::paletteer_packages %>%
   filter(CRAN == FALSE)
 
 # Use a safely function, so wont crash if a package is not found
-safe_install <- safely(renv::install)
-walk(pkg_cran$Name, safe_install)
+safe_install <- safely(pak::pkg_install)
+safe_install(pkg_cran$Name)
 walk(pkg_github$Github, safe_install)
 ```
 
@@ -128,6 +131,7 @@ df %>%
 
 ```{r}
 df %>%
+  filter(palette == "wsj_dem_rep") |> 
   filter(str_ends(pal_function, "_d") & type == "qualitative") %>%
   pwalk(~ display_pal(..1, ..2, ..3, ..5))
 ```
