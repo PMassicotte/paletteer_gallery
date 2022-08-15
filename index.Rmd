@@ -95,7 +95,7 @@ df <- list(palettes_d_names, palettes_c_names) %>%
   select(2:5, 1)
 ```
 
-```{r, eval=FALSE, echo=FALSE}
+```{r, eval=TRUE, echo=FALSE}
 pkg_cran <- paletteer::paletteer_packages %>%
   filter(CRAN == TRUE)
 
