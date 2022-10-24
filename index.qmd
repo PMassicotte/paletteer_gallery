@@ -1,0 +1,191 @@
+---
+title: "The paletteer gallery"
+format:
+  html: 
+    toc: true
+    toc_float: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{css, echo=FALSE}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+pre code {
+  font-family: 'Roboto', sans-serif;
+}
+
+pre {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 5px solid #cecece;
+}
+```
+
+
+```{r}
+#| label: setup
+#| include: false
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = NA,
+  warning = FALSE,
+  message = FALSE,
+  echo = FALSE,
+  dpi = 72,
+  dev = "png",
+  fig.height = 2,
+  fig.width = 8,
+  # fig.show='hold',
+  fig.align = "center"
+)
+
+library(tidyverse)
+library(paletteer) # devtools::install_github("EmilHvitfeldt/paletteer")
+library(glue)
+```
+```{r}
+#| label: print-function
+#| echo: false
+#| output: asis
+display_pal <- function(pkg, palette, n, pal_function) {
+  
+  cat("<p><center>", glue("{pkg}::{palette}"), "</center></p>")
+  # 
+  # if (palette == "contrast") browser()
+  
+  n <- ifelse(is.na(n), 100, n)
+
+  par(mar = c(0.5, 0, 2, 0), family = "Exo")
+  image(
+    1:n,
+    1,
+    as.matrix(1:n),
+    col = do.call(pal_function, list(palette = glue("{pkg}::{palette}"), n = n)),
+    # main = glue("{palette} {{{pkg}}}"),
+    xlab = NA,
+    ylab = "",
+    xaxt = "n",
+    yaxt = "n",
+    bty = "n",
+    cex.main = 0.75
+  )
+
+  # The color and fill scales
+  f <- if (pal_function == "paletteer_d") {
+    c("scale_colour_paletteer_d", "scale_color_paletteer_d", "scale_fill_paletteer_d")
+  } else {
+    c("scale_colour_paletteer_c", "scale_color_paletteer_c", "scale_fill_paletteer_c")
+  }
+
+  v <- glue('<p>paletteer::{f}(\\"{pkg}::{palette}\\")</p>')
+  print(v)
+
+  v2 <- do.call(pal_function, list(palette = glue("{pkg}::{palette}"), n = n))
+
+  cat("<p>")
+  cat(glue('paletteer::{pal_function}(\\"{pkg}::{palette}\\")'))
+  cat("</p>")
+
+  cat("<p>")
+  cat(glue('[{{v2}}]{style="background-color:{{v2}};color:{{prismatic::best_contrast(v2)}}"}', .open = "{{", .close = "}}"))
+  cat("</p>")
+
+  cat("<hr/>")
+}
+
+display_pal <- safely(display_pal)
+```
+
+
+```{r}
+#| label: list-palettes
+df <- list(palettes_d_names, palettes_c_names) %>%
+  set_names(c("paletteer_d", "paletteer_c")) %>%
+  bind_rows(.id = "pal_function") %>%
+  as_tibble() %>%
+  select(2:5, 1)
+```
+
+```{r}
+#| label: install-packages
+#| eval: false
+pkg_cran <- paletteer::paletteer_packages %>%
+  filter(CRAN == TRUE)
+
+pkg_github <- paletteer::paletteer_packages %>%
+  filter(CRAN == FALSE)
+
+# Use a safely function, so wont crash if a package is not found
+safe_install <- safely(pak::pkg_install)
+walk(pkg_cran$Name, safe_install)
+walk(pkg_github$Github, safe_install)
+```
+
+```{r}
+df <- df %>%
+  filter(package %in% installed.packages()) %>%
+  arrange(type, length)
+```
+
+The new R package [paletteer](https://github.com/EmilHvitfeldt/paletteer) from Emil Hvitfeldt is a collection of various color palettes found in different R packages.
+
+> The goal of paletteer is to be a comprehensive collection of color palettes in R using a common interface. Think of it as the "caret of palettes".
+
+This page is a simple gallery of these palettes. The are a total of `r nrow(df)` palettes (available from CRAN packages) divided into `discrete` and `continuous` scales. The titles of the following graphs present the `palette {package}`. There is also copy/pastable R code to use with ggplot2.
+
+## Discrete palettes
+
+### Diverging
+
+```{r}
+#| echo: false
+#| output: asis
+df %>%
+  filter(str_ends(pal_function, "_d") & (type == "diverging" | type == "divergent")) %>%
+  pwalk(~ display_pal(..1, ..2, ..3, ..5))
+```
+
+
+### Qualitative
+
+```{r}
+#| echo: false
+#| output: asis
+df %>%
+  filter(str_ends(pal_function, "_d") & type == "qualitative") %>%
+  pwalk(~ display_pal(..1, ..2, ..3, ..5))
+```
+
+### Sequential
+
+```{r}
+#| echo: false
+#| output: asis
+df %>%
+  filter(str_ends(pal_function, "_d") & (type == "sequential" | type == "sequantial")) %>%
+  pwalk(~ display_pal(..1, ..2, ..3, ..5))
+```
+
+## Continuous palettes
+
+### Diverging
+
+```{r}
+#| echo: false
+#| output: asis
+df %>%
+  filter(str_ends(pal_function, "_c") & (type == "diverging" | type == "divergent")) %>%
+  pwalk(~ display_pal(..1, ..2, ..3, ..5))
+```
+
+### Sequential
+
+```{r}
+#| echo: false
+#| output: asis
+df %>%
+  filter(str_ends(pal_function, "_c") & (type == "sequential" | type == "sequantial")) %>%
+  pwalk(~ display_pal(..1, ..2, ..3, ..5))
+```
