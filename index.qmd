@@ -1,10 +1,10 @@
 ---
-title: "The paletteer gallery"
+title: 'The paletteer gallery'
 format:
-  html: 
+  html:
     toc: true
     toc_float: true
-editor_options: 
+editor_options:
   chunk_output_type: console
 ---
 
@@ -22,7 +22,6 @@ pre {
   border-bottom: 5px solid #cecece;
 }
 ```
-
 
 ```{r}
 #| label: setup
@@ -45,16 +44,16 @@ library(tidyverse)
 library(paletteer) # devtools::install_github("EmilHvitfeldt/paletteer")
 library(glue)
 ```
+
 ```{r}
 #| label: print-function
 #| echo: false
 #| output: asis
 display_pal <- function(pkg, palette, n, pal_function) {
-  
   cat("<p><center>", glue("{pkg}::{palette}"), "</center></p>")
-  # 
+  #
   # if (palette == "contrast") browser()
-  
+
   n <- ifelse(is.na(n), 100, n)
 
   par(mar = c(0.5, 0, 2, 0), family = "Exo")
@@ -98,7 +97,6 @@ display_pal <- function(pkg, palette, n, pal_function) {
 display_pal <- safely(display_pal)
 ```
 
-
 ```{r}
 #| label: list-palettes
 df <- list(palettes_d_names, palettes_c_names) %>%
@@ -129,11 +127,13 @@ df <- df %>%
   arrange(type, length)
 ```
 
-The new R package [paletteer](https://github.com/EmilHvitfeldt/paletteer) from Emil Hvitfeldt is a collection of various color palettes found in different R packages.
+The [paletteer](https://github.com/EmilHvitfeldt/paletteer) R package, from Emil Hvitfeldt is a collection of various color palettes found in different R packages.
 
 > The goal of paletteer is to be a comprehensive collection of color palettes in R using a common interface. Think of it as the "caret of palettes".
 
 This page is a simple gallery of these palettes. The are a total of `r nrow(df)` palettes (available from CRAN packages) divided into `discrete` and `continuous` scales. The titles of the following graphs present the `palette {package}`. There is also copy/pastable R code to use with ggplot2.
+
+Based on paletteer version `r packageVersion("paletteer")`.
 
 ## Discrete palettes
 
@@ -146,7 +146,6 @@ df %>%
   filter(str_ends(pal_function, "_d") & (type == "diverging" | type == "divergent")) %>%
   pwalk(~ display_pal(..1, ..2, ..3, ..5))
 ```
-
 
 ### Qualitative
 
