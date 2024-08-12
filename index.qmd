@@ -1,5 +1,5 @@
 ---
-title: 'The paletteer gallery'
+title: "The paletteer gallery"
 format:
   html:
     toc: true
@@ -9,10 +9,10 @@ editor_options:
 ---
 
 ```{css, echo=FALSE}
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 pre code {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 pre {
